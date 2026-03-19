@@ -1,7 +1,9 @@
+import React from 'react';
+
 interface Service {
   title: string;
   description: string;
-  icon?: JSX.Element;
+  icon?: React.ReactNode;  // Changed from JSX.Element to React.ReactNode
 }
 
 export default function ServicesPage() {

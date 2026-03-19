@@ -375,3 +375,5 @@ Import trace:
   Server Component:
     ./src/components/Navbar.jsx
     ./src/app/page.tsx
+[01:28:35.781] Server  LOG     ✓ Compiled in 19ms
+[01:28:44.344] Browser LOG     Video play failed: {}

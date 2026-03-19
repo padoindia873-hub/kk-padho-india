@@ -491,3 +491,6 @@ If you need interactivity, consider converting part of this to a Client Componen
 [01:38:57.859] Server  LOG     ✓ Compiled in 34ms
 [01:39:05.210] Browser LOG     Video play failed: {}
 [01:40:16.193] Server  LOG     ✓ Compiled in 16ms
+[01:40:41.725] Browser LOG     Video play failed: {}
+[01:40:47.321] Browser LOG     Login clicked
+[01:40:49.671] Browser LOG     Video play failed: {}

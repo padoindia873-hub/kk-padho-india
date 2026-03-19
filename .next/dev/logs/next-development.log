@@ -431,3 +431,60 @@ Import trace:
 [01:31:17.171] Browser LOG     Video play failed: {}
 [01:31:17.171] Browser LOG     Video play failed: {}
 [01:31:18.357] Server  LOG     ✓ Compiled in 11ms
+[01:32:17.482] Server  LOG     ✓ Compiled in 16ms
+[01:34:20.126] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:20.247] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:20.383] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:20.490] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:20.599] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:20.709] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:20.814] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:20.918] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:21.028] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:21.135] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button onClick={function handleScholarshipDetails} className=... children=...>
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:21.252] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button onClick={function handleStudentRegistration} className=... children=...>
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:22.171] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <div onClick={function onClick} className=... children=...>
+               ^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[01:34:36.759] Server  LOG     ✓ Compiled in 12ms
+[01:34:37.001] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:24.950] Server  LOG     ✓ Compiled in 0ms
+[01:35:44.170] Browser LOG     Video play failed: {}
+[01:35:44.170] Browser LOG     Video play failed: {}
+[01:35:49.271] Server  LOG     ✓ Compiled in 0ms
+[01:35:57.625] Browser LOG     Video play failed: {}
+[01:36:00.363] Browser LOG     Video play failed: {}

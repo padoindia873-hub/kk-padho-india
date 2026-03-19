@@ -2,12 +2,20 @@
 
 import { useRef, useState, useEffect } from "react";
 
-export default function Hero() {
-  const [activeVideo, setActiveVideo] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const videoRefs = useRef([]);
+interface Video {
+  id: number;
+  src: string;
+  title: string;
+  mainHeading: string;
+  subHeading: string;
+}
 
-  const videos = [
+export default function Hero() {
+  const [activeVideo, setActiveVideo] = useState<number>(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState<boolean>(true);
+  const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
+
+  const videos: Video[] = [
     {
       id: 1,
       src: "/Videos/study.mp4",
@@ -47,10 +55,10 @@ export default function Hero() {
 
   // Auto-play carousel every 3 seconds
   useEffect(() => {
-    let interval;
+    let interval: NodeJS.Timeout;
     if (isAutoPlaying) {
       interval = setInterval(() => {
-        setActiveVideo((prev) => (prev + 1) % videos.length);
+        setActiveVideo((prev: number) => (prev + 1) % videos.length);
       }, 3000);
     }
     return () => clearInterval(interval);
@@ -59,7 +67,7 @@ export default function Hero() {
   // Play/pause videos based on active state
   useEffect(() => {
     // Pause all videos first
-    videoRefs.current.forEach((video) => {
+    videoRefs.current.forEach((video: HTMLVideoElement | null) => {
       if (video) {
         video.pause();
       }
@@ -68,13 +76,13 @@ export default function Hero() {
     // Play the active video
     const activeVideoElement = videoRefs.current[activeVideo];
     if (activeVideoElement) {
-      activeVideoElement.play().catch(error => {
+      activeVideoElement.play().catch((error: Error) => {
         console.log("Video play failed:", error);
       });
     }
   }, [activeVideo]);
 
-  const handleDotClick = (index) => {
+  const handleDotClick = (index: number) => {
     setActiveVideo(index);
     setIsAutoPlaying(false);
     setTimeout(() => setIsAutoPlaying(true), 10000);
@@ -85,10 +93,10 @@ export default function Hero() {
       
       {/* Main Background Video - Clear without opacity */}
       <div className="absolute inset-0 w-full h-full">
-        {videos.map((video, index) => (
+        {videos.map((video: Video, index: number) => (
           <video
             key={video.id}
-            ref={(el) => {
+            ref={(el: HTMLVideoElement | null) => {
               if (el) {
                 videoRefs.current[index] = el;
               }
@@ -134,7 +142,7 @@ export default function Hero() {
 
           {/* Dot Carousel */}
           <div className="flex items-center justify-center gap-3 mt-8">
-            {videos.map((_, index) => (
+            {videos.map((_: Video, index: number) => (
               <button
                 key={index}
                 onClick={() => handleDotClick(index)}

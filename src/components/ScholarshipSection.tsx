@@ -1,5 +1,14 @@
+"use client";
+
+import React from 'react';
+
+interface Highlight {
+  number: string;
+  label: string;
+}
+
 export default function ScholarshipSection() {
-  const services = [
+  const services: string[] = [
     "Merit-Based Scholarship",
     "Need-Based Financial Aid",
     "Women in STEM Scholarship",
@@ -11,12 +20,30 @@ export default function ScholarshipSection() {
     "Vocational Training Fund"
   ];
 
-  const scholarshipHighlights = [
+  const scholarshipHighlights: Highlight[] = [
     { number: "5000+", label: "Students Benefited" },
     { number: "₹2.5Cr+", label: "Scholarship Amount" },
     { number: "25+", label: "Partner Institutions" },
     { number: "15+", label: "Scholarship Types" }
   ];
+
+  const handleScholarshipDetails = (): void => {
+    console.log("Scholarship Details clicked");
+    // Add navigation logic here
+    // router.push("/scholarship/details");
+  };
+
+  const handleStudentRegistration = (): void => {
+    console.log("Student Registration clicked");
+    // Add navigation logic here
+    // router.push("/scholarship/register");
+  };
+
+  const handleServiceClick = (service: string): void => {
+    console.log(`${service} clicked`);
+    // Add navigation logic here
+    // router.push(`/scholarship/${service.toLowerCase().replace(/\s+/g, '-')}`);
+  };
 
   return (
     <section className="w-full bg-gradient-to-b from-green-50 to-white py-20 px-6">
@@ -39,7 +66,7 @@ export default function ScholarshipSection() {
 
       {/* Statistics/Highlights */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-16">
-        {scholarshipHighlights.map((stat, index) => (
+        {scholarshipHighlights.map((stat: Highlight, index: number) => (
           <div key={index} className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-green-600 mb-2">
               {stat.number}
@@ -53,9 +80,10 @@ export default function ScholarshipSection() {
 
       {/* Buttons Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        {services.map((item, index) => (
+        {services.map((item: string, index: number) => (
           <div
             key={index}
+            onClick={() => handleServiceClick(item)}
             className="group relative bg-white border-2 border-green-200 text-green-900 
                      hover:bg-green-600 hover:text-white hover:border-green-600 
                      transition-all duration-300 shadow-md hover:shadow-xl 
@@ -75,12 +103,18 @@ export default function ScholarshipSection() {
 
       {/* Main Action Buttons */}
       <div className="flex flex-col md:flex-row gap-6 justify-center mt-16">
-        <button className="group relative bg-green-600 hover:bg-green-700 text-white px-10 py-4 rounded-lg shadow-md font-semibold border border-green-700 transition-all duration-300 transform hover:scale-105 overflow-hidden">
+        <button 
+          onClick={handleScholarshipDetails}
+          className="group relative bg-green-600 hover:bg-green-700 text-white px-10 py-4 rounded-lg shadow-md font-semibold border border-green-700 transition-all duration-300 transform hover:scale-105 overflow-hidden"
+        >
           <span className="relative z-10">Scholarship Details</span>
           <div className="absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
         </button>
 
-        <button className="group relative bg-green-100 hover:bg-green-200 text-green-900 px-10 py-4 rounded-lg font-semibold border-2 border-green-500 transition-all duration-300 transform hover:scale-105 overflow-hidden">
+        <button 
+          onClick={handleStudentRegistration}
+          className="group relative bg-green-100 hover:bg-green-200 text-green-900 px-10 py-4 rounded-lg font-semibold border-2 border-green-500 transition-all duration-300 transform hover:scale-105 overflow-hidden"
+        >
           <span className="relative z-10">Student Registration</span>
           <div className="absolute inset-0 bg-green-500/10 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
         </button>

@@ -162,3 +162,6 @@ Import trace:
 [01:09:40.460] Server  LOG     ✓ Compiled in 28ms
 [01:09:47.762] Browser LOG     Login clicked
 [01:14:31.700] Server  LOG     ✓ Compiled in 23ms
+[01:16:16.459] Browser LOG     Video play failed: {}
+[01:16:18.284] Browser LOG     Login clicked
+[01:16:26.252] Browser LOG     Video play failed: {}

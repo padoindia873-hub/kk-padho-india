@@ -35,24 +35,28 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full flex items-center justify-between px-4 md:px-12 py-5 bg-white shadow-sm sticky top-0 z-50">
+    <nav className="w-full flex items-center justify-between px-4 md:px-12 py-4 bg-white shadow-lg sticky top-0 z-50 border-b border-green-100">
       
       {/* Logo */}
       <div 
-        className="flex items-center gap-2 cursor-pointer" 
+        className="flex items-center gap-2 cursor-pointer group" 
         onClick={() => handleNavigation("/")}
       >
-        <div className="w-8 h-8 bg-green-600 rounded-md"></div>
-        <span className="text-xl font-bold text-gray-900">KK PADHO INDIA</span>
+        <div className="w-10 h-10 bg-gradient-to-br from-green-600 to-green-700 rounded-lg shadow-md group-hover:shadow-lg transition-all duration-300 flex items-center justify-center">
+          <span className="text-white font-bold text-lg">K</span>
+        </div>
+        <span className="text-xl font-bold text-gray-800 group-hover:text-green-600 transition-colors duration-300">
+          KK PADHO INDIA
+        </span>
       </div>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
-        {/* Home - No Dropdown */}
+      <ul className="hidden md:flex items-center gap-6 lg:gap-8 text-gray-700 font-medium">
+        {/* Home */}
         <li>
           <Link 
             href="/" 
-            className="hover:text-green-600 transition-colors duration-300 flex items-center gap-1"
+            className="hover:text-green-600 transition-colors duration-300 px-3 py-2 rounded-lg hover:bg-green-50"
           >
             Home
           </Link>
@@ -62,7 +66,11 @@ export default function Navbar() {
         <li className="relative">
           <button 
             onClick={() => toggleDropdown('scholarship')}
-            className="hover:text-green-600 transition-colors duration-300 flex items-center gap-1"
+            className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
+              openDropdown === 'scholarship' 
+                ? 'text-green-600 bg-green-50' 
+                : 'hover:text-green-600 hover:bg-green-50'
+            }`}
           >
             Scholarship
             <svg 
@@ -77,11 +85,11 @@ export default function Navbar() {
           
           {/* Desktop Dropdown Menu */}
           {openDropdown === 'scholarship' && (
-            <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50">
-              <Link href="/scholarship/merit" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Merit Based</Link>
-              <Link href="/scholarship/need" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Need Based</Link>
-              <Link href="/scholarship/women" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Women in STEM</Link>
-              <Link href="/scholarship/sports" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Sports Excellence</Link>
+            <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100">
+              <Link href="/scholarship/merit" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🏆 Merit Based</Link>
+              <Link href="/scholarship/need" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🤝 Need Based</Link>
+              <Link href="/scholarship/women" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">👩‍🎓 Women in STEM</Link>
+              <Link href="/scholarship/sports" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700">⚽ Sports Excellence</Link>
             </div>
           )}
         </li>
@@ -90,7 +98,11 @@ export default function Navbar() {
         <li className="relative">
           <button 
             onClick={() => toggleDropdown('events')}
-            className="hover:text-green-600 transition-colors duration-300 flex items-center gap-1"
+            className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
+              openDropdown === 'events' 
+                ? 'text-green-600 bg-green-50' 
+                : 'hover:text-green-600 hover:bg-green-50'
+            }`}
           >
             Events
             <svg 
@@ -105,40 +117,44 @@ export default function Navbar() {
           
           {/* Desktop Dropdown Menu */}
           {openDropdown === 'events' && (
-            <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50">
-              <Link href="/events/upcoming" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Upcoming Events</Link>
-              <Link href="/events/past" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Past Events</Link>
-              <Link href="/events/workshops" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Workshops</Link>
-              <Link href="/events/seminars" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Seminars</Link>
+            <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100">
+              <Link href="/events/upcoming" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📅 Upcoming Events</Link>
+              <Link href="/events/past" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📆 Past Events</Link>
+              <Link href="/events/workshops" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🛠️ Workshops</Link>
+              <Link href="/events/seminars" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700">🎤 Seminars</Link>
             </div>
           )}
         </li>
 
-        {/* About - No Dropdown */}
+        {/* About */}
         <li>
           <Link 
             href="/about" 
-            className="hover:text-green-600 transition-colors duration-300"
+            className="hover:text-green-600 transition-colors duration-300 px-3 py-2 rounded-lg hover:bg-green-50"
           >
             About
           </Link>
         </li>
 
-        {/* Contact Us - No Dropdown */}
+        {/* Contact Us */}
         <li>
           <Link 
             href="/contact" 
-            className="hover:text-green-600 transition-colors duration-300"
+            className="hover:text-green-600 transition-colors duration-300 px-3 py-2 rounded-lg hover:bg-green-50"
           >
             Contact Us
           </Link>
         </li>
 
-        {/* Committee Members with Dropdown */}
+        {/* Committee with Dropdown */}
         <li className="relative">
           <button 
             onClick={() => toggleDropdown('committee')}
-            className="hover:text-green-600 transition-colors duration-300 flex items-center gap-1"
+            className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
+              openDropdown === 'committee' 
+                ? 'text-green-600 bg-green-50' 
+                : 'hover:text-green-600 hover:bg-green-50'
+            }`}
           >
             Committee
             <svg 
@@ -153,10 +169,10 @@ export default function Navbar() {
           
           {/* Desktop Dropdown Menu */}
           {openDropdown === 'committee' && (
-            <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50">
-              <Link href="/committee/members" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">All Members</Link>
-              <Link href="/committee/board" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Board Members</Link>
-              <Link href="/committee/advisors" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Advisors</Link>
+            <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100">
+              <Link href="/committee/members" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">👥 All Members</Link>
+              <Link href="/committee/board" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📋 Board Members</Link>
+              <Link href="/committee/advisors" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700">💡 Advisors</Link>
             </div>
           )}
         </li>
@@ -165,7 +181,11 @@ export default function Navbar() {
         <li className="relative">
           <button 
             onClick={() => toggleDropdown('services')}
-            className="hover:text-green-600 transition-colors duration-300 flex items-center gap-1"
+            className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
+              openDropdown === 'services' 
+                ? 'text-green-600 bg-green-50' 
+                : 'hover:text-green-600 hover:bg-green-50'
+            }`}
           >
             Services
             <svg 
@@ -180,46 +200,52 @@ export default function Navbar() {
           
           {/* Desktop Dropdown Menu */}
           {openDropdown === 'services' && (
-            <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50">
-              <Link href="/services/scholarship" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Scholarship Guidance</Link>
-              <Link href="/services/career" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Career Counseling</Link>
-              <Link href="/services/skill" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Skill Development</Link>
-              <Link href="/services/mentorship" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Mentorship</Link>
-              <Link href="/services/study" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Study Material</Link>
-              <Link href="/services/exam" className="block px-4 py-2 hover:bg-green-50 hover:text-green-600">Exam Preparation</Link>
+            <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100">
+              <Link href="/services/scholarship" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🎯 Scholarship Guidance</Link>
+              <Link href="/services/career" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">💼 Career Counseling</Link>
+              <Link href="/services/skill" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🔧 Skill Development</Link>
+              <Link href="/services/mentorship" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🤝 Mentorship</Link>
+              <Link href="/services/study" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📚 Study Material</Link>
+              <Link href="/services/exam" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700">📝 Exam Preparation</Link>
             </div>
           )}
         </li>
       </ul>
 
-      {/* Buttons - Desktop */}
+      {/* Desktop Login Button */}
       <div className="hidden md:flex items-center gap-4">
         <button 
           onClick={handleLogin}
-          className="px-6 py-2.5 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-green-200"
+          className="px-6 py-2.5 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg flex items-center gap-2"
         >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+          </svg>
           Login
         </button>
       </div>
 
-      {/* Mobile Menu Button (Hamburger) */}
+      {/* Mobile Header */}
       <div className="flex items-center gap-2 md:hidden">
         <button 
           onClick={handleLogin}
-          className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg text-sm font-medium transition-all duration-300"
+          className="px-4 py-2 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-lg text-sm font-medium shadow-md flex items-center gap-1"
         >
+          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+          </svg>
           Login
         </button>
         <button 
           onClick={toggleMobileMenu}
-          className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+          className="p-2 rounded-lg hover:bg-green-50 transition-colors border border-gray-200"
         >
           {isMobileMenuOpen ? (
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           ) : (
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           )}
@@ -228,15 +254,16 @@ export default function Navbar() {
 
       {/* Mobile Menu Dropdown */}
       {isMobileMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-lg py-4 px-4 md:hidden z-50 max-h-[80vh] overflow-y-auto">
+        <div className="absolute top-full left-0 w-full bg-white shadow-xl py-4 px-4 md:hidden z-50 max-h-[80vh] overflow-y-auto border-t border-green-100">
           <ul className="space-y-2">
             {/* Home */}
             <li>
               <Link 
                 href="/" 
-                className="block py-2 px-4 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                className="flex items-center gap-3 py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
                 onClick={() => handleNavigation("/")}
               >
+                <span className="text-green-600">🏠</span>
                 Home
               </Link>
             </li>
@@ -245,9 +272,12 @@ export default function Navbar() {
             <li className="border-t border-gray-100 pt-2">
               <button 
                 onClick={() => toggleMobileDropdown('scholarship')}
-                className="w-full flex items-center justify-between py-2 px-4 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                className="w-full flex items-center justify-between py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
               >
-                <span>Scholarship</span>
+                <span className="flex items-center gap-3">
+                  <span className="text-green-600">🎓</span>
+                  Scholarship
+                </span>
                 <svg 
                   className={`w-4 h-4 transition-transform duration-300 ${mobileDropdown === 'scholarship' ? 'rotate-180' : ''}`}
                   fill="none" 
@@ -258,11 +288,11 @@ export default function Navbar() {
                 </svg>
               </button>
               {mobileDropdown === 'scholarship' && (
-                <div className="pl-4 mt-1 space-y-1">
-                  <Link href="/scholarship/merit" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/merit")}>Merit Based</Link>
-                  <Link href="/scholarship/need" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/need")}>Need Based</Link>
-                  <Link href="/scholarship/women" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/women")}>Women in STEM</Link>
-                  <Link href="/scholarship/sports" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/sports")}>Sports Excellence</Link>
+                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2">
+                  <Link href="/scholarship/merit" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/merit")}>🏆 Merit Based</Link>
+                  <Link href="/scholarship/need" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/need")}>🤝 Need Based</Link>
+                  <Link href="/scholarship/women" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/women")}>👩‍🎓 Women in STEM</Link>
+                  <Link href="/scholarship/sports" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/sports")}>⚽ Sports Excellence</Link>
                 </div>
               )}
             </li>
@@ -271,9 +301,12 @@ export default function Navbar() {
             <li>
               <button 
                 onClick={() => toggleMobileDropdown('events')}
-                className="w-full flex items-center justify-between py-2 px-4 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                className="w-full flex items-center justify-between py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
               >
-                <span>Events</span>
+                <span className="flex items-center gap-3">
+                  <span className="text-green-600">📅</span>
+                  Events
+                </span>
                 <svg 
                   className={`w-4 h-4 transition-transform duration-300 ${mobileDropdown === 'events' ? 'rotate-180' : ''}`}
                   fill="none" 
@@ -284,11 +317,11 @@ export default function Navbar() {
                 </svg>
               </button>
               {mobileDropdown === 'events' && (
-                <div className="pl-4 mt-1 space-y-1">
-                  <Link href="/events/upcoming" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/upcoming")}>Upcoming Events</Link>
-                  <Link href="/events/past" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/past")}>Past Events</Link>
-                  <Link href="/events/workshops" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/workshops")}>Workshops</Link>
-                  <Link href="/events/seminars" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/seminars")}>Seminars</Link>
+                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2">
+                  <Link href="/events/upcoming" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/upcoming")}>📅 Upcoming Events</Link>
+                  <Link href="/events/past" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/past")}>📆 Past Events</Link>
+                  <Link href="/events/workshops" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/workshops")}>🛠️ Workshops</Link>
+                  <Link href="/events/seminars" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/seminars")}>🎤 Seminars</Link>
                 </div>
               )}
             </li>
@@ -297,9 +330,10 @@ export default function Navbar() {
             <li>
               <Link 
                 href="/about" 
-                className="block py-2 px-4 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                className="flex items-center gap-3 py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
                 onClick={() => handleNavigation("/about")}
               >
+                <span className="text-green-600">ℹ️</span>
                 About
               </Link>
             </li>
@@ -308,9 +342,10 @@ export default function Navbar() {
             <li>
               <Link 
                 href="/contact" 
-                className="block py-2 px-4 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                className="flex items-center gap-3 py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
                 onClick={() => handleNavigation("/contact")}
               >
+                <span className="text-green-600">📞</span>
                 Contact Us
               </Link>
             </li>
@@ -319,9 +354,12 @@ export default function Navbar() {
             <li>
               <button 
                 onClick={() => toggleMobileDropdown('committee')}
-                className="w-full flex items-center justify-between py-2 px-4 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                className="w-full flex items-center justify-between py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
               >
-                <span>Committee</span>
+                <span className="flex items-center gap-3">
+                  <span className="text-green-600">👥</span>
+                  Committee
+                </span>
                 <svg 
                   className={`w-4 h-4 transition-transform duration-300 ${mobileDropdown === 'committee' ? 'rotate-180' : ''}`}
                   fill="none" 
@@ -332,10 +370,10 @@ export default function Navbar() {
                 </svg>
               </button>
               {mobileDropdown === 'committee' && (
-                <div className="pl-4 mt-1 space-y-1">
-                  <Link href="/committee/members" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/members")}>All Members</Link>
-                  <Link href="/committee/board" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/board")}>Board Members</Link>
-                  <Link href="/committee/advisors" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/advisors")}>Advisors</Link>
+                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2">
+                  <Link href="/committee/members" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/members")}>👥 All Members</Link>
+                  <Link href="/committee/board" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/board")}>📋 Board Members</Link>
+                  <Link href="/committee/advisors" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/advisors")}>💡 Advisors</Link>
                 </div>
               )}
             </li>
@@ -344,9 +382,12 @@ export default function Navbar() {
             <li>
               <button 
                 onClick={() => toggleMobileDropdown('services')}
-                className="w-full flex items-center justify-between py-2 px-4 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                className="w-full flex items-center justify-between py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
               >
-                <span>Services</span>
+                <span className="flex items-center gap-3">
+                  <span className="text-green-600">⚙️</span>
+                  Services
+                </span>
                 <svg 
                   className={`w-4 h-4 transition-transform duration-300 ${mobileDropdown === 'services' ? 'rotate-180' : ''}`}
                   fill="none" 
@@ -357,13 +398,13 @@ export default function Navbar() {
                 </svg>
               </button>
               {mobileDropdown === 'services' && (
-                <div className="pl-4 mt-1 space-y-1 bg-gray-50 rounded-lg p-2">
-                  <Link href="/services/scholarship" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/scholarship")}>Scholarship Guidance</Link>
-                  <Link href="/services/career" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/career")}>Career Counseling</Link>
-                  <Link href="/services/skill" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/skill")}>Skill Development</Link>
-                  <Link href="/services/mentorship" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/mentorship")}>Mentorship</Link>
-                  <Link href="/services/study" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/study")}>Study Material</Link>
-                  <Link href="/services/exam" className="block py-2 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/exam")}>Exam Preparation</Link>
+                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2">
+                  <Link href="/services/scholarship" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/scholarship")}>🎯 Scholarship Guidance</Link>
+                  <Link href="/services/career" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/career")}>💼 Career Counseling</Link>
+                  <Link href="/services/skill" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/skill")}>🔧 Skill Development</Link>
+                  <Link href="/services/mentorship" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/mentorship")}>🤝 Mentorship</Link>
+                  <Link href="/services/study" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/study")}>📚 Study Material</Link>
+                  <Link href="/services/exam" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/exam")}>📝 Exam Preparation</Link>
                 </div>
               )}
             </li>

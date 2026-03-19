@@ -156,3 +156,8 @@ Import trace:
 [01:06:06.370] Browser LOG     Login clicked
 [01:06:09.028] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/signup-illustration.jpg" "received" null
 [01:06:54.162] Server  LOG     ✓ Compiled in 20ms
+[01:07:39.103] Browser LOG     Video play failed: {}
+[01:08:11.796] Browser LOG     Login clicked
+[01:08:34.631] Browser LOG     Video play failed: {}
+[01:09:40.460] Server  LOG     ✓ Compiled in 28ms
+[01:09:47.762] Browser LOG     Login clicked

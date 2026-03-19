@@ -36,6 +36,10 @@ export default function SignupPage() {
     router.push("/login");
   };
 
+  const handleBack = () => {
+    router.back();
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl w-full bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
@@ -82,6 +86,17 @@ export default function SignupPage() {
         {/* Right Side - Signup Form */}
         <div className="w-full md:w-1/2 p-8 lg:p-12">
           <div className="max-w-md mx-auto">
+            {/* Back Button */}
+            <button
+              onClick={handleBack}
+              className="flex items-center gap-2 text-gray-600 hover:text-green-600 mb-4 transition-colors group"
+            >
+              <svg className="w-5 h-5 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              <span>Back</span>
+            </button>
+
             {/* Logo */}
             <div className="flex items-center gap-2 mb-8">
               <div className="w-10 h-10 bg-green-600 rounded-lg"></div>

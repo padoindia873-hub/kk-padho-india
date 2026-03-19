@@ -1,2 +1,122 @@
 [00:00:02.406] Server  LOG     ✓ Ready in 2.3s
 [00:00:10.714] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:18.209] Server  LOG     ✓ Compiled in 0ms
+[00:09:27.017] Browser LOG     Login clicked
+[00:09:27.273] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:29.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:24.441] Server  LOG     ✓ Compiled in 43ms
+[00:17:49.485] Server  LOG     ✓ Compiled in 34ms
+[00:20:27.212] Server  LOG     ✓ Compiled in 18ms
+[00:20:40.139] Server  LOG     ✓ Compiled in 20ms
+[00:21:00.304] Server  LOG     ✓ Compiled in 27ms
+[00:21:01.064] Browser ERROR   ./src/components/Hero.jsx:280:1
+Parsing ecmascript source code failed
+  278 |     </section>
+  279 |   );
+> 280 | }
+      | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.jsx
+    ./src/app/page.tsx
+[00:22:56.205] Server  LOG     ✓ Compiled in 17ms
+[00:24:01.649] Server  LOG     ✓ Compiled in 17ms
+[00:24:17.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:20.029] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:51.085] Server  LOG     ✓ Compiled in 19ms
+[00:24:53.347] Browser ERROR   uncaughtError: ReferenceError: handleVideoHover is not defined
+[00:24:53.779] Browser ERROR   uncaughtError: ReferenceError: handleVideoClick is not defined
+[00:24:54.190] Browser ERROR   uncaughtError: ReferenceError: handleVideoLeave is not defined
+[00:24:54.190] Browser ERROR   uncaughtError: ReferenceError: handleVideoHover is not defined
+[00:24:54.480] Browser ERROR   uncaughtError: ReferenceError: handleVideoClick is not defined
+[00:24:54.906] Browser ERROR   uncaughtError: ReferenceError: handleVideoLeave is not defined
+[00:24:54.906] Browser ERROR   uncaughtError: ReferenceError: handleVideoHover is not defined
+[00:24:54.906] Browser ERROR   uncaughtError: ReferenceError: handleVideoLeave is not defined
+[00:24:54.906] Browser ERROR   uncaughtError: ReferenceError: handleVideoHover is not defined
+[00:24:55.754] Browser ERROR   uncaughtError: ReferenceError: handleVideoLeave is not defined
+[00:25:24.662] Server  LOG     ✓ Compiled in 16ms
+[00:25:25.062] Browser ERROR   ./src/components/Hero.jsx:103:13
+Parsing ecmascript source code failed
+  101 |               )}
+  102 |             </div>
+> 103 |           ))}
+      |             ^
+  104 |         </div>
+  105 |
+  106 |         {/* Dynamic Text Section - Changes with video click */}
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.jsx
+    ./src/app/page.tsx
+[00:26:58.588] Server  LOG     ✓ Compiled in 17ms
+[00:29:10.084] Server  LOG     ✓ Compiled in 37ms
+[00:30:08.339] Server  LOG     ✓ Compiled in 21ms
+[00:30:09.063] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[00:30:15.061] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[00:30:20.061] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[00:30:24.584] Server  LOG     ✓ Compiled in 17ms
+[00:30:25.062] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[00:30:28.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:43.506] Server  LOG     ✓ Compiled in 16ms
+[00:30:46.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:55.111] Server  LOG     ✓ Compiled in 15ms
+[00:32:10.554] Server  LOG     ✓ Compiled in 28ms
+[00:32:25.601] Server  LOG     ✓ Compiled in 12ms
+[00:33:23.375] Server  LOG     ✓ Compiled in 17ms
+[00:34:03.781] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:07.186] Server  LOG     ✓ Compiled in 25ms
+[00:34:08.062] Browser ERROR   ./src/components/Hero.jsx:178:6
+Parsing ecmascript source code failed
+  176 |         }
+  177 |       `}</style>
+> 178 |     </section>
+      |      ^^^^^^^^^
+  179 |   );
+  180 | }
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.jsx
+    ./src/app/page.tsx
+[00:34:09.062] Browser ERROR   ./src/components/Hero.jsx:178:6
+Parsing ecmascript source code failed
+  176 |         }
+  177 |       `}</style>
+> 178 |     </section>
+      |      ^^^^^^^^^
+  179 |   );
+  180 | }
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.jsx
+    ./src/app/page.tsx
+[00:34:10.061] Browser ERROR   ./src/components/Hero.jsx:178:6
+Parsing ecmascript source code failed
+  176 |         }
+  177 |       `}</style>
+> 178 |     </section>
+      |      ^^^^^^^^^
+  179 |   );
+  180 | }
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./src/components/Hero.jsx
+    ./src/app/page.tsx
+[00:37:35.559] Server  LOG     ✓ Compiled in 30ms
+[00:37:41.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:34.926] Server  LOG     ✓ Compiled in 18ms
+[00:41:35.174] Browser LOG     Video play failed: {}

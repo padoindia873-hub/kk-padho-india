@@ -1,9 +1,10 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export default function Hero() {
   const [activeVideo, setActiveVideo] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const videoRefs = useRef([]);
 
   const videos = [
@@ -11,159 +12,169 @@ export default function Hero() {
       id: 1,
       src: "/Videos/study.mp4",
       title: "Smart Study Techniques",
-      description: "Learn proven methods to study efficiently and retain more information in less time",
       mainHeading: "Master Smart Study Techniques",
       subHeading: "Learn How Top Students Study"
     },
     {
       id: 2,
+      src: "/Videos/study1.mp4",
+      title: "Smart Study Techniques",
+      mainHeading: "Master Smart Study Techniques",
+      subHeading: "Learn How Top Students Study"
+    },
+    {
+      id: 3,
       src: "/Videos/study2.mp4",
       title: "Exam Preparation Guide",
-      description: "Comprehensive strategies to prepare for and ace your exams with confidence",
       mainHeading: "Ace Your Exams With Confidence",
       subHeading: "Proven Exam Preparation Strategies"
     },
     {
-      id: 3,
+      id: 4,
       src: "/Videos/study3.mp4",
       title: "Student Success Stories",
-      description: "Real stories of students who transformed their lives through education",
       mainHeading: "Inspiring Student Success Stories",
       subHeading: "Real Stories, Real Achievements"
     },
     {
-      id: 4,
+      id: 5,
       src: "/Videos/study4.mp4",
       title: "Effective Learning Methods",
-      description: "Discover innovative learning techniques that make studying enjoyable",
       mainHeading: "Innovative Learning Methods",
       subHeading: "Make Learning Fun & Effective"
     }
   ];
 
-  const handleVideoHover = (index) => {
-    if (videoRefs.current[index]) {
-      videoRefs.current[index].play();
+  // Auto-play carousel every 3 seconds
+  useEffect(() => {
+    let interval;
+    if (isAutoPlaying) {
+      interval = setInterval(() => {
+        setActiveVideo((prev) => (prev + 1) % videos.length);
+      }, 3000);
     }
-  };
+    return () => clearInterval(interval);
+  }, [isAutoPlaying, videos.length]);
 
-  const handleVideoLeave = (index) => {
-    if (videoRefs.current[index]) {
-      videoRefs.current[index].pause();
-      videoRefs.current[index].currentTime = 0;
+  // Play/pause videos based on active state
+  useEffect(() => {
+    // Pause all videos first
+    videoRefs.current.forEach((video) => {
+      if (video) {
+        video.pause();
+      }
+    });
+
+    // Play the active video
+    const activeVideoElement = videoRefs.current[activeVideo];
+    if (activeVideoElement) {
+      activeVideoElement.play().catch(error => {
+        console.log("Video play failed:", error);
+      });
     }
-  };
+  }, [activeVideo]);
 
-  const handleVideoClick = (index) => {
+  const handleDotClick = (index) => {
     setActiveVideo(index);
+    setIsAutoPlaying(false);
+    setTimeout(() => setIsAutoPlaying(true), 10000);
   };
 
   return (
-    <section className="relative w-full min-h-screen bg-black">
+    <section className="relative w-full min-h-screen bg-black overflow-hidden">
       
-      {/* Main Background Video */}
-      <div className="absolute inset-0 w-full h-full overflow-hidden">
-        <video
-          key={activeVideo} // This forces video to reload when source changes
-          className="w-full h-full object-cover opacity-70"
-          src={videos[activeVideo].src}
-          autoPlay
-          muted
-          loop
-          playsInline
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent"></div>
+      {/* Main Background Video - Clear without opacity */}
+      <div className="absolute inset-0 w-full h-full">
+        {videos.map((video, index) => (
+          <video
+            key={video.id}
+            ref={(el) => {
+              if (el) {
+                videoRefs.current[index] = el;
+              }
+            }}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+              activeVideo === index ? "opacity-100" : "opacity-0"
+            }`}
+            src={video.src}
+            muted
+            loop
+            playsInline
+            preload="auto"
+          />
+        ))}
+        {/* Lighter gradient overlay for better text visibility without affecting video clarity */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-black/60"></div>
       </div>
 
-      {/* Content Overlay - Text changes based on active video */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8 text-white">
+      {/* Content Overlay */}
+      <div className="relative z-10 flex flex-col items-center justify-between min-h-screen px-4 sm:px-6 lg:px-8 py-12">
         
-        {/* Main Heading - Changes with video click */}
-        <div className="text-center max-w-4xl mx-auto mb-12 animate-fadeIn">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            {videos[activeVideo].mainHeading}
+        {/* KK PADHO INDIA - Always at Top */}
+        <div className="text-center w-full pt-2">
+          <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+            KK PADHO INDIA
           </h1>
-          
-          <h2 className="text-2xl sm:text-3xl text-blue-400 mb-4">
-            {videos[activeVideo].subHeading}
-          </h2>
-          
-          <p className="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto">
-            {videos[activeVideo].description}
-          </p>
+          <div className="h-0.5 w-16 bg-gradient-to-r from-green-400 to-blue-500 mx-auto mt-1"></div>
         </div>
 
-        {/* Video Thumbnails Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto mt-8">
-          {videos.map((video, index) => (
-            <div
-              key={video.id}
-              className={`relative group cursor-pointer rounded-xl overflow-hidden border-2 transition-all duration-300 ${
-                activeVideo === index 
-                  ? "border-blue-400 scale-105 shadow-xl shadow-blue-500/20" 
-                  : "border-transparent hover:border-white/50"
-              }`}
-              onMouseEnter={() => handleVideoHover(index)}
-              onMouseLeave={() => handleVideoLeave(index)}
-              onClick={() => handleVideoClick(index)}
-            >
-              {/* Video Thumbnail */}
-              <video
-                ref={(el) => {
-                  if (el) {
-                    videoRefs.current[index] = el;
-                  }
-                }}
-                src={video.src}
-                className="w-full h-48 object-cover"
-                muted
-                loop
-                playsInline
-              />
-              
-              {/* Overlay with text */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-4">
-                <h3 className="text-white font-semibold text-lg">{video.title}</h3>
-                <p className="text-gray-300 text-sm line-clamp-2">{video.description}</p>
-              </div>
+        {/* Main Content - Centered */}
+        <div className="w-full max-w-5xl mx-auto text-center">
+          
+          {/* Dynamic Text - Changes with active video */}
+          <div className="mb-12 animate-fadeIn">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">
+              {videos[activeVideo].mainHeading}
+            </h2>
+            
+            <h3 className="text-2xl md:text-3xl text-blue-400 mb-4 drop-shadow-lg">
+              {videos[activeVideo].subHeading}
+            </h3>
+          </div>
 
-              {/* Play Icon on Hover */}
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/30">
-                <div className="w-12 h-12 bg-white/90 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-blue-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z"/>
-                  </svg>
-                </div>
-              </div>
+          {/* Dot Carousel */}
+          <div className="flex items-center justify-center gap-3 mt-8">
+            {videos.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => handleDotClick(index)}
+                className="group relative"
+              >
+                {/* Dot */}
+                <div
+                  className={`h-3 rounded-full transition-all duration-300 ${
+                    activeVideo === index 
+                      ? "w-10 bg-blue-400 shadow-lg shadow-blue-500/50" 
+                      : "w-3 bg-white/70 hover:bg-white"
+                  }`}
+                />
+                
+                {/* Tooltip on Hover */}
+                <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-900/90 text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm">
+                  {videos[index].title}
+                </span>
+              </button>
+            ))}
+          </div>
 
-              {/* Active Indicator */}
-              {activeVideo === index && (
-                <div className="absolute top-2 right-2 w-3 h-3 bg-blue-400 rounded-full animate-pulse"></div>
-              )}
-            </div>
-          ))}
-        </div>
-
-        {/* Dynamic Text Section - Changes with video click */}
-        <div className="mt-8 text-center space-y-2">
-          <p className="text-gray-400 text-sm uppercase tracking-wider">
-            Currently Exploring
-          </p>
-          <h3 className="text-2xl font-semibold text-blue-400">
-            {videos[activeVideo].title}
-          </h3>
-          <p className="text-gray-300 max-w-2xl mx-auto">
-            {videos[activeVideo].description}
-          </p>
+          {/* Current Video Title */}
+          <div className="mt-6">
+            <p className="text-blue-400 font-semibold drop-shadow-lg">
+              Currently: {videos[activeVideo].title}
+            </p>
+          </div>
         </div>
 
         {/* CTA Button */}
-        <button className="mt-12 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">
-          Explore {videos[activeVideo].title}
-        </button>
+        <div className="text-center mb-8">
+          <button className="group relative px-8 py-4 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-blue-500/40 overflow-hidden backdrop-blur-sm">
+            <span className="relative z-10">Explore {videos[activeVideo].title}</span>
+            <div className="absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+          </button>
+        </div>
       </div>
 
-      {/* Add animation styles */}
+      {/* Animation Styles */}
       <style jsx>{`
         @keyframes fadeIn {
           from {

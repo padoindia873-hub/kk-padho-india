@@ -120,3 +120,39 @@ Import trace:
 [00:37:41.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:41:34.926] Server  LOG     ✓ Compiled in 18ms
 [00:41:35.174] Browser LOG     Video play failed: {}
+[00:45:38.139] Server  LOG     ✓ Compiled in 21ms
+[00:45:49.904] Server  LOG     ✓ Compiled in 35ms
+[00:46:09.075] Server  LOG     ✓ Compiled in 23ms
+[00:46:18.505] Server  LOG     ✓ Compiled in 30ms
+[00:46:29.971] Server  LOG     ✓ Compiled in 28ms
+[00:46:40.142] Server  LOG     ✓ Compiled in 28ms
+[00:50:23.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:27.942] Browser LOG     Video play failed: {}
+[00:50:30.425] Browser LOG     Video play failed: {}
+[00:50:33.608] Browser LOG     Video play failed: {}
+[00:50:36.395] Browser LOG     Video play failed: {}
+[00:50:40.238] Browser LOG     Video play failed: {}
+[00:50:43.193] Browser LOG     Video play failed: {}
+[00:50:49.918] Browser LOG     Login clicked
+[00:50:52.126] Browser LOG     Video play failed: {}
+[00:57:50.586] Server  LOG     ✓ Compiled in 60ms
+[00:57:56.733] Browser LOG     Login clicked
+[00:57:57.777] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/login-illustration.jpg" "received" null
+[00:58:50.410] Server  LOG     ✓ Compiled in 14ms
+[01:00:52.823] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/login-illustration.jpg" "received" null
+[01:00:52.834] Server  LOG     ✓ Compiled in 24ms
+[01:01:15.786] Server  LOG     ✓ Compiled in 23ms
+[01:02:42.840] Server  LOG     ✓ Compiled in 36ms
+[01:02:59.087] Server  LOG     ✓ Compiled in 34ms
+[01:03:33.352] Server  LOG     ✓ Compiled in 30ms
+[01:04:05.360] Server  LOG     ✓ Compiled in 23ms
+[01:04:05.363] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/login-illustration.jpg" "received" null
+[01:05:17.668] Server  LOG     ✓ Compiled in 30ms
+[01:05:24.361] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/login-illustration.jpg" "received" null
+[01:05:24.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:47.430] Server  LOG     ✓ Compiled in 21ms
+[01:06:02.699] Browser LOG     Login attempt with: {"email":"reshamkri682001@gmail.com","password":"12345","rememberMe":false}
+[01:06:02.699] Browser LOG     Video play failed: {}
+[01:06:06.370] Browser LOG     Login clicked
+[01:06:09.028] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/signup-illustration.jpg" "received" null
+[01:06:54.162] Server  LOG     ✓ Compiled in 20ms

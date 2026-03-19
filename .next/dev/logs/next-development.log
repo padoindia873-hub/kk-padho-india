@@ -167,3 +167,211 @@ Import trace:
 [01:16:26.252] Browser LOG     Video play failed: {}
 [01:18:45.730] Server  LOG     ✓ Compiled in 36ms
 [01:18:54.182] Browser LOG     Video play failed: {}
+[01:20:38.302] Server  LOG     ✓ Compiled in 30ms
+[01:20:48.750] Browser LOG     Video play failed: {}
+[01:21:03.331] Server  LOG     ✓ Compiled in 42ms
+[01:21:06.265] Server  LOG     ✓ Compiled in 11ms
+[01:21:13.283] Browser LOG     Video play failed: {}
+[01:22:07.229] Server  LOG     ✓ Compiled in 35ms
+[01:22:43.364] Browser LOG     Video play failed: {}
+[01:23:00.510] Server  LOG     ✓ Compiled in 23ms
+[01:23:02.170] Browser ERROR   ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:23:02.170] Browser ERROR   ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:23:09.155] Server  ERROR   ⨯ ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+
+
+[01:23:09.274] Browser ERROR   ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:23:09.593] Browser ERROR   ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:23:09.593] Browser ERROR   ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:23:09.748] Browser ERROR   uncaughtError: Error: ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+
+
+[01:23:09.895] Browser ERROR   ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:23:09.895] Browser ERROR   ./src/components/Navbar.jsx:15:33
+Parsing ecmascript source code failed
+  13 |   };
+  14 |
+> 15 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  16 |     router.push(path);
+  17 |   };
+  18 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:23:48.361] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:23:55.540] Browser LOG     Video play failed: {}
+[01:24:00.399] Browser LOG     Video play failed: {}
+[01:26:18.397] Server  LOG     ✓ Compiled in 38ms
+[01:26:19.171] Browser ERROR   ./src/components/Navbar.jsx:16:33
+Parsing ecmascript source code failed
+  14 |   };
+  15 |
+> 16 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  17 |     router.push(path);
+  18 |   };
+  19 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:26:19.172] Browser ERROR   ./src/components/Navbar.jsx:16:33
+Parsing ecmascript source code failed
+  14 |   };
+  15 |
+> 16 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  17 |     router.push(path);
+  18 |   };
+  19 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:26:20.171] Browser ERROR   ./src/components/Navbar.jsx:16:33
+Parsing ecmascript source code failed
+  14 |   };
+  15 |
+> 16 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  17 |     router.push(path);
+  18 |   };
+  19 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx

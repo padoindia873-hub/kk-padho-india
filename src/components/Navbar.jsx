@@ -12,7 +12,7 @@ export default function Navbar() {
     router.push("/login");
   };
 
-  const handleNavigation = (path) => {
+  const handleNavigation = (path) => {  // Removed :string
     router.push(path);
   };
 

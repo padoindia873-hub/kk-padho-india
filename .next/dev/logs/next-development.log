@@ -377,3 +377,54 @@ Import trace:
     ./src/app/page.tsx
 [01:28:35.781] Server  LOG     ✓ Compiled in 19ms
 [01:28:44.344] Browser LOG     Video play failed: {}
+[01:29:24.823] Server  LOG     ✓ Compiled in 17ms
+[01:29:25.171] Browser ERROR   ./src/components/Navbar.jsx:16:33
+Parsing ecmascript source code failed
+  14 |   };
+  15 |
+> 16 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  17 |     router.push(path);
+  18 |   };
+  19 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:29:26.169] Browser ERROR   ./src/components/Navbar.jsx:16:33
+Parsing ecmascript source code failed
+  14 |   };
+  15 |
+> 16 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  17 |     router.push(path);
+  18 |   };
+  19 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:29:27.170] Browser ERROR   ./src/components/Navbar.jsx:16:33
+Parsing ecmascript source code failed
+  14 |   };
+  15 |
+> 16 |   const handleNavigation = (path: string) => {
+     |                                 ^
+  17 |     router.push(path);
+  18 |   };
+  19 |
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.jsx
+    ./src/app/page.tsx
+[01:30:21.808] Server  LOG     ✓ Compiled in 59ms
+[01:30:22.120] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

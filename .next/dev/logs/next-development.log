@@ -428,3 +428,6 @@ Import trace:
     ./src/app/page.tsx
 [01:30:21.808] Server  LOG     ✓ Compiled in 59ms
 [01:30:22.120] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:17.171] Browser LOG     Video play failed: {}
+[01:31:17.171] Browser LOG     Video play failed: {}
+[01:31:18.357] Server  LOG     ✓ Compiled in 11ms

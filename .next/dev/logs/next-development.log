@@ -1319,3 +1319,34 @@ https://nextjs.org/docs/messages/module-not-found
 [03:28:38.043] Server  LOG     ✓ Compiled in 50ms
 [03:31:42.853] Server  LOG     ✓ Compiled in 44ms
 [03:32:06.646] Server  LOG     ✓ Compiled in 19ms
+[04:17:54.865] Server  LOG     ✓ Compiled in 32ms
+[04:17:58.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:17:59.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:18:27.293] Server  LOG     ✓ Compiled in 24ms
+[04:18:30.895] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:21:52.594] Server  LOG     ✓ Compiled in 24ms
+[04:21:56.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:21:56.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:23:47.743] Server  LOG     ✓ Compiled in 0ms
+[04:23:49.804] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/chairman.jpg" "received" null
+[04:23:49.805] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/bholanath de.png" "received" null
+[04:23:49.875] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/bholanath de.png" "received" null
+[04:23:50.125] Browser WARN    Image with src "/images/Anirban Saha.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:50.125] Browser WARN    Image with src "/images/Jaggu Sahani.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:50.125] Browser WARN    Image with src "/images/Afsasur Rahaman Sardar.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:50.125] Browser WARN    Image with src "/images/bipul.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:50.125] Browser WARN    Image with src "/images/Pradip Kumar Goswami.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:50.125] Browser WARN    Image with src "/images/bipul.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:23:50.125] Browser WARN    Image with src "/images/Kiran Mondal.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:24:07.367] Server  LOG     ✓ Compiled in 24ms
+[04:24:15.793] Server  LOG     ✓ Compiled in 23ms
+[04:24:16.723] Browser WARN    Image with src "/images/bholenath de.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:16.218] Server  LOG     ✓ Compiled in 57ms
+[04:28:12.670] Server  LOG     ✓ Compiled in 50ms
+[04:28:14.623] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/chairman.jpg" "received" null
+[04:31:20.456] Server  LOG     ✓ Compiled in 45ms
+[04:31:20.724] Browser WARN    Image with src "/images/kk khan.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:31:46.443] Server  LOG     ✓ Compiled in 56ms
+[04:32:33.662] Server  LOG     ✓ Compiled in 28ms
+[04:35:46.916] Server  LOG     ✓ Compiled in 29ms

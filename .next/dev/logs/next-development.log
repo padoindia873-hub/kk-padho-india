@@ -104,3 +104,5 @@
 [00:13:24.489] Browser WARN    Image with src "/images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:13:24.489] Browser WARN    Image with src "/images/web development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:16:03.256] Server  LOG     ✓ Compiled in 28ms
+[00:18:09.059] Browser LOG     Login clicked
+[00:18:12.862] Browser LOG     Video play failed: {}

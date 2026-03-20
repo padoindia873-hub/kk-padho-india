@@ -44,7 +44,7 @@ export default function Navbar() {
       >
         <img 
           src="/images/logo.png"
-          alt="KK PADHO INDIA Logo" 
+          alt="" 
           className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
         />
       </div>

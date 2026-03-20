@@ -28,8 +28,8 @@ export default function CommitmentSection() {
         
         {/* Bengali Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4 font-bengali">
-            আমাদের অঙ্গীকার
+          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4 font-english">
+            Our Commitments
           </h2>
           <p className="text-xl text-gray-600">
             We proudly proclaim that 10 to 15 thousand boys and girls will build the future every year

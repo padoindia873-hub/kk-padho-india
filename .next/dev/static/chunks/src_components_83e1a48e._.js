@@ -1460,27 +1460,27 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$js
 ;
 function ScholarshipHero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-6e24a6412bb4a785" + " " + "relative w-full bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden",
+        className: "jsx-8e4b5fa86fb65b8c" + " " + "relative w-full bg-gradient-to-br from-yellow-200 via-purple-50 to-pink-200 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-6e24a6412bb4a785" + " " + "absolute inset-0 overflow-hidden",
+                className: "jsx-8e4b5fa86fb65b8c" + " " + "absolute inset-0 overflow-hidden",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "absolute -top-40 -right-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "absolute -top-40 -right-40 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
                         lineNumber: 11,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "absolute -bottom-40 -left-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "absolute -bottom-40 -left-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
                         lineNumber: 12,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
                         lineNumber: 13,
@@ -1493,20 +1493,20 @@ function ScholarshipHero() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-6e24a6412bb4a785" + " " + "relative max-w-7xl mx-auto text-center",
+                className: "jsx-8e4b5fa86fb65b8c" + " " + "relative max-w-7xl mx-auto text-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8 border border-white/20",
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "inline-flex items-center bg-white/60 backdrop-blur-sm rounded-full px-4 py-2 mb-8 border border-blue-200 shadow-sm",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "jsx-6e24a6412bb4a785" + " " + "w-2 h-2 bg-green-400 rounded-full animate-pulse mr-2"
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "w-2 h-2 bg-blue-500 rounded-full animate-pulse mr-2"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
                                 lineNumber: 19,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "jsx-6e24a6412bb4a785" + " " + "text-white/90 text-sm font-medium tracking-wider",
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "text-blue-700 text-sm font-medium tracking-wider",
                                 children: "EDUCATION FOR ALL"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
@@ -1520,9 +1520,9 @@ function ScholarshipHero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "text-4xl md:text-6xl lg:text-6xl font-bold mb-6",
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "text-4xl md:text-6xl lg:text-6xl font-bold mb-6",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "jsx-6e24a6412bb4a785" + " " + "bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent",
+                            className: "jsx-8e4b5fa86fb65b8c" + " " + "bg-gradient-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent",
                             children: "PADHO INDIA SCHOLARSHIP"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
@@ -1535,7 +1535,7 @@ function ScholarshipHero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "text-2xl md:text-3xl text-yellow-400 font-semibold mb-4",
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "text-2xl md:text-3xl text-purple-600 font-semibold mb-4",
                         children: "Millions Candidates Will Become Crorepatis."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
@@ -1543,10 +1543,10 @@ function ScholarshipHero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "bg-white/5 backdrop-blur-sm rounded-2xl p-6 mb-6 border border-white/10 max-w-3xl mx-auto",
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "bg-white/70 backdrop-blur-sm rounded-2xl p-6 mb-6 border border-blue-200 max-w-3xl mx-auto shadow-md",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-6e24a6412bb4a785" + " " + "text-xl md:text-2xl text-white mb-3",
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "text-xl md:text-2xl text-gray-800 mb-3",
                                 children: "Over 10 Lakhs Students will get Scholarship..."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
@@ -1554,7 +1554,7 @@ function ScholarshipHero() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-6e24a6412bb4a785" + " " + "text-lg md:text-xl text-blue-200",
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "text-lg md:text-xl text-purple-600",
                                 children: "And Millions of Students will make career by Higher study."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
@@ -1568,10 +1568,10 @@ function ScholarshipHero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "flex flex-wrap justify-center gap-3 mb-8",
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "flex flex-wrap justify-center gap-3 mb-8",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "jsx-6e24a6412bb4a785" + " " + "bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white text-sm",
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "bg-blue-50 border border-blue-200 rounded-full px-4 py-2 text-blue-700 text-sm shadow-sm",
                                 children: "🏆 Top Scholarships"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
@@ -1579,7 +1579,7 @@ function ScholarshipHero() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "jsx-6e24a6412bb4a785" + " " + "bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white text-sm",
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "bg-purple-50 border border-purple-200 rounded-full px-4 py-2 text-purple-700 text-sm shadow-sm",
                                 children: "📚 Free Education"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
@@ -1587,7 +1587,7 @@ function ScholarshipHero() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "jsx-6e24a6412bb4a785" + " " + "bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white text-sm",
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "bg-pink-50 border border-pink-200 rounded-full px-4 py-2 text-pink-700 text-sm shadow-sm",
                                 children: "🎯 Career Guidance"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
@@ -1601,40 +1601,82 @@ function ScholarshipHero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "mt-8 flex justify-center",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-6e24a6412bb4a785" + " " + "w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full flex items-center justify-center shadow-2xl animate-bounce",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "jsx-6e24a6412bb4a785" + " " + "text-4xl",
-                                children: "🏆"
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "mt-8 flex justify-center gap-4",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-400 rounded-full flex items-center justify-center shadow-md animate-float",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "jsx-8e4b5fa86fb65b8c" + " " + "text-3xl",
+                                    children: "🏆"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
+                                    lineNumber: 61,
+                                    columnNumber: 13
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
-                                lineNumber: 61,
-                                columnNumber: 13
+                                lineNumber: 60,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full flex items-center justify-center shadow-md animate-float animation-delay-1000",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "jsx-8e4b5fa86fb65b8c" + " " + "text-3xl",
+                                    children: "⭐"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
+                                    lineNumber: 64,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
+                                lineNumber: 63,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "w-16 h-16 bg-gradient-to-br from-pink-400 to-orange-400 rounded-full flex items-center justify-center shadow-md animate-float animation-delay-2000",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "jsx-8e4b5fa86fb65b8c" + " " + "text-3xl",
+                                    children: "🎓"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
+                                    lineNumber: 67,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
+                                lineNumber: 66,
+                                columnNumber: 11
                             }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
-                            lineNumber: 60,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
                         lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-6e24a6412bb4a785" + " " + "mt-10",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "jsx-6e24a6412bb4a785" + " " + "bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-3 rounded-full font-bold text-lg hover:from-yellow-500 hover:to-orange-500 transform hover:scale-105 transition-all duration-300 shadow-xl",
-                            children: "Apply for Scholarship"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
-                            lineNumber: 67,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        className: "jsx-8e4b5fa86fb65b8c" + " " + "mt-10",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-bold text-lg hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-md",
+                                children: "Apply for Scholarship"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
+                                lineNumber: 73,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "jsx-8e4b5fa86fb65b8c" + " " + "text-gray-600 text-sm mt-3",
+                                children: "No application fee • Open for all students"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
+                                lineNumber: 76,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/HeroSection.tsx",
-                        lineNumber: 66,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1644,8 +1686,8 @@ function ScholarshipHero() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "6e24a6412bb4a785",
-                children: "@keyframes blob{0%{transform:translate(0)scale(1)}33%{transform:translate(30px,-50px)scale(1.1)}66%{transform:translate(-20px,20px)scale(.9)}to{transform:translate(0)scale(1)}}.animate-blob.jsx-6e24a6412bb4a785{animation:7s infinite blob}.animation-delay-2000.jsx-6e24a6412bb4a785{animation-delay:2s}.animation-delay-4000.jsx-6e24a6412bb4a785{animation-delay:4s}"
+                id: "8e4b5fa86fb65b8c",
+                children: "@keyframes blob{0%{transform:translate(0)scale(1)}33%{transform:translate(30px,-50px)scale(1.1)}66%{transform:translate(-20px,20px)scale(.9)}to{transform:translate(0)scale(1)}}.animate-blob.jsx-8e4b5fa86fb65b8c{animation:7s infinite blob}@keyframes float{0%,to{transform:translateY(0)}50%{transform:translateY(-10px)}}.animate-float.jsx-8e4b5fa86fb65b8c{animation:3s ease-in-out infinite float}.animation-delay-1000.jsx-8e4b5fa86fb65b8c{animation-delay:1s}.animation-delay-2000.jsx-8e4b5fa86fb65b8c{animation-delay:2s}.animation-delay-4000.jsx-8e4b5fa86fb65b8c{animation-delay:4s}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {

@@ -1309,18 +1309,18 @@ function Hero() {
             subHeading: "Learn How Top Students Study"
         },
         {
-            id: 3,
-            src: "/Videos/study2.mp4",
-            title: "Exam Preparation Guide",
-            mainHeading: "Ace Your Exams With Confidence",
-            subHeading: "Proven Exam Preparation Strategies"
-        },
-        {
             id: 2,
             src: "/Videos/study1.mp4",
             title: "Smart Study Techniques",
             mainHeading: "Master Smart Study Techniques",
             subHeading: "Learn How Top Students Study"
+        },
+        {
+            id: 3,
+            src: "/Videos/study2.mp4",
+            title: "Exam Preparation Guide",
+            mainHeading: "Ace Your Exams With Confidence",
+            subHeading: "Proven Exam Preparation Strategies"
         },
         {
             id: 4,
@@ -1361,7 +1361,6 @@ function Hero() {
     // Play/pause videos based on active state
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Hero.useEffect": ()=>{
-            // Pause all videos first
             videoRefs.current.forEach({
                 "Hero.useEffect": (video)=>{
                     if (video) {
@@ -1369,7 +1368,6 @@ function Hero() {
                     }
                 }
             }["Hero.useEffect"]);
-            // Play the active video
             const activeVideoElement = videoRefs.current[activeVideo];
             if (activeVideoElement) {
                 activeVideoElement.play().catch({
@@ -1388,10 +1386,10 @@ function Hero() {
         setTimeout(()=>setIsAutoPlaying(true), 10000);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-df0074741f7eb76d" + " " + "relative w-full min-h-screen bg-black overflow-hidden",
+        className: "jsx-26e50ddb02d38d9c" + " " + "relative w-full min-h-screen bg-black overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-df0074741f7eb76d" + " " + "absolute inset-0 w-full h-full",
+                className: "jsx-26e50ddb02d38d9c" + " " + "absolute inset-0 w-full h-full",
                 children: [
                     videos.map((video, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                             ref: (el)=>{
@@ -1404,184 +1402,184 @@ function Hero() {
                             loop: true,
                             playsInline: true,
                             preload: "auto",
-                            className: "jsx-df0074741f7eb76d" + " " + `absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${activeVideo === index ? "opacity-100" : "opacity-0"}`
+                            className: "jsx-26e50ddb02d38d9c" + " " + `absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${activeVideo === index ? "opacity-100" : "opacity-0"}`
                         }, video.id, false, {
                             fileName: "[project]/src/components/Hero.tsx",
-                            lineNumber: 101,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-df0074741f7eb76d" + " " + "absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-black/60"
+                        className: "jsx-26e50ddb02d38d9c" + " " + "absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 119,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 99,
+                lineNumber: 93,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-df0074741f7eb76d" + " " + "relative z-10 flex flex-col items-center justify-between min-h-screen px-4 sm:px-6 lg:px-8 py-12",
+                className: "jsx-26e50ddb02d38d9c" + " " + "relative z-10 flex flex-col items-center justify-between min-h-screen px-4 py-6 sm:py-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-df0074741f7eb76d" + " " + "text-center w-full pt-2",
+                        className: "jsx-26e50ddb02d38d9c" + " " + "text-center w-full pt-2 sm:pt-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "jsx-df0074741f7eb76d" + " " + "text-3xl md:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500",
+                                className: "jsx-26e50ddb02d38d9c" + " " + "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500",
                                 children: "KK PADHO INDIA"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 127,
+                                lineNumber: 120,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-df0074741f7eb76d" + " " + "h-0.5 w-16 bg-gradient-to-r from-green-400 to-blue-500 mx-auto mt-1"
+                                className: "jsx-26e50ddb02d38d9c" + " " + "h-0.5 w-12 sm:w-16 bg-gradient-to-r from-green-400 to-blue-500 mx-auto mt-1"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 130,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 126,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-df0074741f7eb76d" + " " + "w-full max-w-5xl mx-auto text-center",
+                        className: "jsx-26e50ddb02d38d9c" + " " + "w-full max-w-5xl mx-auto text-center px-2 sm:px-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-df0074741f7eb76d" + " " + "mb-12 animate-fadeIn",
+                                className: "jsx-26e50ddb02d38d9c" + " " + "mb-6 sm:mb-8 md:mb-12 animate-fadeIn",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "jsx-df0074741f7eb76d" + " " + "text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg",
+                                        className: "jsx-26e50ddb02d38d9c" + " " + "text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-2 sm:mb-4 drop-shadow-lg leading-tight",
                                         children: videos[activeVideo].mainHeading
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 131,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "jsx-df0074741f7eb76d" + " " + "text-2xl md:text-3xl text-blue-400 mb-4 drop-shadow-lg",
+                                        className: "jsx-26e50ddb02d38d9c" + " " + "text-base sm:text-xl md:text-2xl lg:text-3xl text-blue-400 drop-shadow-lg",
                                         children: videos[activeVideo].subHeading
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 142,
+                                        lineNumber: 135,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 137,
+                                lineNumber: 130,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-df0074741f7eb76d" + " " + "flex items-center justify-center gap-3 mt-8",
+                                className: "jsx-26e50ddb02d38d9c" + " " + "flex items-center justify-center gap-2 sm:gap-3 mt-4 sm:mt-6 md:mt-8",
                                 children: videos.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>handleDotClick(index),
-                                        className: "jsx-df0074741f7eb76d" + " " + "group relative",
+                                        className: "jsx-26e50ddb02d38d9c" + " " + "group relative",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-df0074741f7eb76d" + " " + `h-3 rounded-full transition-all duration-300 ${activeVideo === index ? "w-10 bg-blue-400 shadow-lg shadow-blue-500/50" : "w-3 bg-white/70 hover:bg-white"}`
+                                                className: "jsx-26e50ddb02d38d9c" + " " + `h-2 sm:h-3 rounded-full transition-all duration-300 ${activeVideo === index ? "w-6 sm:w-8 md:w-10 bg-blue-400 shadow-lg shadow-blue-500/50" : "w-2 sm:w-3 bg-white/70 hover:bg-white"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 148,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-df0074741f7eb76d" + " " + "absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-900/90 text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm",
+                                                className: "jsx-26e50ddb02d38d9c" + " " + "hidden sm:block absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-900/90 text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm",
                                                 children: videos[index].title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
-                                                lineNumber: 165,
+                                                lineNumber: 155,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/Hero.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 143,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 148,
+                                lineNumber: 141,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-df0074741f7eb76d" + " " + "mt-6",
+                                className: "jsx-26e50ddb02d38d9c" + " " + "mt-3 sm:mt-4 md:mt-6",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "jsx-df0074741f7eb76d" + " " + "text-blue-400 font-semibold drop-shadow-lg",
+                                    className: "jsx-26e50ddb02d38d9c" + " " + "text-xs sm:text-sm md:text-base text-blue-400 font-semibold drop-shadow-lg",
                                     children: [
                                         "Currently: ",
                                         videos[activeVideo].title
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 174,
+                                    lineNumber: 164,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
-                                lineNumber: 173,
+                                lineNumber: 163,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 134,
+                        lineNumber: 127,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-df0074741f7eb76d" + " " + "text-center mb-8",
+                        className: "jsx-26e50ddb02d38d9c" + " " + "text-center mb-2 sm:mb-4 md:mb-8",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "jsx-df0074741f7eb76d" + " " + "group relative px-8 py-4 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-blue-500/40 overflow-hidden backdrop-blur-sm",
+                            className: "jsx-26e50ddb02d38d9c" + " " + "group relative px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white text-sm sm:text-base md:text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-blue-500/40 overflow-hidden backdrop-blur-sm",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-df0074741f7eb76d" + " " + "relative z-10",
+                                    className: "jsx-26e50ddb02d38d9c" + " " + "relative z-10",
                                     children: [
                                         "Explore ",
                                         videos[activeVideo].title
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 183,
+                                    lineNumber: 173,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-df0074741f7eb76d" + " " + "absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"
+                                    className: "jsx-26e50ddb02d38d9c" + " " + "absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.tsx",
-                                    lineNumber: 184,
+                                    lineNumber: 174,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Hero.tsx",
-                            lineNumber: 182,
+                            lineNumber: 172,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
-                        lineNumber: 181,
+                        lineNumber: 171,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Hero.tsx",
-                lineNumber: 123,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "df0074741f7eb76d",
-                children: "@keyframes fadeIn{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fadeIn.jsx-df0074741f7eb76d{animation:.5s ease-out fadeIn}"
+                id: "26e50ddb02d38d9c",
+                children: "@keyframes fadeIn{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fadeIn.jsx-26e50ddb02d38d9c{animation:.5s ease-out fadeIn}@media (width<=640px){.animate-fadeIn.jsx-26e50ddb02d38d9c{animation:.3s ease-out fadeIn}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Hero.tsx",
-        lineNumber: 96,
+        lineNumber: 90,
         columnNumber: 5
     }, this);
 }

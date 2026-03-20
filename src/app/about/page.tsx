@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Footer from "@/components/Footer";
 
 interface Director {
@@ -18,6 +19,7 @@ interface GalleryImage {
 
 export default function AboutPage() {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
+  const router = useRouter();
 
   const directors: Director[] = [
     { name: "Bholanath De", role: "Director", image: "/images/bholenath de.png" },
@@ -38,8 +40,33 @@ export default function AboutPage() {
     { id: 6, src: "/images/image6.png" },
   ];
 
+  const handleBack = () => {
+    router.back();
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+      
+      {/* Back Button */}
+      <button
+        onClick={handleBack}
+        className="fixed top-24 left-4 z-50 bg-white/90 hover:bg-white text-gray-700 p-3 rounded-full shadow-lg transition-all duration-300 group flex items-center justify-center backdrop-blur-sm"
+        aria-label="Go back"
+      >
+        <svg
+          className="w-5 h-5 transform group-hover:-translate-x-1 transition-transform"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M10 19l-7-7m0 0l7-7m-7 7h18"
+          />
+        </svg>
+      </button>
       
       {/* Hero Section with Video Background */}
       <section className="relative text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[600px] flex items-center">

@@ -40,7 +40,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       
-      {/* Hero Section - Modern Gradient */}
+      {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
@@ -63,29 +63,33 @@ export default function AboutPage() {
       {/* Main Content */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         
-        {/* Introduction Card */}
+        {/* Introduction Section */}
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12 border border-gray-100 hover:shadow-2xl transition-shadow">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Story</h2>
-              <div className="w-16 h-1 bg-blue-600 mb-6"></div>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Padho India is a revolutionary educational initiative committed to making quality education accessible to every child, regardless of their financial background.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Our mission is to empower students with free online tuition, ensuring that financial constraints do not hinder their learning journey.
-              </p>
-            </div>
-            <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">What We Believe</h2>
-              <div className="w-16 h-1 bg-blue-600 mb-6"></div>
-              <p className="text-gray-600 leading-relaxed mb-4">
-                Education is the key to unlocking a brighter future. Through Padho India, we offer free online classes covering all subjects for students from Class 5 to 12.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Our platform provides comprehensive learning resources, including live interactive sessions, practical classes, and expert guidance to help students excel academically.
-              </p>
-            </div>
+          <div className="mb-8">
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">About Padho India</h2>
+            <div className="w-20 h-1 bg-blue-600 mb-6"></div>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Padho India is a revolutionary educational initiative committed to making quality education accessible to every child, regardless of their financial background. Our mission is to empower students with free online tuition, ensuring that financial constraints do not hinder their learning journey.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              We believe that education is the key to unlocking a brighter future. Through Padho India, we offer free online classes covering all subjects for students from Class 5 to 12. Our platform provides comprehensive learning resources, including live interactive sessions, practical classes, and expert guidance to help students excel academically.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              At Padho India, we understand the aspirations of parents who dream of seeing their children become successful professionals in fields like IT, engineering, and medicine. To support these dreams, we provide free training programs in engineering, software development, and other in-demand sectors. Our goal is to bridge the gap between talent and opportunity by offering accessible and high-quality education.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              In addition to empowering students, Padho India also supports junior advocates by arranging financial assistance. This helps them remain dedicated to their legal profession without being burdened by financial struggles.
+            </p>
+            <p className="text-gray-600 leading-relaxed font-semibold">
+              Padho India is not just an educational platform—it is a movement dedicated to building a stronger, smarter, and brighter nation by ensuring that every child has the opportunity to learn, grow, and succeed.
+            </p>
+          </div>
+
+          {/* Bengali Quote */}
+          <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border-l-4 border-blue-600">
+            <p className="text-lg text-gray-800 italic">
+              চলুন আমরা এবং আপনারা মিলে সেই সমস্ত ফুটফুটে বাচ্চাদের ভবিষ্যৎ গড়ে তুলি, যারা আমাদের দেশের সম্পদ. আমাদের দেশের স্তম্ভ এবং আমাদের দেশের ভবিষ্যৎ.
+            </p>
           </div>
         </div>
 
@@ -119,15 +123,15 @@ export default function AboutPage() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="text-blue-600 text-xl">✓</span>
-                <p className="text-gray-600">Equal education for every child regardless of background</p>
+                <p className="text-gray-600">Equal education for every child regardless of their socioeconomic background</p>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-blue-600 text-xl">✓</span>
-                <p className="text-gray-600">Bridging the digital divide in rural areas</p>
+                <p className="text-gray-600">Bridging the digital divide by connecting rural students with global resources</p>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-blue-600 text-xl">✓</span>
-                <p className="text-gray-600">Cultivating lifelong learning culture</p>
+                <p className="text-gray-600">Cultivating a culture of lifelong learning for a rapidly evolving world</p>
               </li>
             </ul>
           </div>
@@ -140,15 +144,15 @@ export default function AboutPage() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="text-purple-600 text-xl">✓</span>
-                <p className="text-gray-600">Providing fully-funded scholarships</p>
+                <p className="text-gray-600">Providing fully-funded scholarships to economically disadvantaged students</p>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-purple-600 text-xl">✓</span>
-                <p className="text-gray-600">Empowering through expert mentorship</p>
+                <p className="text-gray-600">Empowering students through expert mentorship and career guidance</p>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-purple-600 text-xl">✓</span>
-                <p className="text-gray-600">Enhancing digital literacy skills</p>
+                <p className="text-gray-600">Enhancing digital literacy skills for the modern workforce</p>
               </li>
             </ul>
           </div>
@@ -209,7 +213,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Gallery - 3 columns without titles */}
+        {/* Gallery */}
         <div className="bg-white rounded-2xl shadow-xl p-8 mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-2 text-center">Gallery</h2>
           <p className="text-center text-gray-500 mb-8">Moments that define our journey</p>

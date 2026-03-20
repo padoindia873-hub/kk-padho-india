@@ -1227,3 +1227,8 @@ https://nextjs.org/docs/messages/module-not-found
 [02:57:29.545] Server  LOG     ✓ Compiled in 23ms
 [02:57:53.132] Server  LOG     ✓ Compiled in 16ms
 [02:58:05.477] Server  LOG     ✓ Compiled in 55ms
+[02:58:40.772] Browser LOG     Video play failed: {}
+[02:58:43.446] Browser LOG     Video play failed: {}
+[02:58:47.335] Browser LOG     Video play failed: {}
+[02:58:50.393] Browser LOG     Video play failed: {}
+[02:58:53.378] Browser LOG     Video play failed: {}

@@ -1220,3 +1220,4 @@ Import traces:
     ./src/app/page.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
+[02:45:56.105] Server  LOG     ✓ Compiled in 51ms

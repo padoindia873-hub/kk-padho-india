@@ -1381,10 +1381,10 @@ function Hero() {
         setTimeout(()=>setIsAutoPlaying(true), 10000);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-71b1c5fdae1cf6e5" + " " + "relative w-full min-h-screen bg-black overflow-hidden",
+        className: "jsx-26e50ddb02d38d9c" + " " + "relative w-full min-h-screen bg-black overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-71b1c5fdae1cf6e5" + " " + "absolute inset-0 w-full h-full",
+                className: "jsx-26e50ddb02d38d9c" + " " + "absolute inset-0 w-full h-full",
                 children: [
                     videos.map((video, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                             ref: (el)=>{
@@ -1397,14 +1397,14 @@ function Hero() {
                             loop: true,
                             playsInline: true,
                             preload: "auto",
-                            className: "jsx-71b1c5fdae1cf6e5" + " " + `absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${activeVideo === index ? "opacity-100" : "opacity-0"}`
+                            className: "jsx-26e50ddb02d38d9c" + " " + `absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${activeVideo === index ? "opacity-100" : "opacity-0"}`
                         }, video.id, false, {
                             fileName: "[project]/src/components/Hero.tsx",
                             lineNumber: 95,
                             columnNumber: 11
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-71b1c5fdae1cf6e5" + " " + "absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"
+                        className: "jsx-26e50ddb02d38d9c" + " " + "absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.tsx",
                         lineNumber: 112,
@@ -1417,13 +1417,13 @@ function Hero() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-71b1c5fdae1cf6e5" + " " + "relative z-10 flex flex-col items-center justify-between min-h-screen px-4 py-6 sm:py-12",
+                className: "jsx-26e50ddb02d38d9c" + " " + "relative z-10 flex flex-col items-center justify-between min-h-screen px-4 py-6 sm:py-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-71b1c5fdae1cf6e5" + " " + "text-center w-full pt-2 sm:pt-4",
+                        className: "jsx-26e50ddb02d38d9c" + " " + "text-center w-full pt-2 sm:pt-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "jsx-71b1c5fdae1cf6e5" + " " + "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500",
+                                className: "jsx-26e50ddb02d38d9c" + " " + "text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500",
                                 children: "KK PADHO INDIA"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
@@ -1431,7 +1431,7 @@ function Hero() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-71b1c5fdae1cf6e5" + " " + "h-0.5 w-12 sm:w-16 bg-gradient-to-r from-green-400 to-blue-500 mx-auto mt-1"
+                                className: "jsx-26e50ddb02d38d9c" + " " + "h-0.5 w-12 sm:w-16 bg-gradient-to-r from-green-400 to-blue-500 mx-auto mt-1"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Hero.tsx",
                                 lineNumber: 123,
@@ -1444,13 +1444,13 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-71b1c5fdae1cf6e5" + " " + "w-full max-w-5xl mx-auto text-center px-2 sm:px-4",
+                        className: "jsx-26e50ddb02d38d9c" + " " + "w-full max-w-5xl mx-auto text-center px-2 sm:px-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-71b1c5fdae1cf6e5" + " " + "mb-6 sm:mb-8 md:mb-12 animate-fadeIn",
+                                className: "jsx-26e50ddb02d38d9c" + " " + "mb-6 sm:mb-8 md:mb-12 animate-fadeIn",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "jsx-71b1c5fdae1cf6e5" + " " + "text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-2 sm:mb-4 drop-shadow-lg leading-tight",
+                                        className: "jsx-26e50ddb02d38d9c" + " " + "text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-2 sm:mb-4 drop-shadow-lg leading-tight",
                                         children: videos[activeVideo].mainHeading
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
@@ -1458,7 +1458,7 @@ function Hero() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "jsx-71b1c5fdae1cf6e5" + " " + "text-base sm:text-xl md:text-2xl lg:text-3xl text-blue-400 drop-shadow-lg",
+                                        className: "jsx-26e50ddb02d38d9c" + " " + "text-base sm:text-xl md:text-2xl lg:text-3xl text-blue-400 drop-shadow-lg",
                                         children: videos[activeVideo].subHeading
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
@@ -1472,20 +1472,20 @@ function Hero() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-71b1c5fdae1cf6e5" + " " + "flex items-center justify-center gap-2 sm:gap-3 mt-4 sm:mt-6 md:mt-8",
+                                className: "jsx-26e50ddb02d38d9c" + " " + "flex items-center justify-center gap-2 sm:gap-3 mt-4 sm:mt-6 md:mt-8",
                                 children: videos.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>handleDotClick(index),
-                                        className: "jsx-71b1c5fdae1cf6e5" + " " + "group relative",
+                                        className: "jsx-26e50ddb02d38d9c" + " " + "group relative",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-71b1c5fdae1cf6e5" + " " + `h-2 sm:h-3 rounded-full transition-all duration-300 ${activeVideo === index ? "w-6 sm:w-8 md:w-10 bg-blue-400 shadow-lg shadow-blue-500/50" : "w-2 sm:w-3 bg-white/70 hover:bg-white"}`
+                                                className: "jsx-26e50ddb02d38d9c" + " " + `h-2 sm:h-3 rounded-full transition-all duration-300 ${activeVideo === index ? "w-6 sm:w-8 md:w-10 bg-blue-400 shadow-lg shadow-blue-500/50" : "w-2 sm:w-3 bg-white/70 hover:bg-white"}`
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
                                                 lineNumber: 148,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-71b1c5fdae1cf6e5" + " " + "hidden sm:block absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-900/90 text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm",
+                                                className: "jsx-26e50ddb02d38d9c" + " " + "hidden sm:block absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-900/90 text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap backdrop-blur-sm",
                                                 children: videos[index].title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Hero.tsx",
@@ -1504,9 +1504,9 @@ function Hero() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-71b1c5fdae1cf6e5" + " " + "mt-3 sm:mt-4 md:mt-6",
+                                className: "jsx-26e50ddb02d38d9c" + " " + "mt-3 sm:mt-4 md:mt-6",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "jsx-71b1c5fdae1cf6e5" + " " + "text-xs sm:text-sm md:text-base text-blue-400 font-semibold drop-shadow-lg",
+                                    className: "jsx-26e50ddb02d38d9c" + " " + "text-xs sm:text-sm md:text-base text-blue-400 font-semibold drop-shadow-lg",
                                     children: [
                                         "Currently: ",
                                         videos[activeVideo].title
@@ -1528,12 +1528,12 @@ function Hero() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-71b1c5fdae1cf6e5" + " " + "text-center mb-2 sm:mb-4 md:mb-8",
+                        className: "jsx-26e50ddb02d38d9c" + " " + "text-center mb-2 sm:mb-4 md:mb-8",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "jsx-71b1c5fdae1cf6e5" + " " + "group relative px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white text-sm sm:text-base md:text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-blue-500/40 overflow-hidden backdrop-blur-sm",
+                            className: "jsx-26e50ddb02d38d9c" + " " + "group relative px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white text-sm sm:text-base md:text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-blue-500/40 overflow-hidden backdrop-blur-sm",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-71b1c5fdae1cf6e5" + " " + "relative z-10",
+                                    className: "jsx-26e50ddb02d38d9c" + " " + "relative z-10",
                                     children: [
                                         "Explore ",
                                         videos[activeVideo].title
@@ -1544,7 +1544,7 @@ function Hero() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-71b1c5fdae1cf6e5" + " " + "absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"
+                                    className: "jsx-26e50ddb02d38d9c" + " " + "absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Hero.tsx",
                                     lineNumber: 174,
@@ -1568,8 +1568,8 @@ function Hero() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "71b1c5fdae1cf6e5",
-                children: "@keyframes fadeIn{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fadeIn.jsx-71b1c5fdae1cf6e5{animation:.5s ease-out fadeIn}@media (width<=64px){.animate-fadeIn.jsx-71b1c5fdae1cf6e5{animation:.3s ease-out fadeIn}}"
+                id: "26e50ddb02d38d9c",
+                children: "@keyframes fadeIn{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.animate-fadeIn.jsx-26e50ddb02d38d9c{animation:.5s ease-out fadeIn}@media (width<=640px){.animate-fadeIn.jsx-26e50ddb02d38d9c{animation:.3s ease-out fadeIn}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {

@@ -23,13 +23,7 @@ export default function Hero() {
       mainHeading: "Master Smart Study Techniques",
       subHeading: "Learn How Top Students Study"
     },
-    {
-      id: 2,
-      src: "/Videos/study1.mp4",
-      title: "Smart Study Techniques",
-      mainHeading: "Master Smart Study Techniques",
-      subHeading: "Learn How Top Students Study"
-    },
+    
     {
       id: 3,
       src: "/Videos/study2.mp4",
@@ -37,6 +31,16 @@ export default function Hero() {
       mainHeading: "Ace Your Exams With Confidence",
       subHeading: "Proven Exam Preparation Strategies"
     },
+
+{
+      id: 2,
+      src: "/Videos/study1.mp4",
+      title: "Smart Study Techniques",
+      mainHeading: "Master Smart Study Techniques",
+      subHeading: "Learn How Top Students Study"
+    },
+
+
     {
       id: 4,
       src: "/Videos/study3.mp4",

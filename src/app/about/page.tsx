@@ -12,7 +12,6 @@ interface Director {
 
 interface GalleryImage {
   id: number;
-  title: string;
   src: string;
 }
 
@@ -30,12 +29,12 @@ export default function AboutPage() {
   ];
 
   const galleryImages: GalleryImage[] = [
-    { id: 1, title: "Bholanath De", src: "/images/image1.png" },
-    { id: 2, title: "Bipul Mondal", src: "/images/image2.png" },
-    { id: 3, title: "Afsasur Rahaman Sardar", src: "/images/image3.png" },
-    { id: 4, title: "Anirban Saha", src: "/images/image4.png" },
-    { id: 5, title: "Pradip Kumar Goswami", src: "/images/image5.png" },
-    { id: 6, title: "Jaggu Sahani", src: "/images/image6.png" },
+    { id: 1, src: "/images/image1.png" },
+    { id: 2, src: "/images/image2.png" },
+    { id: 3, src: "/images/image3.png" },
+    { id: 4, src: "/images/image4.png" },
+    { id: 5, src: "/images/image5.png" },
+    { id: 6, src: "/images/image6.png" },
   ];
 
   return (
@@ -210,7 +209,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Gallery - 3 columns */}
+        {/* Gallery - 3 columns without titles */}
         <div className="bg-white rounded-2xl shadow-xl p-8 mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-2 text-center">Gallery</h2>
           <p className="text-center text-gray-500 mb-8">Moments that define our journey</p>
@@ -223,16 +222,12 @@ export default function AboutPage() {
               >
                 <Image
                   src={image.src}
-                  alt={image.title}
+                  alt="Gallery"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-4">
-                  <span className="text-white text-sm font-medium bg-black/50 px-3 py-1 rounded-full">
-                    {image.title}
-                  </span>
-                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             ))}
           </div>
@@ -272,14 +267,11 @@ export default function AboutPage() {
               <div className="relative aspect-video w-full bg-gray-900">
                 <Image
                   src={selectedImage.src}
-                  alt={selectedImage.title}
+                  alt="Gallery"
                   fill
                   className="object-contain"
                   priority
                 />
-              </div>
-              <div className="p-4">
-                <h3 className="text-xl font-bold text-gray-800">{selectedImage.title}</h3>
               </div>
             </div>
           </div>

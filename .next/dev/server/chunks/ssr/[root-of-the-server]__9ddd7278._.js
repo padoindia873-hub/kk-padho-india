@@ -2482,129 +2482,164 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function GallerySection() {
     const [selectedImage, setSelectedImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
-    // Gallery images from public/images/folder
+    // Gallery images from public/images/folder with proper titles
     const galleryImages = [
         {
             id: 1,
-            title: "Scholarship Award Ceremony",
+            title: "Acting Course",
             src: "/images/acting.png",
-            category: "Scholarship"
+            category: "Acting"
         },
         {
             id: 2,
-            title: "Students Studying Together",
+            title: "Aerospace Engineering",
             src: "/images/aerospace.png",
-            category: "Students"
+            category: "Engineering"
         },
         {
             id: 3,
-            title: "Exam Preparation Class",
+            title: "Agriculture Science",
             src: "/images/agriculture.png",
-            category: "Events"
+            category: "Agriculture"
         },
         {
             id: 4,
-            title: "Free Tuition Session",
+            title: "Automobile Engineering",
             src: "/images/automobile.png",
-            category: "Students"
+            category: "Engineering"
         },
         {
             id: 5,
-            title: "Career Counseling",
+            title: "B.Ed Program",
             src: "/images/b.ed.png",
-            category: "Events"
+            category: "Education"
         },
         {
             id: 6,
-            title: "Scholarship Winners",
+            title: "BBA Course",
             src: "/images/bba.png",
-            category: "Scholarship"
+            category: "Management"
         },
         {
             id: 7,
-            title: "IT Training Workshop",
+            title: "BCA Program",
             src: "/images/bca.png",
-            category: "Events"
+            category: "Computer"
         },
         {
             id: 8,
-            title: "Spoken English Class",
+            title: "Civil Engineering",
             src: "/images/civil.png",
-            category: "Students"
+            category: "Engineering"
         },
         {
             id: 9,
-            title: "Medical Camp",
+            title: "D.El.Ed Course",
             src: "/images/deled.png",
-            category: "Events"
+            category: "Education"
         },
         {
             id: 10,
-            title: "Acting Workshop",
+            title: "Graphic Design",
             src: "/images/graphic.png",
-            category: "Students"
+            category: "Design"
         },
         {
             id: 11,
-            title: "Scholarship Distribution",
+            title: "Journalism",
             src: "/images/journalism.png",
-            category: "Scholarship"
+            category: "Media"
         },
         {
             id: 12,
-            title: "Computer Lab Session",
+            title: "MBA Program",
             src: "/images/mba.png",
-            category: "Students"
+            category: "Management"
         },
         {
             id: 13,
-            title: "Seminar Hall",
+            title: "MBBS Course",
             src: "/images/mbbs.png",
-            category: "Events"
+            category: "Medical"
         },
         {
             id: 14,
-            title: "Library Study Session",
+            title: "MCA Program",
             src: "/images/mca.png",
-            category: "Students"
+            category: "Computer"
         },
         {
             id: 15,
-            title: "Award Ceremony",
+            title: "Nuclear Science",
             src: "/images/nuclear.png",
-            category: "Scholarship"
+            category: "Science"
         },
         {
             id: 16,
-            title: "Group Discussion",
+            title: "Nursing Course",
             src: "/images/nursing.png",
-            category: "Students"
+            category: "Medical"
         },
         {
             id: 17,
-            title: "Workshop",
+            title: "PhD Program",
             src: "/images/phd.png",
-            category: "Events"
+            category: "Research"
         },
         {
             id: 18,
-            title: "Mentorship Session",
+            title: "Software Engineering",
             src: "/images/software.png",
-            category: "Students"
+            category: "Engineering"
         },
         {
             id: 19,
-            title: "Scholarship Test",
+            title: "UPSC Coaching",
             src: "/images/upsc.png",
-            category: "Scholarship"
+            category: "Civil Services"
         },
         {
             id: 20,
-            title: "Graduation Ceremony",
+            title: "Web Development",
             src: "/images/web development.png",
-            category: "Events"
+            category: "Computer"
         }
     ];
+    // Function to get category color
+    const getCategoryColor = (category)=>{
+        const colors = {
+            "Acting": "bg-purple-500",
+            "Engineering": "bg-blue-500",
+            "Agriculture": "bg-green-500",
+            "Education": "bg-yellow-500",
+            "Management": "bg-indigo-500",
+            "Computer": "bg-cyan-500",
+            "Design": "bg-pink-500",
+            "Media": "bg-orange-500",
+            "Medical": "bg-red-500",
+            "Science": "bg-teal-500",
+            "Research": "bg-violet-500",
+            "Civil Services": "bg-emerald-500"
+        };
+        return colors[category] || "bg-gray-500";
+    };
+    const getCategoryBadgeColor = (category)=>{
+        const colors = {
+            "Acting": "bg-purple-100 text-purple-700",
+            "Engineering": "bg-blue-100 text-blue-700",
+            "Agriculture": "bg-green-100 text-green-700",
+            "Education": "bg-yellow-100 text-yellow-700",
+            "Management": "bg-indigo-100 text-indigo-700",
+            "Computer": "bg-cyan-100 text-cyan-700",
+            "Design": "bg-pink-100 text-pink-700",
+            "Media": "bg-orange-100 text-orange-700",
+            "Medical": "bg-red-100 text-red-700",
+            "Science": "bg-teal-100 text-teal-700",
+            "Research": "bg-violet-100 text-violet-700",
+            "Civil Services": "bg-emerald-100 text-emerald-700"
+        };
+        return colors[category] || "bg-gray-100 text-gray-700";
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "w-full bg-gradient-to-b from-blue-50 to-white py-16 px-4 sm:px-6 lg:px-8",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2617,44 +2652,44 @@ function GallerySection() {
                             className: "inline-block bg-blue-100 rounded-full px-4 py-1 mb-4",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-blue-700 text-sm font-semibold",
-                                children: "📸 GALLERY"
+                                children: "📸 COURSE GALLERY"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                lineNumber: 48,
+                                lineNumber: 85,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                            lineNumber: 47,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl md:text-4xl font-bold text-blue-900 mb-4",
-                            children: "Padho India Exam Preparation Gallery"
+                            children: "Padho India Course Gallery"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                            lineNumber: 50,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-gray-600 max-w-2xl mx-auto",
-                            children: "Empowering dreams through education, support, and opportunity."
+                            children: "Explore various educational courses and programs we offer"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                            lineNumber: 53,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mt-4"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                            lineNumber: 56,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                    lineNumber: 46,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2672,7 +2707,7 @@ function GallerySection() {
                                     onLoadingComplete: ()=>setIsLoading(false)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 105,
                                     columnNumber: 15
                                 }, this),
                                 isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2681,12 +2716,12 @@ function GallerySection() {
                                         className: "w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 117,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 116,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2699,33 +2734,33 @@ function GallerySection() {
                                                 children: image.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                lineNumber: 87,
+                                                lineNumber: 124,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex items-center gap-1 mt-1",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: `text-xs px-2 py-0.5 rounded-full ${image.category === "Scholarship" ? "bg-yellow-500 text-white" : image.category === "Events" ? "bg-purple-500 text-white" : "bg-green-500 text-white"}`,
+                                                    className: `text-xs px-2 py-0.5 rounded-full text-white ${getCategoryColor(image.category)}`,
                                                     children: image.category
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                    lineNumber: 89,
+                                                    lineNumber: 126,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                lineNumber: 88,
+                                                lineNumber: 125,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 123,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 122,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2735,49 +2770,38 @@ function GallerySection() {
                                         children: "🔍 Preview"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 135,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                    lineNumber: 101,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute top-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded-full backdrop-blur-sm",
-                                    children: [
-                                        "#",
-                                        image.id
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 134,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, image.id, true, {
                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                            lineNumber: 62,
+                            lineNumber: 99,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                    lineNumber: 60,
+                    lineNumber: 97,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-center mt-12",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: "bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg",
-                        children: "Load More Images"
+                        children: "Load More Courses"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                        lineNumber: 117,
+                        lineNumber: 145,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                    lineNumber: 116,
+                    lineNumber: 144,
                     columnNumber: 9
                 }, this),
                 selectedImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2801,17 +2825,17 @@ function GallerySection() {
                                         d: "M6 18L18 6M6 6l12 12"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 163,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 162,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                lineNumber: 130,
+                                lineNumber: 158,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2827,12 +2851,12 @@ function GallerySection() {
                                             priority: true
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 170,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 169,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2847,28 +2871,28 @@ function GallerySection() {
                                                             children: selectedImage.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                            lineNumber: 153,
+                                                            lineNumber: 181,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex items-center gap-2",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                className: `text-sm px-3 py-1 rounded-full ${selectedImage.category === "Scholarship" ? "bg-yellow-100 text-yellow-700" : selectedImage.category === "Events" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`,
+                                                                className: `text-sm px-3 py-1 rounded-full ${getCategoryBadgeColor(selectedImage.category)}`,
                                                                 children: selectedImage.category
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                                lineNumber: 155,
+                                                                lineNumber: 183,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                            lineNumber: 154,
+                                                            lineNumber: 182,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 180,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2876,24 +2900,24 @@ function GallerySection() {
                                                     children: "Download"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                    lineNumber: 165,
+                                                    lineNumber: 188,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                            lineNumber: 151,
+                                            lineNumber: 179,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 178,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                lineNumber: 140,
+                                lineNumber: 168,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2915,17 +2939,17 @@ function GallerySection() {
                                         d: "M15 19l-7-7 7-7"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                        lineNumber: 182,
+                                        lineNumber: 205,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                    lineNumber: 181,
+                                    lineNumber: 204,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                lineNumber: 173,
+                                lineNumber: 196,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2947,39 +2971,39 @@ function GallerySection() {
                                         d: "M9 5l7 7-7 7"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                        lineNumber: 195,
+                                        lineNumber: 218,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                    lineNumber: 194,
+                                    lineNumber: 217,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                lineNumber: 186,
+                                lineNumber: 209,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                        lineNumber: 128,
+                        lineNumber: 156,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                    lineNumber: 124,
+                    lineNumber: 152,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-            lineNumber: 43,
+            lineNumber: 80,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-        lineNumber: 42,
+        lineNumber: 79,
         columnNumber: 5
     }, this);
 }

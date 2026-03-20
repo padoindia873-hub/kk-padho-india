@@ -14,29 +14,66 @@ export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
-  // Gallery images from public/images/folder
+  // Gallery images from public/images/folder with proper titles
   const galleryImages: GalleryImage[] = [
-    { id: 1, title: "Scholarship Award Ceremony", src: "/images/acting.png", category: "Scholarship" },
-    { id: 2, title: "Students Studying Together", src: "/images/aerospace.png", category: "Students" },
-    { id: 3, title: "Exam Preparation Class", src: "/images/agriculture.png", category: "Events" },
-    { id: 4, title: "Free Tuition Session", src: "/images/automobile.png", category: "Students" },
-    { id: 5, title: "Career Counseling", src: "/images/b.ed.png", category: "Events" },
-    { id: 6, title: "Scholarship Winners", src: "/images/bba.png", category: "Scholarship" },
-    { id: 7, title: "IT Training Workshop", src: "/images/bca.png", category: "Events" },
-    { id: 8, title: "Spoken English Class", src: "/images/civil.png", category: "Students" },
-    { id: 9, title: "Medical Camp", src: "/images/deled.png", category: "Events" },
-    { id: 10, title: "Acting Workshop", src: "/images/graphic.png", category: "Students" },
-    { id: 11, title: "Scholarship Distribution", src: "/images/journalism.png", category: "Scholarship" },
-    { id: 12, title: "Computer Lab Session", src: "/images/mba.png", category: "Students" },
-    { id: 13, title: "Seminar Hall", src: "/images/mbbs.png", category: "Events" },
-    { id: 14, title: "Library Study Session", src: "/images/mca.png", category: "Students" },
-    { id: 15, title: "Award Ceremony", src: "/images/nuclear.png", category: "Scholarship" },
-    { id: 16, title: "Group Discussion", src: "/images/nursing.png", category: "Students" },
-    { id: 17, title: "Workshop", src: "/images/phd.png", category: "Events" },
-    { id: 18, title: "Mentorship Session", src: "/images/software.png", category: "Students" },
-    { id: 19, title: "Scholarship Test", src: "/images/upsc.png", category: "Scholarship" },
-    { id: 20, title: "Graduation Ceremony", src: "/images/web development.png", category: "Events" }
+    { id: 1, title: "Acting Course", src: "/images/acting.png", category: "Acting" },
+    { id: 2, title: "Aerospace Engineering", src: "/images/aerospace.png", category: "Engineering" },
+    { id: 3, title: "Agriculture Science", src: "/images/agriculture.png", category: "Agriculture" },
+    { id: 4, title: "Automobile Engineering", src: "/images/automobile.png", category: "Engineering" },
+    { id: 5, title: "B.Ed Program", src: "/images/b.ed.png", category: "Education" },
+    { id: 6, title: "BBA Course", src: "/images/bba.png", category: "Management" },
+    { id: 7, title: "BCA Program", src: "/images/bca.png", category: "Computer" },
+    { id: 8, title: "Civil Engineering", src: "/images/civil.png", category: "Engineering" },
+    { id: 9, title: "D.El.Ed Course", src: "/images/deled.png", category: "Education" },
+    { id: 10, title: "Graphic Design", src: "/images/graphic.png", category: "Design" },
+    { id: 11, title: "Journalism", src: "/images/journalism.png", category: "Media" },
+    { id: 12, title: "MBA Program", src: "/images/mba.png", category: "Management" },
+    { id: 13, title: "MBBS Course", src: "/images/mbbs.png", category: "Medical" },
+    { id: 14, title: "MCA Program", src: "/images/mca.png", category: "Computer" },
+    { id: 15, title: "Nuclear Science", src: "/images/nuclear.png", category: "Science" },
+    { id: 16, title: "Nursing Course", src: "/images/nursing.png", category: "Medical" },
+    { id: 17, title: "PhD Program", src: "/images/phd.png", category: "Research" },
+    { id: 18, title: "Software Engineering", src: "/images/software.png", category: "Engineering" },
+    { id: 19, title: "UPSC Coaching", src: "/images/upsc.png", category: "Civil Services" },
+    { id: 20, title: "Web Development", src: "/images/web development.png", category: "Computer" }
   ];
+
+  // Function to get category color
+  const getCategoryColor = (category: string) => {
+    const colors: Record<string, string> = {
+      "Acting": "bg-purple-500",
+      "Engineering": "bg-blue-500",
+      "Agriculture": "bg-green-500",
+      "Education": "bg-yellow-500",
+      "Management": "bg-indigo-500",
+      "Computer": "bg-cyan-500",
+      "Design": "bg-pink-500",
+      "Media": "bg-orange-500",
+      "Medical": "bg-red-500",
+      "Science": "bg-teal-500",
+      "Research": "bg-violet-500",
+      "Civil Services": "bg-emerald-500"
+    };
+    return colors[category] || "bg-gray-500";
+  };
+
+  const getCategoryBadgeColor = (category: string) => {
+    const colors: Record<string, string> = {
+      "Acting": "bg-purple-100 text-purple-700",
+      "Engineering": "bg-blue-100 text-blue-700",
+      "Agriculture": "bg-green-100 text-green-700",
+      "Education": "bg-yellow-100 text-yellow-700",
+      "Management": "bg-indigo-100 text-indigo-700",
+      "Computer": "bg-cyan-100 text-cyan-700",
+      "Design": "bg-pink-100 text-pink-700",
+      "Media": "bg-orange-100 text-orange-700",
+      "Medical": "bg-red-100 text-red-700",
+      "Science": "bg-teal-100 text-teal-700",
+      "Research": "bg-violet-100 text-violet-700",
+      "Civil Services": "bg-emerald-100 text-emerald-700"
+    };
+    return colors[category] || "bg-gray-100 text-gray-700";
+  };
 
   return (
     <section className="w-full bg-gradient-to-b from-blue-50 to-white py-16 px-4 sm:px-6 lg:px-8">
@@ -45,13 +82,13 @@ export default function GallerySection() {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-block bg-blue-100 rounded-full px-4 py-1 mb-4">
-            <span className="text-blue-700 text-sm font-semibold">📸 GALLERY</span>
+            <span className="text-blue-700 text-sm font-semibold">📸 COURSE GALLERY</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
-            Padho India Exam Preparation Gallery
+            Padho India Course Gallery
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Empowering dreams through education, support, and opportunity.
+            Explore various educational courses and programs we offer
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mt-4"></div>
         </div>
@@ -86,11 +123,7 @@ export default function GallerySection() {
                 <div className="absolute bottom-2 left-2 right-2">
                   <p className="text-white text-sm font-medium truncate">{image.title}</p>
                   <div className="flex items-center gap-1 mt-1">
-                    <span className={`text-xs px-2 py-0.5 rounded-full ${
-                      image.category === "Scholarship" ? "bg-yellow-500 text-white" :
-                      image.category === "Events" ? "bg-purple-500 text-white" :
-                      "bg-green-500 text-white"
-                    }`}>
+                    <span className={`text-xs px-2 py-0.5 rounded-full text-white ${getCategoryColor(image.category)}`}>
                       {image.category}
                     </span>
                   </div>
@@ -103,11 +136,6 @@ export default function GallerySection() {
                   🔍 Preview
                 </span>
               </div>
-
-              {/* Image Number Badge */}
-              <div className="absolute top-2 left-2 bg-black/50 text-white text-xs px-2 py-1 rounded-full backdrop-blur-sm">
-                #{image.id}
-              </div>
             </div>
           ))}
         </div>
@@ -115,7 +143,7 @@ export default function GallerySection() {
         {/* View More Button */}
         <div className="text-center mt-12">
           <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Load More Images
+            Load More Courses
           </button>
         </div>
 
@@ -152,14 +180,9 @@ export default function GallerySection() {
                     <div>
                       <h3 className="text-2xl font-bold text-gray-800 mb-2">{selectedImage.title}</h3>
                       <div className="flex items-center gap-2">
-                        <span className={`text-sm px-3 py-1 rounded-full ${
-                          selectedImage.category === "Scholarship" ? "bg-yellow-100 text-yellow-700" :
-                          selectedImage.category === "Events" ? "bg-purple-100 text-purple-700" :
-                          "bg-green-100 text-green-700"
-                        }`}>
+                        <span className={`text-sm px-3 py-1 rounded-full ${getCategoryBadgeColor(selectedImage.category)}`}>
                           {selectedImage.category}
                         </span>
-                        
                       </div>
                     </div>
                     <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm">

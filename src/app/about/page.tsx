@@ -113,48 +113,59 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Vision & Mission Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100 hover:shadow-lg transition-all">
-            <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center mb-6">
-              <span className="text-3xl">🎯</span>
-            </div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Vision</h2>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <span className="text-blue-600 text-xl">✓</span>
-                <p className="text-gray-600">Equal education for every child regardless of their socioeconomic background</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-blue-600 text-xl">✓</span>
-                <p className="text-gray-600">Bridging the digital divide by connecting rural students with global resources</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-blue-600 text-xl">✓</span>
-                <p className="text-gray-600">Cultivating a culture of lifelong learning for a rapidly evolving world</p>
-              </li>
-            </ul>
+        {/* Vision Section - Enhanced */}
+        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 mb-8 border border-blue-100 hover:shadow-lg transition-all">
+          <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center mb-6">
+            <span className="text-3xl">🎯</span>
           </div>
-
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100 hover:shadow-lg transition-all">
-            <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6">
-              <span className="text-3xl">🚀</span>
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">Our Vision</h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-lg font-semibold text-blue-700 mb-2">Equal education for all</h3>
+              <p className="text-gray-600 leading-relaxed">
+                We envision a future where every child, regardless of their socioeconomic background, has access to quality education that empowers them to build a brighter future.
+              </p>
             </div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Mission</h2>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <span className="text-purple-600 text-xl">✓</span>
-                <p className="text-gray-600">Providing fully-funded scholarships to economically disadvantaged students</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-purple-600 text-xl">✓</span>
-                <p className="text-gray-600">Empowering students through expert mentorship and career guidance</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-purple-600 text-xl">✓</span>
-                <p className="text-gray-600">Enhancing digital literacy skills for the modern workforce</p>
-              </li>
-            </ul>
+            <div>
+              <h3 className="text-lg font-semibold text-blue-700 mb-2">Bridging the digital divide</h3>
+              <p className="text-gray-600 leading-relaxed">
+                By integrating technology into learning, we aim to connect students in rural and underserved areas with global educational resources.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-blue-700 mb-2">Promoting lifelong learning</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Our goal is to cultivate a culture of continuous learning, equipping students with the skills needed to thrive in a rapidly evolving world.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Mission Section - Enhanced */}
+        <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 mb-12 border border-purple-100 hover:shadow-lg transition-all">
+          <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6">
+            <span className="text-3xl">🚀</span>
+          </div>
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">Our Mission</h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-lg font-semibold text-purple-700 mb-2">Providing scholarships</h3>
+              <p className="text-gray-600 leading-relaxed">
+                We offer fully-funded scholarships to students from economically disadvantaged backgrounds, ensuring they have the resources to pursue their education without barriers.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-purple-700 mb-2">Empowering through mentorship</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Our mentorship programs connect students with industry experts, guiding them through career planning and skill development.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-purple-700 mb-2">Enhancing digital literacy</h3>
+              <p className="text-gray-600 leading-relaxed">
+                We equip students with essential digital skills to thrive in the modern workforce, closing the gap between education and employment.
+              </p>
+            </div>
           </div>
         </div>
 

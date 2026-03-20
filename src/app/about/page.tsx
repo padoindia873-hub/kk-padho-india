@@ -41,12 +41,30 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-400/20 rounded-full blur-3xl"></div>
-        <div className="relative max-w-7xl mx-auto text-center">
+      {/* Hero Section with Video Background */}
+      <section className="relative text-white py-24 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[600px] flex items-center">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src="/videos/study-bg.mp4" type="video/mp4" />
+          </video>
+          {/* Dark Overlay for text readability */}
+          <div className="absolute inset-0 bg-black/60"></div>
+        </div>
+        
+        {/* Decorative Elements */}
+        <div className="absolute inset-0 z-1">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-400/20 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto text-center w-full">
           <div className="inline-flex items-center bg-white/20 backdrop-blur-sm rounded-full px-4 py-1 mb-6">
             <span className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse mr-2"></span>
             <span className="text-sm font-medium">Who We Are</span>
@@ -75,7 +93,7 @@ export default function AboutPage() {
               playsInline
               className="w-full h-full object-cover"
             >
-              <source src="/videos/study6.mp4" type="video/mp4" />
+              <source src="/videos/study-bg.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-black/60"></div>
           </div>

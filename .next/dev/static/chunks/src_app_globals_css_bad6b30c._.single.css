@@ -1063,6 +1063,10 @@
     max-height: 80vh;
   }
 
+  .min-h-\[600px\] {
+    min-height: 600px;
+  }
+
   .min-h-screen {
     min-height: 100vh;
   }

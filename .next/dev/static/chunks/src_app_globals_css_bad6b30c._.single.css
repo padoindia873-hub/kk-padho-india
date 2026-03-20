@@ -783,6 +783,10 @@
     margin-inline: auto;
   }
 
+  .my-2 {
+    margin-block: calc(var(--spacing) * 2);
+  }
+
   .my-6 {
     margin-block: calc(var(--spacing) * 6);
   }
@@ -989,6 +993,14 @@
 
   .h-full {
     height: 100%;
+  }
+
+  .max-h-60 {
+    max-height: calc(var(--spacing) * 60);
+  }
+
+  .max-h-96 {
+    max-height: calc(var(--spacing) * 96);
   }
 
   .max-h-\[80vh\] {

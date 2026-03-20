@@ -37,17 +37,18 @@ export default function Navbar() {
   return (
     <nav className="w-full flex items-center justify-between px-4 md:px-12 py-4 bg-white shadow-lg sticky top-0 z-50 border-b border-green-100">
       
-{/* Logo */}
-<div 
-  className="flex items-center cursor-pointer group" 
-  onClick={() => handleNavigation("/")}
->
-  <img 
-    src="/images/logo.png" 
-    alt="KK PADHO INDIA Logo" 
-    className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
-  />
-</div>
+      {/* Logo */}
+      <div 
+        className="flex items-center cursor-pointer group" 
+        onClick={() => handleNavigation("/")}
+      >
+        <img 
+          src="/images/logo.png" 
+          alt="KK PADHO INDIA Logo" 
+          className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      
       {/* Desktop Menu */}
       <ul className="hidden md:flex items-center gap-6 lg:gap-8 text-gray-700 font-medium">
         {/* Home */}
@@ -175,7 +176,7 @@ export default function Navbar() {
           )}
         </li>
 
-        {/* Services with Dropdown */}
+        {/* Services with Dropdown - Updated with new items */}
         <li className="relative">
           <button 
             onClick={() => toggleDropdown('services')}
@@ -196,9 +197,17 @@ export default function Navbar() {
             </svg>
           </button>
           
-          {/* Desktop Dropdown Menu */}
+          {/* Desktop Dropdown Menu - Expanded with new items */}
           {openDropdown === 'services' && (
-            <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100">
+            <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100 max-h-96 overflow-y-auto">
+              <Link href="/services/live-stream" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📺 Live Stream</Link>
+              <Link href="/services/prize-list" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🏆 Prize List</Link>
+              <Link href="/services/exam-system" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📝 Scholarship Exam System</Link>
+              <Link href="/services/qar" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🚗 QAR</Link>
+              <Link href="/services/vision-mission" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🎯 Vision & Mission</Link>
+              <Link href="/services/kk-raksha-kavach" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🛡️ KK Raksha Kavach</Link>
+              <Link href="/services/kk-membership" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">💳 KK Membership Card</Link>
+              <div className="border-t border-gray-200 my-2"></div>
               <Link href="/services/scholarship" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🎯 Scholarship Guidance</Link>
               <Link href="/services/career" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">💼 Career Counseling</Link>
               <Link href="/services/skill" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🔧 Skill Development</Link>
@@ -376,7 +385,7 @@ export default function Navbar() {
               )}
             </li>
 
-            {/* Services Mobile */}
+            {/* Services Mobile - Updated with new items */}
             <li>
               <button 
                 onClick={() => toggleMobileDropdown('services')}
@@ -396,7 +405,15 @@ export default function Navbar() {
                 </svg>
               </button>
               {mobileDropdown === 'services' && (
-                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2">
+                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2 max-h-60 overflow-y-auto">
+                  <Link href="/services/live-stream" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/live-stream")}>📺 Live Stream</Link>
+                  <Link href="/services/prize-list" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/prize-list")}>🏆 Prize List</Link>
+                  <Link href="/services/exam-system" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/exam-system")}>📝 Scholarship Exam System</Link>
+                  <Link href="/services/qar" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/qar")}>🚗 QAR</Link>
+                  <Link href="/services/vision-mission" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/vision-mission")}>🎯 Vision & Mission</Link>
+                  <Link href="/services/kk-raksha-kavach" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/kk-raksha-kavach")}>🛡️ KK Raksha Kavach</Link>
+                  <Link href="/services/kk-membership" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/kk-membership")}>💳 KK Membership Card</Link>
+                  <div className="border-t border-gray-200 my-2"></div>
                   <Link href="/services/scholarship" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/scholarship")}>🎯 Scholarship Guidance</Link>
                   <Link href="/services/career" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/career")}>💼 Career Counseling</Link>
                   <Link href="/services/skill" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/services/skill")}>🔧 Skill Development</Link>

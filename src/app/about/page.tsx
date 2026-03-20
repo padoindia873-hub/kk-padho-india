@@ -75,7 +75,7 @@ export default function AboutPage() {
               playsInline
               className="w-full h-full object-cover"
             >
-              <source src="/videos/study-bg.mp4" type="video/mp4" />
+              <source src="/videos/study6.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-black/60"></div>
           </div>

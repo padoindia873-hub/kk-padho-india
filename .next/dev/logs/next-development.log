@@ -70,3 +70,8 @@
 [02:10:00.283] Browser WARN    Image with src "/images/web development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [02:10:02.858] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/graphic_design.png" "received" null
 [02:10:02.894] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/folder/mbbs.png" "received" null
+[02:11:04.320] Server  LOG     ✓ Compiled in 21ms
+[02:11:05.283] Browser WARN    Image with src "/images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:11:48.961] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/folder/mbbs.png" "received" null
+[02:12:06.262] Server  LOG     ✓ Compiled in 28ms
+[02:12:07.283] Browser WARN    Image with src "/images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.

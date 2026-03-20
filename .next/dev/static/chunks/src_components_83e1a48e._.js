@@ -2579,7 +2579,7 @@ function GallerySection() {
         {
             id: 10,
             title: "Acting Workshop",
-            src: "/images/graphic_design.png",
+            src: "/images/graphic.png",
             category: "Students"
         },
         {
@@ -2597,7 +2597,7 @@ function GallerySection() {
         {
             id: 13,
             title: "Seminar Hall",
-            src: "/images/folder/mbbs.png",
+            src: "/images/mbbs.png",
             category: "Events"
         },
         {

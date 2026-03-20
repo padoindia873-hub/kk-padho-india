@@ -43,7 +43,7 @@ export default function Navbar() {
         onClick={() => handleNavigation("/")}
       >
         <img 
-          src="/Images/logo.png" 
+          src="/images/logo.png"
           alt="KK PADHO INDIA Logo" 
           className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
         />

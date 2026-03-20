@@ -4029,9 +4029,7 @@ __turbopack_context__.s([
     ()=>StatsSection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/styled-jsx/style.js [app-client] (ecmascript)");
 "use client";
-;
 ;
 function StatsSection() {
     const stats = [
@@ -4085,366 +4083,106 @@ function StatsSection() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-336d63d64e40c1fb" + " " + "relative w-full bg-gradient-to-br from-slate-50 via-white to-blue-50 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-336d63d64e40c1fb" + " " + "absolute inset-0 overflow-hidden",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-336d63d64e40c1fb" + " " + "absolute -top-40 -right-40 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                        lineNumber: 29,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-336d63d64e40c1fb" + " " + "absolute -bottom-40 -left-40 w-80 h-80 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                        lineNumber: 30,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-336d63d64e40c1fb" + " " + "absolute top-1/2 left-1/3 w-60 h-60 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                        lineNumber: 31,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                lineNumber: 28,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-336d63d64e40c1fb" + " " + "relative max-w-7xl mx-auto",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-336d63d64e40c1fb" + " " + "text-center mb-16",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-336d63d64e40c1fb" + " " + "inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full mb-6 shadow-lg",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-336d63d64e40c1fb" + " " + "text-sm font-semibold tracking-wider",
-                                    children: "📊 IMPACT NUMBERS"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                lineNumber: 38,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "jsx-336d63d64e40c1fb" + " " + "text-4xl md:text-5xl lg:text-6xl font-bold mb-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "jsx-336d63d64e40c1fb" + " " + "bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700 bg-clip-text text-transparent",
-                                        children: "Scholarship & Education"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                        lineNumber: 43,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                        className: "jsx-336d63d64e40c1fb"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                        lineNumber: 46,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "jsx-336d63d64e40c1fb" + " " + "bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent",
-                                        children: "Empowerment"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                        lineNumber: 47,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                lineNumber: 42,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-336d63d64e40c1fb" + " " + "text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed",
-                                children: [
-                                    "Empowering dreams through education, support, and opportunity.",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "jsx-336d63d64e40c1fb" + " " + "block text-blue-600 font-semibold mt-2",
-                                        children: "Making quality education accessible to all."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                        lineNumber: 54,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                lineNumber: 52,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-336d63d64e40c1fb" + " " + "w-24 h-1.5 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 mx-auto mt-6 rounded-full"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                lineNumber: 57,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                        lineNumber: 37,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-336d63d64e40c1fb" + " " + "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8",
-                        children: stats.map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    animationDelay: `${index * 0.1}s`
-                                },
-                                className: "jsx-336d63d64e40c1fb" + " " + "group relative animate-fadeInUp",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-336d63d64e40c1fb" + " " + `absolute -inset-0.5 bg-gradient-to-r ${stat.color} rounded-2xl blur opacity-30 group-hover:opacity-100 transition duration-300`
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                        lineNumber: 69,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-336d63d64e40c1fb" + " " + "relative bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8 overflow-hidden hover:-translate-y-2",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-336d63d64e40c1fb" + " " + `w-16 h-16 bg-gradient-to-br ${stat.color} rounded-2xl flex items-center justify-center mb-5 transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg`,
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + "text-3xl text-white",
-                                                    children: stat.icon
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 76,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                lineNumber: 75,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-336d63d64e40c1fb" + " " + "mb-3",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + `text-4xl md:text-5xl font-black bg-gradient-to-r ${stat.color} bg-clip-text text-transparent`,
-                                                    children: stat.number
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 81,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                lineNumber: 80,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "jsx-336d63d64e40c1fb" + " " + "text-gray-700 font-medium text-lg mb-4 group-hover:text-gray-900 transition-colors",
-                                                children: stat.label
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                lineNumber: 87,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-336d63d64e40c1fb" + " " + "w-full h-1.5 bg-gray-100 rounded-full overflow-hidden",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        width: "100%"
-                                                    },
-                                                    className: "jsx-336d63d64e40c1fb" + " " + `h-full bg-gradient-to-r ${stat.color} animate-progress`
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 93,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                lineNumber: 92,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-336d63d64e40c1fb" + " " + "absolute top-0 right-0 w-20 h-20",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + `absolute top-0 right-0 w-10 h-10 bg-gradient-to-br ${stat.color} opacity-10 rounded-bl-3xl`
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 101,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                lineNumber: 100,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                        lineNumber: 72,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, index, true, {
-                                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                lineNumber: 63,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                        lineNumber: 61,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            animationDelay: '0.8s'
-                        },
-                        className: "jsx-336d63d64e40c1fb" + " " + "mt-16 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-2xl p-8 shadow-2xl animate-fadeInUp",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-336d63d64e40c1fb" + " " + "flex flex-col md:flex-row justify-between items-center gap-6",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-336d63d64e40c1fb" + " " + "text-white",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "jsx-336d63d64e40c1fb" + " " + "text-2xl font-bold mb-2",
-                                            children: "Total Impact So Far"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                            lineNumber: 112,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "jsx-336d63d64e40c1fb" + " " + "text-blue-100",
-                                            children: "Empowering students across India"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                            lineNumber: 113,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                    lineNumber: 111,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-336d63d64e40c1fb" + " " + "flex gap-8",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-336d63d64e40c1fb" + " " + "text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + "text-3xl font-bold text-white",
-                                                    children: "25K+"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 117,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + "text-blue-100 text-sm",
-                                                    children: "Students"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 118,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                            lineNumber: 116,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-336d63d64e40c1fb" + " " + "text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + "text-3xl font-bold text-white",
-                                                    children: "15+"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 121,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + "text-blue-100 text-sm",
-                                                    children: "Courses"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 122,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                            lineNumber: 120,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-336d63d64e40c1fb" + " " + "text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + "text-3xl font-bold text-white",
-                                                    children: "100%"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 125,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-336d63d64e40c1fb" + " " + "text-blue-100 text-sm",
-                                                    children: "Free"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                                    lineNumber: 126,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                            lineNumber: 124,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                                    lineNumber: 115,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
+        className: "w-full bg-gradient-to-b from-gray-50 to-white py-12 px-4 sm:px-6 lg:px-8",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-7xl mx-auto",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-center mb-10",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-2xl md:text-3xl font-bold text-gray-800 mb-2",
+                            children: "Scholarship & Education Empowerment"
+                        }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                            lineNumber: 110,
+                            lineNumber: 30,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-sm text-gray-500",
+                            children: "Empowering dreams through education"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                    lineNumber: 29,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-2 md:grid-cols-4 gap-3",
+                    children: stats.map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 p-3 border border-gray-100",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-2 mb-1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-xl",
+                                            children: stat.icon
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                                            lineNumber: 46,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: `text-lg font-bold bg-gradient-to-r ${stat.color} bg-clip-text text-transparent`,
+                                            children: stat.number
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                                            lineNumber: 47,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                                    lineNumber: 45,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-xs text-gray-500 leading-tight",
+                                    children: stat.label
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                                    lineNumber: 51,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, index, true, {
+                            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                            lineNumber: 41,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                    lineNumber: 39,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-center mt-6",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-xs text-gray-400",
+                        children: "* Supporting students across all educational sectors"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                        lineNumber: 109,
-                        columnNumber: 9
+                        lineNumber: 60,
+                        columnNumber: 11
                     }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
-                lineNumber: 34,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "336d63d64e40c1fb",
-                children: "@keyframes blob{0%{transform:translate(0)scale(1)}33%{transform:translate(30px,-50px)scale(1.1)}66%{transform:translate(-20px,20px)scale(.9)}to{transform:translate(0)scale(1)}}.animate-blob.jsx-336d63d64e40c1fb{animation:7s infinite blob}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}.animate-fadeInUp.jsx-336d63d64e40c1fb{opacity:0;animation:.6s ease-out forwards fadeInUp}@keyframes progress{0%{width:0}to{width:100%}}.animate-progress.jsx-336d63d64e40c1fb{width:0;animation:1s ease-out forwards progress}.animation-delay-2000.jsx-336d63d64e40c1fb{animation-delay:2s}.animation-delay-4000.jsx-336d63d64e40c1fb{animation-delay:4s}"
-            }, void 0, false, void 0, this)
-        ]
-    }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+                    lineNumber: 59,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
+            lineNumber: 26,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/components/Scholarship/StatsSection.tsx",
         lineNumber: 25,
         columnNumber: 5

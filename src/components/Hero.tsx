@@ -193,7 +193,7 @@ export default function Hero() {
         }
 
         /* Mobile specific styles */
-        @media (max-width: 640px) {
+        @media (max-width: 64px) {
           .animate-fadeIn {
             animation: fadeIn 0.3s ease-out;
           }

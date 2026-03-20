@@ -1447,3 +1447,4 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:56:26.510] Browser WARN    Image with src "/images/Pradip Kumar Goswami.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [04:56:26.510] Browser WARN    Image with src "/images/Jaggu Sahani.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [04:56:26.510] Browser WARN    Image with src "/images/Kiran Mondal.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:58:05.183] Server  LOG     ✓ Compiled in 53ms

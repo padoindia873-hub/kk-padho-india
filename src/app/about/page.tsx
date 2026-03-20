@@ -283,7 +283,7 @@ export default function AboutPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-center text-white">
+        <div className="bg-gradient-to-r from-yellow-600 to-indigo-600 rounded-2xl p-8 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Join Our Mission</h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
             Be a part of something bigger. Help us empower the next generation of leaders through education.

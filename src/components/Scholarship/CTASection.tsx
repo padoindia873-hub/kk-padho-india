@@ -16,13 +16,9 @@ export default function CTASection() {
       <div className="relative max-w-4xl mx-auto text-center">
         
         {/* Bengali Text */}
-        <p className="text-2xl md:text-3xl text-yellow-300 font-semibold mb-6 font-bengali">
-          চলুন আমরা এবং আপনারা মিলে সেই সমস্ত ফুটফুটে বাচ্চাদের ভবিষ্যৎ গড়ে তুলি
-        </p>
-        
-        <p className="text-xl text-white mb-4">
-          Let us and you together build the future of our children
-        </p>
+        <p className="text-2xl md:text-3xl text-yellow-300 font-semibold mb-6">
+  Let us and you together build the future of our children
+</p>
         
         <p className="text-lg text-blue-100 mb-8">
           who are the resources of our country, the pillars of our country, and the future of our country.

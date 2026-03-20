@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Footer from "@/components/Footer";
 
 interface Director {
   name: string;
@@ -63,33 +64,48 @@ export default function AboutPage() {
       {/* Main Content */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         
-        {/* Introduction Section */}
-        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12 border border-gray-100 hover:shadow-2xl transition-shadow">
-          <div className="mb-8">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">About Padho India</h2>
-            <div className="w-20 h-1 bg-blue-600 mb-6"></div>
-            <p className="text-gray-600 leading-relaxed mb-4">
+        {/* Introduction Section with Video Background */}
+        <div className="relative rounded-2xl overflow-hidden mb-12 shadow-xl">
+          {/* Video Background */}
+          <div className="absolute inset-0 z-0">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+            >
+              <source src="/videos/study-bg.mp4" type="video/mp4" />
+            </video>
+            <div className="absolute inset-0 bg-black/60"></div>
+          </div>
+          
+          {/* Content */}
+          <div className="relative z-10 p-8 md:p-12 text-white">
+            <h2 className="text-3xl font-bold mb-4">About KK Padho India</h2>
+            <div className="w-20 h-1 bg-yellow-400 mb-6"></div>
+            <p className="text-gray-200 leading-relaxed mb-4">
               Padho India is a revolutionary educational initiative committed to making quality education accessible to every child, regardless of their financial background. Our mission is to empower students with free online tuition, ensuring that financial constraints do not hinder their learning journey.
             </p>
-            <p className="text-gray-600 leading-relaxed mb-4">
+            <p className="text-gray-200 leading-relaxed mb-4">
               We believe that education is the key to unlocking a brighter future. Through Padho India, we offer free online classes covering all subjects for students from Class 5 to 12. Our platform provides comprehensive learning resources, including live interactive sessions, practical classes, and expert guidance to help students excel academically.
             </p>
-            <p className="text-gray-600 leading-relaxed mb-4">
+            <p className="text-gray-200 leading-relaxed mb-4">
               At Padho India, we understand the aspirations of parents who dream of seeing their children become successful professionals in fields like IT, engineering, and medicine. To support these dreams, we provide free training programs in engineering, software development, and other in-demand sectors. Our goal is to bridge the gap between talent and opportunity by offering accessible and high-quality education.
             </p>
-            <p className="text-gray-600 leading-relaxed mb-4">
+            <p className="text-gray-200 leading-relaxed mb-4">
               In addition to empowering students, Padho India also supports junior advocates by arranging financial assistance. This helps them remain dedicated to their legal profession without being burdened by financial struggles.
             </p>
-            <p className="text-gray-600 leading-relaxed font-semibold">
+            <p className="text-gray-200 leading-relaxed font-semibold">
               Padho India is not just an educational platform—it is a movement dedicated to building a stronger, smarter, and brighter nation by ensuring that every child has the opportunity to learn, grow, and succeed.
             </p>
-          </div>
-
-          {/* Bengali Quote */}
-          <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border-l-4 border-blue-600">
-            <p className="text-lg text-gray-800 italic">
-              চলুন আমরা এবং আপনারা মিলে সেই সমস্ত ফুটফুটে বাচ্চাদের ভবিষ্যৎ গড়ে তুলি, যারা আমাদের দেশের সম্পদ. আমাদের দেশের স্তম্ভ এবং আমাদের দেশের ভবিষ্যৎ.
-            </p>
+            
+            {/* Bengali Quote */}
+            <div className="mt-8 p-6 bg-white/10 backdrop-blur-sm rounded-xl border-l-4 border-yellow-400">
+              <p className="text-lg text-gray-200 italic">
+                চলুন আমরা এবং আপনারা মিলে সেই সমস্ত ফুটফুটে বাচ্চাদের ভবিষ্যৎ গড়ে তুলি, যারা আমাদের দেশের সম্পদ. আমাদের দেশের স্তম্ভ এবং আমাদের দেশের ভবিষ্যৎ.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -113,7 +129,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Vision Section - Enhanced */}
+        {/* Vision Section */}
         <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 mb-8 border border-blue-100 hover:shadow-lg transition-all">
           <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center mb-6">
             <span className="text-3xl">🎯</span>
@@ -141,7 +157,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        {/* Mission Section - Enhanced */}
+        {/* Mission Section */}
         <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 mb-12 border border-purple-100 hover:shadow-lg transition-all">
           <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6">
             <span className="text-3xl">🚀</span>
@@ -263,35 +279,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Gallery Modal */}
-      {selectedImage && (
-        <div
-          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
-          onClick={() => setSelectedImage(null)}
-        >
-          <div className="relative max-w-4xl w-full">
-            <button
-              onClick={() => setSelectedImage(null)}
-              className="absolute -top-12 right-0 text-white hover:text-yellow-400 transition-colors"
-            >
-              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-            <div className="bg-white rounded-2xl overflow-hidden">
-              <div className="relative aspect-video w-full bg-gray-900">
-                <Image
-                  src={selectedImage.src}
-                  alt="Gallery"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Footer Component */}
+      <Footer />
     </div>
   );
 }

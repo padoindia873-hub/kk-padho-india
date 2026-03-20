@@ -14,3 +14,18 @@
 [00:22:45.036] Server  LOG     ✓ Compiled in 32ms
 [00:22:56.596] Server  LOG     ✓ Compiled in 35ms
 [00:23:27.823] Server  LOG     ✓ Compiled in 62ms
+[00:29:49.904] Browser LOG     Login clicked
+[00:29:51.897] Browser LOG     Video play failed: {}
+[00:43:03.416] Server  LOG     ✓ Compiled in 25ms
+[00:43:17.752] Server  LOG     ✓ Compiled in 52ms
+[00:43:21.635] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:44.555] Server  LOG     ✓ Compiled in 22ms
+[00:44:19.752] Server  LOG     ✓ Compiled in 36ms
+[00:44:46.491] Server  LOG     ✓ Compiled in 17ms
+[00:49:10.936] Server  LOG     ✓ Compiled in 43ms
+[00:50:04.641] Server  LOG     ✓ Compiled in 23ms
+[00:50:17.467] Server  LOG     ✓ Compiled in 21ms
+[00:50:31.602] Server  LOG     ✓ Compiled in 20ms
+[00:51:40.364] Server  LOG     ✓ Compiled in 37ms
+[00:51:45.549] Server  LOG     ✓ Compiled in 48ms
+[00:54:49.478] Server  LOG     ✓ Compiled in 28ms

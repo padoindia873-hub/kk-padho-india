@@ -37,19 +37,17 @@ export default function Navbar() {
   return (
     <nav className="w-full flex items-center justify-between px-4 md:px-12 py-4 bg-white shadow-lg sticky top-0 z-50 border-b border-green-100">
       
-      {/* Logo */}
-      <div 
-        className="flex items-center gap-2 cursor-pointer group" 
-        onClick={() => handleNavigation("/")}
-      >
-        <div className="w-10 h-10 bg-gradient-to-br from-green-600 to-green-700 rounded-lg shadow-md group-hover:shadow-lg transition-all duration-300 flex items-center justify-center">
-          <span className="text-white font-bold text-lg">K</span>
-        </div>
-        <span className="text-xl font-bold text-gray-800 group-hover:text-green-600 transition-colors duration-300">
-          KK PADHO INDIA
-        </span>
-      </div>
-
+{/* Logo */}
+<div 
+  className="flex items-center cursor-pointer group" 
+  onClick={() => handleNavigation("/")}
+>
+  <img 
+    src="/images/logo.png" 
+    alt="KK PADHO INDIA Logo" 
+    className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+  />
+</div>
       {/* Desktop Menu */}
       <ul className="hidden md:flex items-center gap-6 lg:gap-8 text-gray-700 font-medium">
         {/* Home */}

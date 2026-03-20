@@ -2852,28 +2852,15 @@ function GallerySection() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex items-center gap-2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: `text-sm px-3 py-1 rounded-full ${selectedImage.category === "Scholarship" ? "bg-yellow-100 text-yellow-700" : selectedImage.category === "Events" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`,
-                                                                    children: selectedImage.category
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                                    lineNumber: 155,
-                                                                    columnNumber: 25
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-sm text-gray-500",
-                                                                    children: [
-                                                                        "Image #",
-                                                                        selectedImage.id
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
-                                                                    lineNumber: 162,
-                                                                    columnNumber: 25
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: `text-sm px-3 py-1 rounded-full ${selectedImage.category === "Scholarship" ? "bg-yellow-100 text-yellow-700" : selectedImage.category === "Events" ? "bg-purple-100 text-purple-700" : "bg-green-100 text-green-700"}`,
+                                                                children: selectedImage.category
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
+                                                                lineNumber: 155,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        }, void 0, false, {
                                                             fileName: "[project]/src/components/Scholarship/GallerySection.tsx",
                                                             lineNumber: 154,
                                                             columnNumber: 23

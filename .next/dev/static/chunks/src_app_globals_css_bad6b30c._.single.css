@@ -1454,6 +1454,16 @@
     }
   }
 
+  .border-white\/30 {
+    border-color: #ffffff4d;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-white\/30 {
+      border-color: color-mix(in oklab, var(--color-white) 30%, transparent);
+    }
+  }
+
   .border-white\/50 {
     border-color: #ffffff80;
   }
@@ -1474,6 +1484,16 @@
 
   .border-yellow-400 {
     border-color: var(--color-yellow-400);
+  }
+
+  .border-yellow-400\/30 {
+    border-color: #fac8004d;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .border-yellow-400\/30 {
+      border-color: color-mix(in oklab, var(--color-yellow-400) 30%, transparent);
+    }
   }
 
   .border-t-transparent {
@@ -2134,6 +2154,16 @@
 
   .bg-yellow-500 {
     background-color: var(--color-yellow-500);
+  }
+
+  .bg-yellow-500\/5 {
+    background-color: #edb2000d;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-yellow-500\/5 {
+      background-color: color-mix(in oklab, var(--color-yellow-500) 5%, transparent);
+    }
   }
 
   .bg-yellow-500\/20 {
@@ -3340,6 +3370,18 @@
   @media (hover: hover) {
     .group-hover\:bg-green-100:is(:where(.group):hover *) {
       background-color: var(--color-green-100);
+    }
+  }
+
+  @media (hover: hover) {
+    .group-hover\:bg-yellow-400\/20:is(:where(.group):hover *) {
+      background-color: #fac80033;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .group-hover\:bg-yellow-400\/20:is(:where(.group):hover *) {
+        background-color: color-mix(in oklab, var(--color-yellow-400) 20%, transparent);
+      }
     }
   }
 

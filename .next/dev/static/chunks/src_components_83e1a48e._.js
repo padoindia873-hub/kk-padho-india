@@ -1919,7 +1919,7 @@ function ServicesGrid() {
                         className: "jsx-16e9557dfb267bc4" + " " + "text-center mb-12",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-16e9557dfb267bc4" + " " + "inline-block bg-white/10 backdrop-blur-md rounded-full px-6 py-2 mb-4 border border-white/20",
+                                className: "jsx-16e9557dfb267bc4" + " " + "inline-block bg-black/100 backdrop-blur-md rounded-full px-6 py-2 mb-4 border border-white/20",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "jsx-16e9557dfb267bc4" + " " + "text-white/90 text-sm font-medium tracking-wider",
                                     children: "⚡ OUR FACILITIES ⚡"
@@ -2047,7 +2047,7 @@ function ServicesGrid() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "jsx-16e9557dfb267bc4" + " " + "mt-12 text-center",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-16e9557dfb267bc4" + " " + "inline-flex items-center gap-3 bg-white/10 backdrop-blur-md rounded-full px-6 py-3 border border-white/20",
+                            className: "jsx-16e9557dfb267bc4" + " " + "inline-flex items-center gap-3 bg-black/100 backdrop-blur-md rounded-full px-6 py-3 border border-white/20",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "jsx-16e9557dfb267bc4" + " " + "w-2 h-2 bg-green-400 rounded-full animate-pulse"

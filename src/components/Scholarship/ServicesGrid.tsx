@@ -76,7 +76,7 @@ export default function ServicesGrid() {
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Header with Glass Effect */}
         <div className="text-center mb-12">
-          <div className="inline-block bg-white/10 backdrop-blur-md rounded-full px-6 py-2 mb-4 border border-white/20">
+          <div className="inline-block bg-black/100 backdrop-blur-md rounded-full px-6 py-2 mb-4 border border-white/20">
             <span className="text-white/90 text-sm font-medium tracking-wider">⚡ OUR FACILITIES ⚡</span>
           </div>
           
@@ -132,7 +132,7 @@ export default function ServicesGrid() {
 
         {/* Bottom Decoration */}
         <div className="mt-12 text-center">
-          <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md rounded-full px-6 py-3 border border-white/20">
+          <div className="inline-flex items-center gap-3 bg-black/100 backdrop-blur-md rounded-full px-6 py-3 border border-white/20">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
             <span className="text-white/90 text-sm">25+ Facilities Available</span>
             <span className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></span>

@@ -59,7 +59,7 @@ export default function ServicesGrid() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/study-bg.jpg" 
+          src="/images/study.png" 
           alt="Students studying" 
           className="w-full h-full object-cover"
         />

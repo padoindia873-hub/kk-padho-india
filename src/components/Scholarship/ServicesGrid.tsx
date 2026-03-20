@@ -63,9 +63,7 @@ export default function ServicesGrid() {
           alt="Students studying" 
           className="w-full h-full object-cover"
         />
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/90 via-purple-900/90 to-pink-900/90 mix-blend-multiply"></div>
-        
+       
         {/* Decorative Pattern Overlay */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{

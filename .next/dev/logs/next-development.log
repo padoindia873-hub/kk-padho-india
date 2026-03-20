@@ -275,3 +275,948 @@
 [02:36:54.061] Browser LOG     Video play failed: {}
 [02:39:25.662] Server  LOG     ✓ Compiled in 44ms
 [02:42:18.990] Server  LOG     ✓ Compiled in 43ms
+[02:44:29.825] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.826] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.827] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.828] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.831] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.833] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.834] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.834] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.835] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.837] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.838] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.838] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.840] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.840] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.841] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.842] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.844] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.846] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.847] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.847] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.848] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.849] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.850] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.850] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.851] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.851] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.852] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.852] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.854] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.854] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.855] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.855] Server  ERROR   ⨯ ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:44:29.856] Server  LOG     ✓ Compiled in 44ms
+[02:44:30.283] Browser ERROR   ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:44:31.283] Browser ERROR   ./src/components/Scholarship/StatsSection.tsx:4:1
+Module not found: Can't resolve 'framer-motion'
+  2 |
+  3 | import React from 'react';
+> 4 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface StatItem {
+  7 |   number: string;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/StatsSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found

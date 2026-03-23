@@ -1918,39 +1918,60 @@ function ServicesGrid() {
             color: "emerald"
         },
         {
-            title: "Free Acting Chances",
-            icon: "🎭",
-            color: "violet"
-        },
-        {
             title: "Up to 70% discount for medicines",
             icon: "💊",
             color: "rose"
+        }
+    ];
+    const scholarshipFeatures = [
+        {
+            title: "Free Scholarship",
+            description: "Merit-based and need-based scholarships for deserving students. Covers tuition fees, study materials, and additional academic support.",
+            icon: "🎓",
+            color: "gold",
+            buttonText: "Apply Now"
         },
         {
-            title: "Free Career Counseling",
+            title: "Scholarship System",
+            description: "Comprehensive scholarship management system with easy application, tracking, and renewal process. Get real-time updates on your application status.",
+            icon: "⚙️",
+            color: "blue",
+            buttonText: "Learn More"
+        },
+        {
+            title: "Get Membership Card",
+            description: "Exclusive membership card providing access to all facilities, discounts, and priority support across all our programs and services.",
+            icon: "💳",
+            color: "purple",
+            buttonText: "Get Card"
+        },
+        {
+            title: "Career Counseling",
+            description: "Professional career guidance, aptitude testing, and personalized roadmaps for your dream career path.",
             icon: "🤝",
-            color: "amber"
+            color: "amber",
+            buttonText: "Book Session"
         },
         {
-            title: "Up to 50% discount for QAR",
+            title: "50% Discount on QAR",
+            description: "Special discount on Quality Assessment Reports (QAR) for all scholarship holders and members.",
             icon: "🚗",
-            color: "lime"
+            color: "green",
+            buttonText: "Claim Discount"
         },
         {
-            title: "Up to 50% discount for KK Raksha Kavach",
-            icon: "🛡️",
-            color: "fuchsia"
-        },
-        {
-            title: "Events Live Streaming",
-            icon: "📺",
-            color: "sky"
-        },
-        {
-            title: "State Level Top School",
+            title: "State Level Top School List",
+            description: "Recognition and ranking of top-performing schools at state level. Get insights into academic excellence benchmarks.",
             icon: "🏆",
-            color: "purple"
+            color: "orange",
+            buttonText: "View List"
+        },
+        {
+            title: "National Level Top School",
+            description: "National recognition for outstanding educational institutions. Comprehensive ranking based on multiple parameters.",
+            icon: "⭐",
+            color: "red",
+            buttonText: "Explore"
         }
     ];
     const getColorClasses = (color)=>{
@@ -2056,223 +2077,488 @@ function ServicesGrid() {
                 text: "text-sky-700",
                 hover: "hover:bg-sky-600 hover:text-white",
                 border: "border-sky-200"
+            },
+            gold: {
+                bg: "bg-amber-50/90 backdrop-blur-sm",
+                text: "text-amber-700",
+                hover: "hover:bg-amber-600 hover:text-white",
+                border: "border-amber-200",
+                gradient: "from-amber-400 to-yellow-500"
             }
         };
         return colors[color] || colors.blue;
     };
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "jsx-16e9557dfb267bc4" + " " + "relative w-full py-20 px-4 sm:px-6 lg:px-8 overflow-hidden",
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 z-0",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/study.png",
-                        alt: "Students studying",
-                        className: "jsx-16e9557dfb267bc4" + " " + "w-full h-full object-cover"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                        lineNumber: 61,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 opacity-10",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-                                backgroundSize: '60px 60px'
-                            },
-                            className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                            lineNumber: 69,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                        lineNumber: 68,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                lineNumber: 60,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-16e9557dfb267bc4" + " " + "relative z-10 max-w-7xl mx-auto",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "jsx-16e9557dfb267bc4" + " " + "relative w-full py-20 px-4 sm:px-6 lg:px-8 overflow-hidden",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-16e9557dfb267bc4" + " " + "text-center mb-12",
+                        className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 z-0",
                         children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: "/images/study.png",
+                                alt: "Students studying",
+                                className: "jsx-16e9557dfb267bc4" + " " + "w-full h-full object-cover"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                lineNumber: 117,
+                                columnNumber: 11
+                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-16e9557dfb267bc4" + " " + "inline-block bg-black/100 backdrop-blur-md rounded-full px-6 py-2 mb-4 border border-white/20",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-16e9557dfb267bc4" + " " + "text-white/90 text-sm font-medium tracking-wider",
-                                    children: "⚡ OUR FACILITIES ⚡"
+                                className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 opacity-10",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+                                        backgroundSize: '60px 60px'
+                                    },
+                                    className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 124,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 79,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "jsx-16e9557dfb267bc4" + " " + "text-4xl md:text-5xl font-bold mb-4",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-16e9557dfb267bc4" + " " + "bg-gradient-to-r from-yellow-300 via-orange-300 to-pink-300 bg-clip-text text-transparent",
-                                    children: "Discover Our Facilities"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                    lineNumber: 84,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 83,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-16e9557dfb267bc4" + " " + "w-24 h-1 bg-gradient-to-r from-yellow-400 to-pink-400 mx-auto mb-6"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 89,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "jsx-16e9557dfb267bc4" + " " + "text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed",
-                                children: "Experience unparalleled educational support with expert mentorship, exclusive scholarships, and personalized coaching designed for your success."
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 91,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                        lineNumber: 78,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-16e9557dfb267bc4" + " " + "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5",
-                        children: services.map((service, index)=>{
-                            const colors = getColorClasses(service.color);
-                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-16e9557dfb267bc4" + " " + `group ${colors.bg} ${colors.border} border-2 rounded-xl p-5 
-                          hover:shadow-2xl transition-all duration-500 cursor-pointer
-                          transform hover:-translate-y-2 hover:scale-105
-                          backdrop-blur-sm ${colors.hover} relative overflow-hidden`,
+                        className: "jsx-16e9557dfb267bc4" + " " + "relative z-10 max-w-7xl mx-auto",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-16e9557dfb267bc4" + " " + "text-center mb-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-16e9557dfb267bc4" + " " + "absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-white/20 to-transparent rounded-bl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                        className: "jsx-16e9557dfb267bc4" + " " + "inline-block bg-black/100 backdrop-blur-md rounded-full px-6 py-2 mb-4 border border-white/20",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "text-white/90 text-sm font-medium tracking-wider",
+                                            children: "⚡ OUR FACILITIES ⚡"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 135,
+                                            columnNumber: 15
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                        lineNumber: 110,
-                                        columnNumber: 17
+                                        lineNumber: 134,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "jsx-16e9557dfb267bc4" + " " + "text-4xl md:text-5xl font-bold mb-4",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "bg-gradient-to-r from-yellow-300 via-orange-300 to-pink-300 bg-clip-text text-transparent",
+                                            children: "Discover Our Facilities"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 139,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                        lineNumber: 138,
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-16e9557dfb267bc4" + " " + "flex flex-col items-center text-center relative z-10",
+                                        className: "jsx-16e9557dfb267bc4" + " " + "w-24 h-1 bg-gradient-to-r from-yellow-400 to-pink-400 mx-auto mb-6"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                        lineNumber: 144,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "jsx-16e9557dfb267bc4" + " " + "text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed",
+                                        children: "Experience unparalleled educational support with expert mentorship, exclusive scholarships, and personalized coaching designed for your success."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                        lineNumber: 146,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                lineNumber: 133,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-16e9557dfb267bc4" + " " + "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5",
+                                children: services.map((service, index)=>{
+                                    const colors = getColorClasses(service.color);
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-16e9557dfb267bc4" + " " + `group ${colors.bg} ${colors.border} border-2 rounded-xl p-5 
+                            hover:shadow-2xl transition-all duration-500 cursor-pointer
+                            transform hover:-translate-y-2 hover:scale-105
+                            backdrop-blur-sm ${colors.hover} relative overflow-hidden`,
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-16e9557dfb267bc4" + " " + `w-16 h-16 ${colors.text} bg-white/50 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 group-hover:rotate-3`,
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "jsx-16e9557dfb267bc4" + " " + "text-4xl",
-                                                    children: service.icon
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                    lineNumber: 115,
-                                                    columnNumber: 21
-                                                }, this)
+                                                className: "jsx-16e9557dfb267bc4" + " " + "absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-white/20 to-transparent rounded-bl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                lineNumber: 114,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-16e9557dfb267bc4" + " " + `font-semibold text-base ${colors.text} group-hover:text-white transition-colors duration-300`,
-                                                children: service.title
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                lineNumber: 118,
+                                                lineNumber: 165,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-16e9557dfb267bc4" + " " + "mt-3 w-8 h-0.5 bg-current opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:w-12"
+                                                className: "jsx-16e9557dfb267bc4" + " " + "flex flex-col items-center text-center relative z-10",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-16e9557dfb267bc4" + " " + `w-16 h-16 ${colors.text} bg-white/50 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 group-hover:rotate-3`,
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "jsx-16e9557dfb267bc4" + " " + "text-4xl",
+                                                            children: service.icon
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                            lineNumber: 170,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                        lineNumber: 169,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-16e9557dfb267bc4" + " " + `font-semibold text-base ${colors.text} group-hover:text-white transition-colors duration-300`,
+                                                        children: service.title
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                        lineNumber: 173,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-16e9557dfb267bc4" + " " + "mt-3 w-8 h-0.5 bg-current opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:w-12"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                        lineNumber: 178,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                lineNumber: 168,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                lineNumber: 123,
+                                                lineNumber: 182,
                                                 columnNumber: 19
                                             }, this)
                                         ]
-                                    }, void 0, true, {
+                                    }, index, true, {
                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 157,
                                         columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                        lineNumber: 127,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, index, true, {
+                                    }, this);
+                                })
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 102,
-                                columnNumber: 15
-                            }, this);
-                        })
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                        lineNumber: 98,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-16e9557dfb267bc4" + " " + "mt-12 text-center",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-16e9557dfb267bc4" + " " + "inline-flex items-center gap-3 bg-black/100 backdrop-blur-md rounded-full px-6 py-3 border border-white/20",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-16e9557dfb267bc4" + " " + "w-2 h-2 bg-green-400 rounded-full animate-pulse"
-                                }, void 0, false, {
+                                lineNumber: 153,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-16e9557dfb267bc4" + " " + "mt-12 text-center",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-16e9557dfb267bc4" + " " + "inline-flex items-center gap-3 bg-black/100 backdrop-blur-md rounded-full px-6 py-3 border border-white/20",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "w-2 h-2 bg-green-400 rounded-full animate-pulse"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 191,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "text-white/90 text-sm",
+                                            children: "12+ Facilities Available"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 192,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "w-2 h-2 bg-yellow-400 rounded-full animate-pulse"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 193,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                    lineNumber: 136,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-16e9557dfb267bc4" + " " + "text-white/90 text-sm",
-                                    children: "25+ Facilities Available"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                    lineNumber: 137,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-16e9557dfb267bc4" + " " + "w-2 h-2 bg-yellow-400 rounded-full animate-pulse"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 190,
                                     columnNumber: 13
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                            lineNumber: 135,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                lineNumber: 189,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                        lineNumber: 134,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                lineNumber: 76,
+                lineNumber: 114,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "jsx-16e9557dfb267bc4" + " " + "relative w-full py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 opacity-10",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M40 20 L44 28 L52 30 L46 36 L48 44 L40 40 L32 44 L34 36 L28 30 L36 28 Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+                                backgroundSize: '80px 80px'
+                            },
+                            className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                            lineNumber: 203,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                        lineNumber: 202,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "jsx-16e9557dfb267bc4" + " " + "relative z-10 max-w-7xl mx-auto",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-16e9557dfb267bc4" + " " + "text-center mb-12",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-16e9557dfb267bc4" + " " + "inline-block bg-white/10 backdrop-blur-md rounded-full px-6 py-2 mb-4 border border-white/20",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "text-yellow-400 text-sm font-medium tracking-wider",
+                                            children: "🏆 SCHOLARSHIP PROGRAMS 🏆"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 213,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                        lineNumber: 212,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "jsx-16e9557dfb267bc4" + " " + "text-4xl md:text-5xl font-bold mb-4",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 bg-clip-text text-transparent",
+                                            children: "Unlock Your Potential"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 217,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                        lineNumber: 216,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-16e9557dfb267bc4" + " " + "w-24 h-1 bg-gradient-to-r from-yellow-400 to-red-400 mx-auto mb-6"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                        lineNumber: 222,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "jsx-16e9557dfb267bc4" + " " + "text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed",
+                                        children: "Access world-class scholarship opportunities, exclusive benefits, and recognition programs designed to support your educational journey and career growth."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                        lineNumber: 224,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                lineNumber: 211,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-16e9557dfb267bc4" + " " + "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16",
+                                children: scholarshipFeatures.map((feature, index)=>{
+                                    const colors = getColorClasses(feature.color);
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-16e9557dfb267bc4" + " " + `group relative bg-white/5 backdrop-blur-sm rounded-2xl p-6 
+                            border border-white/10 hover:border-${feature.color}-400/50
+                            transition-all duration-500 hover:transform hover:-translate-y-2
+                            hover:shadow-2xl hover:shadow-${feature.color}-500/10 overflow-hidden`,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-16e9557dfb267bc4" + " " + `absolute inset-0 bg-gradient-to-br from-${feature.color}-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500`
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                lineNumber: 243,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-16e9557dfb267bc4" + " " + `w-16 h-16 rounded-2xl bg-gradient-to-br from-${feature.color}-400/20 to-${feature.color}-600/20 
+                                flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`,
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "jsx-16e9557dfb267bc4" + " " + "text-4xl",
+                                                    children: feature.icon
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                    lineNumber: 248,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                lineNumber: 246,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "jsx-16e9557dfb267bc4" + " " + `text-xl font-bold mb-3 group-hover:text-${feature.color}-400 transition-colors duration-300`,
+                                                children: feature.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                lineNumber: 252,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "jsx-16e9557dfb267bc4" + " " + "text-gray-400 mb-5 leading-relaxed",
+                                                children: feature.description
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                lineNumber: 256,
+                                                columnNumber: 19
+                                            }, this),
+                                            feature.buttonText && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                className: "jsx-16e9557dfb267bc4" + " " + `inline-flex items-center gap-2 px-4 py-2 rounded-lg 
+                                      bg-gradient-to-r from-${feature.color}-500 to-${feature.color}-600
+                                      text-white font-medium text-sm
+                                      hover:shadow-lg transition-all duration-300
+                                      hover:scale-105`,
+                                                children: [
+                                                    feature.buttonText,
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                        fill: "none",
+                                                        stroke: "currentColor",
+                                                        viewBox: "0 0 24 24",
+                                                        className: "jsx-16e9557dfb267bc4" + " " + "w-4 h-4 group-hover:translate-x-1 transition-transform",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                            strokeLinecap: "round",
+                                                            strokeLinejoin: "round",
+                                                            strokeWidth: 2,
+                                                            d: "M9 5l7 7-7 7",
+                                                            className: "jsx-16e9557dfb267bc4"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                            lineNumber: 269,
+                                                            columnNumber: 25
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                        lineNumber: 268,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                lineNumber: 262,
+                                                columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-16e9557dfb267bc4" + " " + "absolute bottom-0 right-0 w-20 h-20 bg-gradient-to-tl from-white/5 to-transparent rounded-tl-3xl"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                lineNumber: 275,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, index, true, {
+                                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                        lineNumber: 235,
+                                        columnNumber: 17
+                                    }, this);
+                                })
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                lineNumber: 231,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-16e9557dfb267bc4" + " " + "relative bg-gradient-to-r from-yellow-500/10 via-orange-500/10 to-red-500/10 rounded-2xl p-8 md:p-12 border border-white/10 backdrop-blur-sm",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "jsx-16e9557dfb267bc4" + " " + "text-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "text-2xl md:text-3xl font-bold text-white mb-4",
+                                            children: "Ready to Start Your Journey?"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 284,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "text-gray-300 mb-6 max-w-2xl mx-auto",
+                                            children: "Join thousands of successful students who have transformed their future through our scholarship programs."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 287,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-16e9557dfb267bc4" + " " + "flex flex-wrap gap-4 justify-center",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                    className: "jsx-16e9557dfb267bc4" + " " + "px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 text-white font-semibold rounded-lg hover:shadow-xl transition-all duration-300 hover:scale-105",
+                                                    children: "Apply for Scholarship"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                    lineNumber: 291,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                    className: "jsx-16e9557dfb267bc4" + " " + "px-6 py-3 border border-white/30 text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300",
+                                                    children: "Contact Advisor"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                                    lineNumber: 294,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                            lineNumber: 290,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                    lineNumber: 283,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                                lineNumber: 282,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                        lineNumber: 209,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                lineNumber: 200,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2280,11 +2566,7 @@ function ServicesGrid() {
                 children: "@keyframes float{0%,to{transform:translateY(0)}50%{transform:translateY(-10px)}}.animate-float.jsx-16e9557dfb267bc4{animation:3s ease-in-out infinite float}"
             }, void 0, false, void 0, this)
         ]
-    }, void 0, true, {
-        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-        lineNumber: 57,
-        columnNumber: 5
-    }, this);
+    }, void 0, true);
 }
 _c = ServicesGrid;
 var _c;

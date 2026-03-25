@@ -22,13 +22,13 @@ export default function AboutPage() {
   const router = useRouter();
 
   const directors: Director[] = [
-    { name: "Bholanath De", role: "Director", image: "/Images/bholenath de.png" },
+    { name: "Bholanath De", role: "Director", image: "/Images/bholenath%20de.png" },
     { name: "Bipul Mondal", role: "Director", image: "/Images/bipul.png" },
-    { name: "Afsasur Rahaman Sardar", role: "Director", image: "/Images/Afsasur Rahaman Sardar.png" },
-    { name: "Anirban Saha", role: "Director", image: "/Images/Anirban Saha.png" },
-    { name: "Pradip Kumar Goswami", role: "Director", image: "/Images/Pradip Kumar Goswami.png" },
-    { name: "Jaggu Sahani", role: "Director", image: "/Images/Jaggu Sahani.png" },
-    { name: "Kiran Mondal", role: "Director", image: "/Images/Kiran Mondal.png" },
+    { name: "Afsasur Rahaman Sardar", role: "Director", image: "/Images/Afsasur%20Rahaman%20Sardar.png" },
+    { name: "Anirban Saha", role: "Director", image: "/Images/Anirban%20Saha.png" },
+    { name: "Pradip Kumar Goswami", role: "Director", image: "/Images/Pradip%20Kumar%20Goswami.png" },
+    { name: "Jaggu Sahani", role: "Director", image: "/Images/Jaggu%20Sahani.png" },
+    { name: "Kiran Mondal", role: "Director", image: "/Images/Kiran%20Mondal.png" },
   ];
 
   const galleryImages: GalleryImage[] = [
@@ -237,7 +237,7 @@ export default function AboutPage() {
             <div className="md:w-1/3">
               <div className="relative w-48 h-48 mx-auto">
                 <Image
-                  src="/Images/kk khan.png"
+                  src="/Images/kk%20khan.png"
                   alt="Md. K. Khan"
                   fill
                   className="rounded-2xl object-cover border-2 border-yellow-400 shadow-xl"
@@ -270,7 +270,7 @@ export default function AboutPage() {
               <div key={index} className="text-center group">
                 <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-to-br from-blue-100 to-indigo-100">
                   <Image
-                    src={director.image || "/Images/avatar-placeholder.png"}
+                    src={director.image || "/Images/logo.png"}
                     alt={director.name}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-300"

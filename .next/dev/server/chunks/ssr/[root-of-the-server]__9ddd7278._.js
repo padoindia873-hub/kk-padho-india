@@ -3026,7 +3026,7 @@ function GallerySection() {
         {
             id: 20,
             title: "Web Development",
-            src: "/images/web development.png",
+            src: "/images/web-development.png",
             category: "Computer"
         }
     ];

@@ -214,3 +214,6 @@ Expression expected
 [00:02:26.195] Browser WARN    Image with src "/images/web development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:02:26.195] Browser LOG     Video play failed: {}
 [00:02:40.471] Browser LOG     Video play failed: {}
+[00:23:23.310] Server  LOG     ✓ Compiled in 149ms
+[00:23:23.444] Browser WARN    Image with src "/images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:23:24.132] Browser WARN    Image with src "/images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.

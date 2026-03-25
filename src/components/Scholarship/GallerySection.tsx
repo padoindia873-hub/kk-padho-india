@@ -35,7 +35,7 @@ export default function GallerySection() {
     { id: 17, title: "PhD Program", src: "/images/phd.png", category: "Research" },
     { id: 18, title: "Software Engineering", src: "/images/software.png", category: "Engineering" },
     { id: 19, title: "UPSC Coaching", src: "/images/upsc.png", category: "Civil Services" },
-    { id: 20, title: "Web Development", src: "/images/web development.png", category: "Computer" }
+    { id: 20, title: "Web Development", src: "/images/web-development.png", category: "Computer" }
   ];
 
   // Function to get category color

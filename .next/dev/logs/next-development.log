@@ -61,3 +61,6 @@
 [00:00:03.511] Browser WARN    Image with src "/images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:00:03.511] Browser WARN    Image with src "/images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:00:03.511] Browser WARN    Image with src "/images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:17:23.897] Server  LOG     ✓ Compiled in 157ms
+[00:17:23.995] Browser WARN    Image with src "/images/web development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:17:24.513] Browser WARN    Image with src "/images/web development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.

@@ -14,7 +14,7 @@ export default function ForgotPasswordPage() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
-    
+
     // Simulate API call
     setTimeout(() => {
       console.log("Password reset requested for:", email);
@@ -38,7 +38,7 @@ export default function ForgotPasswordPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl w-full bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
-        
+
         {/* Left Side - Image with Overlay */}
         <div className="hidden md:block md:w-1/2 relative bg-gradient-to-br from-green-600 to-blue-600">
           <div className="absolute inset-0 bg-black/20 z-10"></div>
@@ -54,7 +54,7 @@ export default function ForgotPasswordPage() {
             <div className="relative z-30 text-center">
               <h3 className="text-4xl font-bold mb-4">Reset Password</h3>
               <p className="text-xl mb-8">Don't worry, we'll help you recover your account</p>
-              
+
               {/* Tips */}
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mt-8">
                 <h4 className="text-lg font-semibold mb-3">Quick Tips:</h4>

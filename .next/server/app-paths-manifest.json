@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/api/auth/forgot-password/route": "app/api/auth/forgot-password/route.js",
+  "/api/auth/reset-password/route": "app/api/auth/reset-password/route.js",
+  "/committee/page": "app/committee/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/events/page": "app/events/page.js",
+  "/forgot-password/page": "app/forgot-password/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/register/page": "app/register/page.js",
+  "/reset-password/page": "app/reset-password/page.js",
+  "/scholarship/page": "app/scholarship/page.js",
+  "/services/page": "app/services/page.js",
+  "/signup/page": "app/signup/page.js"
+}

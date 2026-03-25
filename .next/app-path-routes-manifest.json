@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/api/auth/forgot-password/route": "/api/auth/forgot-password",
+  "/api/auth/reset-password/route": "/api/auth/reset-password",
+  "/committee/page": "/committee",
+  "/contact/page": "/contact",
+  "/events/page": "/events",
+  "/forgot-password/page": "/forgot-password",
+  "/login/page": "/login",
+  "/page": "/",
+  "/register/page": "/register",
+  "/reset-password/page": "/reset-password",
+  "/scholarship/page": "/scholarship",
+  "/services/page": "/services",
+  "/signup/page": "/signup"
+}

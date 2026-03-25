@@ -22,13 +22,13 @@ export default function AboutPage() {
   const router = useRouter();
 
   const directors: Director[] = [
-    { name: "Bholanath De", role: "Director", image: "/Images/bholenath%20de.png" },
+    { name: "Bholanath De", role: "Director", image: "/Images/bholenath-de.png" },
     { name: "Bipul Mondal", role: "Director", image: "/Images/bipul.png" },
-    { name: "Afsasur Rahaman Sardar", role: "Director", image: "/Images/Afsasur%20Rahaman%20Sardar.png" },
-    { name: "Anirban Saha", role: "Director", image: "/Images/Anirban%20Saha.png" },
-    { name: "Pradip Kumar Goswami", role: "Director", image: "/Images/Pradip%20Kumar%20Goswami.png" },
-    { name: "Jaggu Sahani", role: "Director", image: "/Images/Jaggu%20Sahani.png" },
-    { name: "Kiran Mondal", role: "Director", image: "/Images/Kiran%20Mondal.png" },
+    { name: "Afsasur Rahaman Sardar", role: "Director", image: "/Images/Afsasur-Rahaman-Sardar.png" },
+    { name: "Anirban Saha", role: "Director", image: "/Images/Anirban-Saha.png" },
+    { name: "Pradip Kumar Goswami", role: "Director", image: "/Images/Pradip-Kumar-Goswami.png" },
+    { name: "Jaggu Sahani", role: "Director", image: "/Images/Jaggu-Sahani.png" },
+    { name: "Kiran Mondal", role: "Director", image: "/Images/Kiran-Mondal.png" },
   ];
 
   const galleryImages: GalleryImage[] = [
@@ -237,7 +237,7 @@ export default function AboutPage() {
             <div className="md:w-1/3">
               <div className="relative w-48 h-48 mx-auto">
                 <Image
-                  src="/Images/kk%20khan.png"
+                  src="/Images/kk-khan.png"
                   alt="Md. K. Khan"
                   fill
                   className="rounded-2xl object-cover border-2 border-yellow-400 shadow-xl"

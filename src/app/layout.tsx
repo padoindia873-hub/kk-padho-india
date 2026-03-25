@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   title: "KK PADHO INDIA",
   description: "Empowering students through education and scholarships",
   icons: {
-    icon: '/images/logo.png',      // For regular favicon
-    shortcut: '/images/logo.png',   // For shortcut icon
-    apple: '/images/logo.png',      // For Apple devices
+    icon: '/Images/logo.png',      // For regular favicon
+    shortcut: '/Images/logo.png',   // For shortcut icon
+    apple: '/Images/logo.png',      // For Apple devices
   },
 };
 
@@ -23,8 +23,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Additional favicon formats for better compatibility */}
-        <link rel="icon" href="/images/logo.png" sizes="any" />
-        <link rel="apple-touch-icon" href="/images/logo.png" />
+        <link rel="icon" href="/Images/logo.png" sizes="any" />
+        <link rel="apple-touch-icon" href="/Images/logo.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

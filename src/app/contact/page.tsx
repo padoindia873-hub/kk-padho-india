@@ -114,7 +114,7 @@ export default function ContactPage() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/videos/study5.mp4" type="video/mp4" />
+          <source src="/Videos/study5.mp4" type="video/mp4" />
         </video>
         {/* Light overlay */}
         <div className="absolute inset-0 bg-black/40"></div>

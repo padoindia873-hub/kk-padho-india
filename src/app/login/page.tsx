@@ -39,7 +39,7 @@ export default function LoginPage() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/videos/study5.mp4" type="video/mp4" />
+          <source src="/Videos/study5.mp4" type="video/mp4" />
         </video>
         {/* Deep navy/blue overlay */}
         <div className="absolute inset-0 bg-slate-950/60 backdrop-blur-[2px]"></div>

@@ -23,7 +23,7 @@ export default function CTASection() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/videos/study1.mp4" type="video/mp4" />
+          <source src="/Videos/study1.mp4" type="video/mp4" />
         </video>
         {/* Dark Overlay for better text visibility */}
         <div className="absolute inset-0 bg-black/60"></div>

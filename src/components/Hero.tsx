@@ -18,35 +18,35 @@ export default function Hero() {
   const videos: Video[] = [
     {
       id: 1,
-      src: "/videos/study.mp4",
+      src: "/Videos/study.mp4",
       title: "Smart Study Techniques",
       mainHeading: "Master Smart Study Techniques",
       subHeading: "Learn How Top Students Study"
     },
     {
       id: 2,
-      src: "/videos/study1.mp4",
+      src: "/Videos/study1.mp4",
       title: "Smart Study Techniques",
       mainHeading: "Master Smart Study Techniques",
       subHeading: "Learn How Top Students Study"
     },
     {
       id: 3,
-      src: "/videos/study2.mp4",
+      src: "/Videos/study2.mp4",
       title: "Exam Preparation Guide",
       mainHeading: "Ace Your Exams With Confidence",
       subHeading: "Proven Exam Preparation Strategies"
     },
     {
       id: 4,
-      src: "/videos/study3.mp4",
+      src: "/Videos/study3.mp4",
       title: "Student Success Stories",
       mainHeading: "Inspiring Student Success Stories",
       subHeading: "Real Stories, Real Achievements"
     },
     {
       id: 5,
-      src: "/videos/study4.mp4",
+      src: "/Videos/study4.mp4",
       title: "Effective Learning Methods",
       mainHeading: "Innovative Learning Methods",
       subHeading: "Make Learning Fun & Effective"

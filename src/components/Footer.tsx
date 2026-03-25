@@ -14,7 +14,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-4">
               <div className="flex items-center cursor-pointer group">
                 <img
-                  src="/images/logo.png"
+                  src="/Images/logo.png"
                   alt="KK PADHO INDIA Logo"
                   className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
                 />

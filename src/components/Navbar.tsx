@@ -43,7 +43,7 @@ export default function Navbar() {
         onClick={() => handleNavigation("/")}
       >
         <img 
-          src="/images/logo.png"
+          src="/Images/logo.png"
           alt="" 
           className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
         />

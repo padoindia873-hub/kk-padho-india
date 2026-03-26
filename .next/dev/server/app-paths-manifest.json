@@ -1,4 +1,6 @@
 {
+  "/benefits/free-it-training/page": "app/benefits/free-it-training/page.js",
   "/benefits/free-scholarship/page": "app/benefits/free-scholarship/page.js",
+  "/benefits/free-tuitions/page": "app/benefits/free-tuitions/page.js",
   "/page": "app/page.js"
 }

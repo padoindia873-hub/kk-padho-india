@@ -1,2 +1,22 @@
 [00:00:00.497] Server  WARN    ⚠ Turbopack's filesystem cache has been deleted because we previously detected an internal error in Turbopack. Builds or page loads may be slower as a result.
 [00:00:00.602] Server  LOG     ✓ Ready in 463ms
+[00:00:43.613] Server  WARN    Image with src "/images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.615] Server  WARN    Image with src "/images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.616] Server  WARN    Image with src "/images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.616] Server  WARN    Image with src "/images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.616] Server  WARN    Image with src "/images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.617] Server  WARN    Image with src "/images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.617] Server  WARN    Image with src "/images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.617] Server  WARN    Image with src "/images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.618] Server  WARN    Image with src "/images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.618] Server  WARN    Image with src "/images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.618] Server  WARN    Image with src "/images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.619] Server  WARN    Image with src "/images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.619] Server  WARN    Image with src "/images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.619] Server  WARN    Image with src "/images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.620] Server  WARN    Image with src "/images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.620] Server  WARN    Image with src "/images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.620] Server  WARN    Image with src "/images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.621] Server  WARN    Image with src "/images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.621] Server  WARN    Image with src "/images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:00:43.621] Server  WARN    Image with src "/images/web development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.

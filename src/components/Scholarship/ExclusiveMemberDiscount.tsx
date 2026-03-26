@@ -1,22 +1,24 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 
 interface Benefit {
   title: string;
   icon: string;
   discount?: string;
   description?: string;
+  slug: string;
 }
 
 export default function ExclusiveMemberDiscount() {
   const benefits: Benefit[] = [
-    { title: "KK Raksha Kavach", icon: "🛡️", discount: "UP to 50% off" },
-    { title: "QAR Rides", icon: "🚗", discount: "UP to 50% off" },
-    { title: "QCM Medicines", icon: "💊", discount: "UP to 50% off" },
-    { title: "Legal Support", icon: "⚖️", discount: "UP to 50% off" },
-    { title: "Diagnostics Test", icon: "🔬", discount: "UP to 50% off" },
-    { title: "Nursing Services", icon: "👩‍⚕️", discount: "UP to 50% off" },
+    { title: "KK Raksha Kavach", icon: "🛡️", discount: "UP to 50% off", slug: "kk-raksha-kavach" },
+    { title: "QAR Rides", icon: "🚗", discount: "UP to 50% off", slug: "qar-rides" },
+    { title: "QCM Medicines", icon: "💊", discount: "UP to 50% off", slug: "qcm-medicines" },
+    { title: "Legal Support", icon: "⚖️", discount: "UP to 50% off", slug: "legal-support" },
+    { title: "Diagnostics Test", icon: "🔬", discount: "UP to 50% off", slug: "diagnostics-test" },
+    { title: "Nursing Services", icon: "👩‍⚕️", discount: "UP to 50% off", slug: "nursing-services" },
   ];
 
   return (
@@ -59,41 +61,42 @@ export default function ExclusiveMemberDiscount() {
           </p>
         </div>
 
-        {/* Benefits Grid */}
+        {/* Benefits Grid with Links */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
           {benefits.map((benefit, index) => (
-            <div
-              key={index}
-              className="group bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center
-                       hover:bg-white/20 transition-all duration-500
-                       transform hover:-translate-y-2 hover:scale-105
-                       border border-white/20 shadow-xl
-                       relative overflow-hidden"
-            >
-              {/* Shine Effect */}
-              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+            <Link href={`/member-exclusive-discount/${benefit.slug}`} key={index}>
+              <div
+                className="group bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center
+                         hover:bg-white/20 transition-all duration-500
+                         transform hover:-translate-y-2 hover:scale-105
+                         border border-white/20 shadow-xl
+                         relative overflow-hidden cursor-pointer"
+              >
+                {/* Shine Effect */}
+                <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
-              {/* Icon with Glow */}
-              <div className="relative mb-3">
-                <div className="absolute inset-0 bg-yellow-400/20 rounded-full blur-xl group-hover:blur-2xl transition-all"></div>
-                <span className="relative text-5xl group-hover:scale-110 transition-transform duration-300 inline-block">
-                  {benefit.icon}
-                </span>
-              </div>
-
-              <h3 className="text-white font-semibold text-base mb-2 group-hover:text-yellow-300 transition-colors">
-                {benefit.title}
-              </h3>
-
-              {benefit.discount && (
-                <div className="inline-block bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-xs font-bold">
-                  {benefit.discount}
+                {/* Icon with Glow */}
+                <div className="relative mb-3">
+                  <div className="absolute inset-0 bg-yellow-400/20 rounded-full blur-xl group-hover:blur-2xl transition-all"></div>
+                  <span className="relative text-5xl group-hover:scale-110 transition-transform duration-300 inline-block">
+                    {benefit.icon}
+                  </span>
                 </div>
-              )}
 
-              {/* Hover Border Effect */}
-              <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-yellow-400 to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
-            </div>
+                <h3 className="text-white font-semibold text-base mb-2 group-hover:text-yellow-300 transition-colors">
+                  {benefit.title}
+                </h3>
+
+                {benefit.discount && (
+                  <div className="inline-block bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-xs font-bold">
+                    {benefit.discount}
+                  </div>
+                )}
+
+                {/* Hover Border Effect */}
+                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-yellow-400 to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
+              </div>
+            </Link>
           ))}
         </div>
 

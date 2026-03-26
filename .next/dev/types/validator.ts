@@ -45,6 +45,60 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/benefits/free-career-counseling/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/benefits/free-career-counseling">> = Specific
+  const handler = {} as typeof import("../../../src/app/benefits/free-career-counseling/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/benefits/free-it-training/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/benefits/free-it-training">> = Specific
+  const handler = {} as typeof import("../../../src/app/benefits/free-it-training/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/benefits/free-medical-treatment/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/benefits/free-medical-treatment">> = Specific
+  const handler = {} as typeof import("../../../src/app/benefits/free-medical-treatment/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/benefits/free-scholarship/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/benefits/free-scholarship">> = Specific
+  const handler = {} as typeof import("../../../src/app/benefits/free-scholarship/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/benefits/free-spoken-english/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/benefits/free-spoken-english">> = Specific
+  const handler = {} as typeof import("../../../src/app/benefits/free-spoken-english/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/benefits/free-tuitions/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/benefits/free-tuitions">> = Specific
+  const handler = {} as typeof import("../../../src/app/benefits/free-tuitions/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/committee/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/committee">> = Specific

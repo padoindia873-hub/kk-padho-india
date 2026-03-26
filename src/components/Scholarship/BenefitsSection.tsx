@@ -1,22 +1,24 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 
 interface Benefit {
   title: string;
   icon: string;
   discount?: string;
   description?: string;
+  slug: string;
 }
 
 export default function BenefitsSection() {
   const freeBenefits: Benefit[] = [
-    { title: "Free Scholarship", icon: "🎓" },
-    { title: "Free Tuitions (5 to 12)", icon: "📚" },
-    { title: "Free IT Training", icon: "💻" },
-    { title: "Free Medical Treatment", icon: "🏥" },
-    { title: "Free Spoken English", icon: "🗣️" },
-    { title: "Free Career Counseling", icon: "🤝" },
+    { title: "Free Scholarship", icon: "🎓", slug: "free-scholarship" },
+    { title: "Free Tuitions (5 to 12)", icon: "📚", slug: "free-tuitions" },
+    { title: "Free IT Training", icon: "💻", slug: "free-it-training" },
+    { title: "Free Medical Treatment", icon: "🏥", slug: "free-medical-treatment" },
+    { title: "Free Spoken English", icon: "🗣️", slug: "free-spoken-english" },
+    { title: "Free Career Counseling", icon: "🤝", slug: "free-career-counseling" },
   ];
 
   return (
@@ -60,49 +62,48 @@ export default function BenefitsSection() {
           </p>
         </div>
 
-        {/* Benefits Grid */}
+        {/* Benefits Grid with Links */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {freeBenefits.map((benefit, index) => (
-            <div
-              key={index}
-              className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md rounded-2xl p-6 text-center
-                       hover:from-green-500/20 hover:to-emerald-500/20 transition-all duration-500
-                       transform hover:-translate-y-2 hover:scale-105
-                       border border-white/20 hover:border-green-400/60
-                       shadow-xl hover:shadow-2xl hover:shadow-green-500/30
-                       overflow-hidden cursor-pointer"
-            >
-              {/* Animated Background Gradient */}
-              <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 via-green-500/0 to-emerald-500/0 group-hover:from-green-500/30 group-hover:via-green-500/20 group-hover:to-emerald-500/30 transition-all duration-700"></div>
-              
-              {/* Shine Effect */}
-              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
+            <Link href={`/benefits/${benefit.slug}`} key={index}>
+              <div
+                className="group relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-md rounded-2xl p-6 text-center
+                         hover:from-green-500/20 hover:to-emerald-500/20 transition-all duration-500
+                         transform hover:-translate-y-2 hover:scale-105
+                         border border-white/20 hover:border-green-400/60
+                         shadow-xl hover:shadow-2xl hover:shadow-green-500/30
+                         overflow-hidden cursor-pointer"
+              >
+                {/* Animated Background Gradient */}
+                <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 via-green-500/0 to-emerald-500/0 group-hover:from-green-500/30 group-hover:via-green-500/20 group-hover:to-emerald-500/30 transition-all duration-700"></div>
+                
+                {/* Shine Effect */}
+                <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
 
-              {/* Icon Container */}
-              <div className="relative mb-5">
-                <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-400 rounded-full blur-2xl opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-                <div className="relative w-20 h-20 mx-auto bg-gradient-to-br from-green-500/30 to-emerald-500/30 rounded-2xl flex items-center justify-center border border-green-400/50 group-hover:border-green-400 group-hover:scale-110 transition-all duration-300 shadow-lg">
-                  <span className="text-4xl group-hover:scale-110 transition-transform duration-300">
-                    {benefit.icon}
-                  </span>
+                {/* Icon Container */}
+                <div className="relative mb-5">
+                  <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-400 rounded-full blur-2xl opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+                  <div className="relative w-20 h-20 mx-auto bg-gradient-to-br from-green-500/30 to-emerald-500/30 rounded-2xl flex items-center justify-center border border-green-400/50 group-hover:border-green-400 group-hover:scale-110 transition-all duration-300 shadow-lg">
+                    <span className="text-4xl group-hover:scale-110 transition-transform duration-300">
+                      {benefit.icon}
+                    </span>
+                  </div>
                 </div>
+
+                {/* Title */}
+                <h3 className="text-gray-100 font-bold text-lg mb-2 group-hover:text-green-300 transition-colors duration-300">
+                  {benefit.title}
+                </h3>
+
+                {/* Decorative Line */}
+                <div className="w-12 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto rounded-full group-hover:w-20 transition-all duration-300"></div>
+
+                {/* Hover Border Effect */}
+                <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-400 via-emerald-400 to-green-300 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
               </div>
-
-              {/* Title */}
-              <h3 className="text-gray-100 font-bold text-lg mb-2 group-hover:text-green-300 transition-colors duration-300">
-                {benefit.title}
-              </h3>
-
-              {/* Decorative Line */}
-              <div className="w-12 h-0.5 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto rounded-full group-hover:w-20 transition-all duration-300"></div>
-
-              {/* Hover Border Effect */}
-              <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-400 via-emerald-400 to-green-300 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-            </div>
+            </Link>
           ))}
         </div>
-
-       
       </div>
     </section>
   );

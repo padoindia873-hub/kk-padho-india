@@ -1,3 +1,4 @@
 {
+  "/benefits/free-scholarship/page": "app/benefits/free-scholarship/page.js",
   "/page": "app/page.js"
 }

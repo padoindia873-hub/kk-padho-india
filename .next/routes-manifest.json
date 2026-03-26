@@ -6,12 +6,26 @@
   "basePath": "",
   "redirects": [
     {
-      "source": "/:path+/",
-      "destination": "/:path+",
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "priority": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
       "internal": true,
       "priority": true,
       "statusCode": 308,
-      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
     }
   ],
   "headers": [],
@@ -47,21 +61,6 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
-<<<<<<< HEAD
-=======
-      "page": "/api/auth/forgot-password",
-      "regex": "^/api/auth/forgot\\-password(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/auth/forgot\\-password(?:/)?$"
-    },
-    {
-      "page": "/api/auth/reset-password",
-      "regex": "^/api/auth/reset\\-password(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/api/auth/reset\\-password(?:/)?$"
-    },
-    {
->>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
       "page": "/committee",
       "regex": "^/committee(?:/)?$",
       "routeKeys": {},
@@ -98,15 +97,6 @@
       "namedRegex": "^/register(?:/)?$"
     },
     {
-<<<<<<< HEAD
-=======
-      "page": "/reset-password",
-      "regex": "^/reset\\-password(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/reset\\-password(?:/)?$"
-    },
-    {
->>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
       "page": "/scholarship",
       "regex": "^/scholarship(?:/)?$",
       "routeKeys": {},

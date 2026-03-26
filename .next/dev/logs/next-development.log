@@ -1,1 +1,698 @@
 [00:00:00.555] Server  LOG     ✓ Ready in 400ms
+[00:03:09.831] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:22:2
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |  ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+  5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+> 6 | <<<<<<< HEAD
+    | ^^^^^^^
+  7 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+  8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+  9 | =======
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+>  9 | =======
+     | ^^^^^^^
+  10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+[00:03:10.336] Browser ERROR   uncaughtError: Error: ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+[00:03:10.499] Browser ERROR   ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:10.499] Browser ERROR   ./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:10.841] Browser ERROR   ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:10.841] Browser ERROR   ./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:12.272] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:22:2
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |  ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+  5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+> 6 | <<<<<<< HEAD
+    | ^^^^^^^
+  7 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+  8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+  9 | =======
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+>  9 | =======
+     | ^^^^^^^
+  10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+[00:03:12.355] Browser ERROR   uncaughtError: Error: ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+[00:03:12.491] Browser ERROR   ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:12.491] Browser ERROR   ./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:12.491] Browser ERROR   ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:12.491] Browser ERROR   ./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:13.336] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:22:2
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |  ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+  5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+> 6 | <<<<<<< HEAD
+    | ^^^^^^^
+  7 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+  8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+  9 | =======
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+>  9 | =======
+     | ^^^^^^^
+  10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+
+./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+[00:03:13.413] Browser ERROR   uncaughtError: Error: ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+
+[00:03:13.549] Browser ERROR   ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:13.549] Browser ERROR   ./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:13.549] Browser ERROR   ./src/components/ScholarshipSection.tsx:22:4
+Parsing ecmascript source code failed
+  20 |       <ScholarshipHero />
+  21 |       <ServicesGrid />
+> 22 | <<<<<<< HEAD
+     |    ^^
+  23 |       <ScholarshipSection1 />
+  24 |       <FacilitiesSection />
+  25 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:13.549] Browser ERROR   ./src/components/ScholarshipSection.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+   9 | =======
+> 10 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     | ^^^^^^^
+  11 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  12 | import GallerySection from "@/components/Scholarship/GallerySection";
+  13 | import CTASection from "@/components/Scholarship/CTASection";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:47.620] Browser ERROR   ./src/components/ScholarshipSection.tsx:19:4
+Parsing ecmascript source code failed
+  17 |       <ScholarshipHero />
+  18 |       <ServicesGrid />
+> 19 | <<<<<<< HEAD
+     |    ^^
+  20 |       <ScholarshipSection1 />
+  21 |       <FacilitiesSection />
+  22 | =======
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+[00:03:51.621] Browser ERROR   ./src/components/Scholarship/ServicesGrid.tsx:46:1
+Parsing ecmascript source code failed
+  44 |
+  45 |   return (
+> 46 | <<<<<<< HEAD
+     | ^^^^^^^
+  47 |     <>
+  48 |       {/* Facilities Section */}
+  49 |       <section className="relative w-full py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+
+Merge conflict marker encountered.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/ServicesGrid.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/ServicesGrid.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:03:51.621] Browser ERROR   ./src/components/Scholarship/ServicesGrid.tsx:88:7
+Parsing ecmascript source code failed
+  86 |           <div className="inline-block bg-black/100 backdrop-blur-md rounded-full px-6 py-2 mb-4 border border-white/20">
+  87 |             <span className="text-white/90 text-sm font-medium tracking-wider">⚡ OUR FACILITIES ⚡</span>
+> 88 | >>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
+     |       ^
+  89 |           </div>
+  90 |         </div>
+  91 |
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/ServicesGrid.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/ServicesGrid.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:04:06.620] Browser ERROR   ./src/components/Scholarship/ServicesGrid.tsx:133:5
+Parsing ecmascript source code failed
+  131 |     </section>
+  132 |
+> 133 |     {/* Custom Animations */}
+      |     ^
+  134 |     <style jsx>{`
+  135 |       @keyframes float {
+  136 |         0%, 100% { transform: translateY(0px); }
+
+Expected ',', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Scholarship/ServicesGrid.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Client Component Browser]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Scholarship/ServicesGrid.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Client Component SSR]
+    ./src/components/ScholarshipSection.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+[00:04:32.219] Server  LOG     ✓ Compiled in 20ms
+[00:04:32.409] Server  WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.410] Server  WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.411] Server  WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.411] Server  WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.412] Server  WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.412] Server  WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.412] Server  WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.412] Server  WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.413] Server  WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.413] Server  WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.413] Server  WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.413] Server  WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.414] Server  WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.414] Server  WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.414] Server  WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.414] Server  WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.414] Server  WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.415] Server  WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.416] Server  WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.416] Server  WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:32.542] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:33.623] Browser WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:33.623] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:36.620] Browser LOG     Video play failed: {}
+[00:04:39.620] Browser LOG     Video play failed: {}
+[00:04:42.620] Browser LOG     Video play failed: {}
+[00:04:45.620] Browser LOG     Video play failed: {}
+[00:04:48.620] Browser LOG     Video play failed: {}
+[00:04:51.620] Browser LOG     Video play failed: {}
+[00:04:54.620] Browser LOG     Video play failed: {}
+[00:04:57.620] Browser LOG     Video play failed: {}
+[00:05:00.620] Browser LOG     Video play failed: {}
+[00:05:03.620] Browser LOG     Video play failed: {}
+[00:05:06.619] Browser LOG     Video play failed: {}
+[00:05:09.620] Browser LOG     Video play failed: {}
+[00:05:12.620] Browser LOG     Video play failed: {}
+[00:05:15.620] Browser LOG     Video play failed: {}
+[00:05:18.619] Browser LOG     Video play failed: {}
+[00:05:21.620] Browser LOG     Video play failed: {}
+[00:05:24.620] Browser LOG     Video play failed: {}
+[00:05:27.620] Browser LOG     Video play failed: {}
+[00:05:29.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:29.881] Browser WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:29.881] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.

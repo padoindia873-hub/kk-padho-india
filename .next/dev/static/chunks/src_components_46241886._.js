@@ -48,7 +48,7 @@ function Navbar() {
                 className: "flex items-center cursor-pointer group",
                 onClick: ()=>handleNavigation("/"),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "/images/logo.png",
+                    src: "/Images/logo.png",
                     alt: "",
                     className: "h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
                 }, void 0, false, {
@@ -2027,12 +2027,12 @@ function ServicesGrid() {
                                     className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 57,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -2054,12 +2054,12 @@ function ServicesGrid() {
                                             children: "⚡ OUR FACILITIES ⚡"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 70,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 69,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2069,19 +2069,19 @@ function ServicesGrid() {
                                             children: "Discover Our Facilities"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 74,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 73,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "jsx-16e9557dfb267bc4" + " " + "w-24 h-1 bg-gradient-to-r from-yellow-400 to-pink-400 mx-auto mb-6"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 79,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2089,13 +2089,13 @@ function ServicesGrid() {
                                         children: "Experience unparalleled educational support with expert mentorship, exclusive scholarships, and personalized coaching designed for your success."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 67,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2112,7 +2112,7 @@ function ServicesGrid() {
                                                 className: "jsx-16e9557dfb267bc4" + " " + "absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-white/20 to-transparent rounded-bl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 100,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2125,12 +2125,12 @@ function ServicesGrid() {
                                                             children: service.icon
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                            lineNumber: 104,
+                                                            lineNumber: 105,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                        lineNumber: 103,
+                                                        lineNumber: 104,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2138,39 +2138,39 @@ function ServicesGrid() {
                                                         children: service.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                        lineNumber: 107,
+                                                        lineNumber: 108,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "jsx-16e9557dfb267bc4" + " " + "mt-3 w-8 h-0.5 bg-current opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:w-12"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 113,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 103,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                                lineNumber: 116,
+                                                lineNumber: 117,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 92,
                                         columnNumber: 17
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 87,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2182,7 +2182,7 @@ function ServicesGrid() {
                                             className: "jsx-16e9557dfb267bc4" + " " + "w-2 h-2 bg-green-400 rounded-full animate-pulse"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                            lineNumber: 125,
+                                            lineNumber: 126,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2190,37 +2190,37 @@ function ServicesGrid() {
                                             children: "12+ Facilities Available"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 127,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "jsx-16e9557dfb267bc4" + " " + "w-2 h-2 bg-yellow-400 rounded-full animate-pulse"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                            lineNumber: 127,
+                                            lineNumber: 128,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                    lineNumber: 124,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                                lineNumber: 123,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                        lineNumber: 65,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
-                lineNumber: 48,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2854,6 +2854,63 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 "use client";
 ;
 function BenefitsSection() {
+    const facilities = [
+        {
+            title: "Get Membership Card",
+            description: "This section features the top-performing students from West Bengal in the scholarship competition.",
+            icon: "💳"
+        },
+        {
+            title: "State Level Top School List",
+            description: "State Level Top School List... Official ranking of top schools across West Bengal.",
+            icon: "🏆"
+        },
+        {
+            title: "Exclusive Scholarships",
+            description: "Secure scholarships that recognize and support exceptional talent, fostering academic excellence.",
+            icon: "🎓"
+        },
+        {
+            title: "National Level Top School",
+            description: "Personalized coaching sessions tailored to accelerate individual growth and academic performance.",
+            icon: "🏅"
+        },
+        {
+            title: "Free Medical Treatment",
+            description: "Get access to essential medical care services without any financial burden for families in need.",
+            icon: "🏥"
+        },
+        {
+            title: "Job Facilities & Vacancy",
+            description: "We provide job support and vacancy connections to empower youth with employment opportunities.",
+            icon: "💼"
+        },
+        {
+            title: "Free Online Tuition (5 to 12)",
+            description: "Interactive, curriculum-based online classes for students from classes 5 to 12 absolutely free.",
+            icon: "📚"
+        },
+        {
+            title: "Free Spoken English",
+            description: "Improve your English communication skills and confidence with our expert-led spoken English classes.",
+            icon: "🗣️"
+        },
+        {
+            title: "Free Online IT Classes",
+            description: "Join virtual IT courses and upskill yourself with trending tech skills like coding, web, and more.",
+            icon: "💻"
+        },
+        {
+            title: "Free Career Counseling",
+            description: "One-on-one and group counseling sessions to help students choose the right career path.",
+            icon: "🤝"
+        },
+        {
+            title: "Legal Support (Advocate)",
+            description: "Receive guidance and legal support from certified advocates for justice and protection of rights.",
+            icon: "⚖️"
+        }
+    ];
     const benefits = [
         {
             title: "KK Raksh Kavach",
@@ -2910,25 +2967,25 @@ function BenefitsSection() {
                 className: "absolute inset-0 z-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/benefit.png",
+                        src: "/Images/benefit.png",
                         alt: "Benefits background",
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                        lineNumber: 31,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-black/70"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                        lineNumber: 37,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                lineNumber: 30,
+                lineNumber: 89,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2938,25 +2995,168 @@ function BenefitsSection() {
                         className: "absolute top-0 left-0 w-96 h-96 bg-blue-500/10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                        lineNumber: 42,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full translate-x-1/2 translate-y-1/2 blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                        lineNumber: 43,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                lineNumber: 41,
+                lineNumber: 100,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative z-10 max-w-7xl mx-auto",
                 children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center mb-16",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-4 border border-white/20",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "w-2 h-2 bg-blue-400 rounded-full animate-pulse mr-2"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                        lineNumber: 110,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-white/90 text-sm font-medium tracking-wider",
+                                        children: "⚡ OUR FACILITIES ⚡"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                        lineNumber: 111,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                lineNumber: 109,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-4xl md:text-5xl font-bold text-white mb-4",
+                                children: "World-Class Facilities"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                lineNumber: 114,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-10"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                lineNumber: 118,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
+                                children: facilities.map((facility, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "group bg-white/10 backdrop-blur-md rounded-2xl p-6 text-left hover:bg-white/20 transition-all duration-500 transform hover:-translate-y-1 border border-white/20 shadow-lg relative overflow-hidden",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex gap-4 items-start relative z-10",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "relative",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "absolute inset-0 bg-blue-400/20 rounded-xl blur-lg group-hover:blur-xl transition-all"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                                lineNumber: 132,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "relative w-14 h-14 bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/20 group-hover:bg-blue-600/20 transition-all duration-300",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-3xl group-hover:scale-110 transition-transform duration-300",
+                                                                    children: facility.icon
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                                    lineNumber: 134,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                                lineNumber: 133,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                        lineNumber: 131,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex-1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "text-white font-bold text-lg mb-2 group-hover:text-blue-300 transition-colors",
+                                                                children: facility.title
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                                lineNumber: 140,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "text-gray-300 text-sm leading-relaxed group-hover:text-white transition-colors line-clamp-2",
+                                                                children: facility.description
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                                lineNumber: 143,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                        lineNumber: 139,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                lineNumber: 130,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                                lineNumber: 148,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, index, true, {
+                                        fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                        lineNumber: 122,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                                lineNumber: 120,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                        lineNumber: 108,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-20"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
+                        lineNumber: 155,
+                        columnNumber: 9
+                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center mb-12",
                         children: [
@@ -2967,7 +3167,7 @@ function BenefitsSection() {
                                         className: "w-2 h-2 bg-green-400 rounded-full animate-pulse mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 160,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2975,13 +3175,13 @@ function BenefitsSection() {
                                         children: "✨ MEMBER PERKS ✨"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 161,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 50,
+                                lineNumber: 159,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2989,14 +3189,14 @@ function BenefitsSection() {
                                 children: "Exclusive Member Benefits"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 55,
+                                lineNumber: 164,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 mx-auto mb-6"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 59,
+                                lineNumber: 168,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3004,25 +3204,25 @@ function BenefitsSection() {
                                 children: "Up to 70% discount on various services"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 61,
+                                lineNumber: 170,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                        lineNumber: 49,
+                        lineNumber: 158,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5",
                         children: benefits.map((benefit, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "group bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center  hover:bg-white/20 transition-all duration-500  transform hover:-translate-y-2 hover:scale-105  border border-white/20 shadow-xl relative overflow-hidden",
+                                className: "group bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center hover:bg-white/20 transition-all duration-500 transform hover:-translate-y-2 hover:scale-105 border border-white/20 shadow-xl relative overflow-hidden",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/10 to-transparent"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 187,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3032,7 +3232,7 @@ function BenefitsSection() {
                                                 className: "absolute inset-0 bg-yellow-400/20 rounded-full blur-xl group-hover:blur-2xl transition-all"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 191,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3040,13 +3240,13 @@ function BenefitsSection() {
                                                 children: benefit.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 192,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 190,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3054,7 +3254,7 @@ function BenefitsSection() {
                                         children: benefit.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 197,
                                         columnNumber: 15
                                     }, this),
                                     benefit.discount && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3062,25 +3262,25 @@ function BenefitsSection() {
                                         children: benefit.discount
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                        lineNumber: 93,
+                                        lineNumber: 202,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-yellow-400 to-orange-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 208,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 69,
+                                lineNumber: 178,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                        lineNumber: 67,
+                        lineNumber: 176,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3096,7 +3296,7 @@ function BenefitsSection() {
                                             children: "🛡️"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 219,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3107,7 +3307,7 @@ function BenefitsSection() {
                                                     children: "KK Raksh Kavach"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 221,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3115,7 +3315,7 @@ function BenefitsSection() {
                                                     children: "Beti Bachao Beta Bachao"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 222,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3123,24 +3323,24 @@ function BenefitsSection() {
                                                     children: "50% discount for members"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 223,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 220,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 218,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 108,
+                                lineNumber: 217,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3153,7 +3353,7 @@ function BenefitsSection() {
                                             children: "🚗"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 231,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3164,7 +3364,7 @@ function BenefitsSection() {
                                                     children: "QAR"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 233,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3172,7 +3372,7 @@ function BenefitsSection() {
                                                     children: "Quick Affordable Rides"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 234,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3180,24 +3380,24 @@ function BenefitsSection() {
                                                     children: "50% discount on all rides"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 235,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                            lineNumber: 123,
+                                            lineNumber: 232,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 230,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 120,
+                                lineNumber: 229,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3210,7 +3410,7 @@ function BenefitsSection() {
                                             children: "💊"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                            lineNumber: 134,
+                                            lineNumber: 243,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3221,7 +3421,7 @@ function BenefitsSection() {
                                                     children: "QCM India's Medicine"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 245,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3229,7 +3429,7 @@ function BenefitsSection() {
                                                     children: "Up to 70% discount"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 246,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3237,30 +3437,30 @@ function BenefitsSection() {
                                                     children: "On all medicines and healthcare products"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                                    lineNumber: 138,
+                                                    lineNumber: 247,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 244,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 242,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 132,
+                                lineNumber: 241,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                        lineNumber: 105,
+                        lineNumber: 214,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3271,7 +3471,7 @@ function BenefitsSection() {
                                 children: "Become a Member Today"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 146,
+                                lineNumber: 255,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3279,25 +3479,25 @@ function BenefitsSection() {
                                 children: "*Terms and conditions apply"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                                lineNumber: 149,
+                                lineNumber: 258,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                        lineNumber: 145,
+                        lineNumber: 254,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-                lineNumber: 46,
+                lineNumber: 105,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Scholarship/BenefitsSection.tsx",
-        lineNumber: 27,
+        lineNumber: 86,
         columnNumber: 5
     }, this);
 }
@@ -3327,126 +3527,126 @@ function GallerySection() {
     _s();
     const [selectedImage, setSelectedImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
-    // Gallery images from public/images/folder with proper titles
+    // Gallery images from public/Images/folder with proper titles
     const galleryImages = [
         {
             id: 1,
             title: "Acting Course",
-            src: "/images/acting.png",
+            src: "/Images/acting.png",
             category: "Acting"
         },
         {
             id: 2,
             title: "Aerospace Engineering",
-            src: "/images/aerospace.png",
+            src: "/Images/aerospace.png",
             category: "Engineering"
         },
         {
             id: 3,
             title: "Agriculture Science",
-            src: "/images/agriculture.png",
+            src: "/Images/agriculture.png",
             category: "Agriculture"
         },
         {
             id: 4,
             title: "Automobile Engineering",
-            src: "/images/automobile.png",
+            src: "/Images/automobile.png",
             category: "Engineering"
         },
         {
             id: 5,
             title: "B.Ed Program",
-            src: "/images/b.ed.png",
+            src: "/Images/b.ed.png",
             category: "Education"
         },
         {
             id: 6,
             title: "BBA Course",
-            src: "/images/bba.png",
+            src: "/Images/bba.png",
             category: "Management"
         },
         {
             id: 7,
             title: "BCA Program",
-            src: "/images/bca.png",
+            src: "/Images/bca.png",
             category: "Computer"
         },
         {
             id: 8,
             title: "Civil Engineering",
-            src: "/images/civil.png",
+            src: "/Images/civil.png",
             category: "Engineering"
         },
         {
             id: 9,
             title: "D.El.Ed Course",
-            src: "/images/deled.png",
+            src: "/Images/deled.png",
             category: "Education"
         },
         {
             id: 10,
             title: "Graphic Design",
-            src: "/images/graphic.png",
+            src: "/Images/graphic.png",
             category: "Design"
         },
         {
             id: 11,
             title: "Journalism",
-            src: "/images/journalism.png",
+            src: "/Images/journalism.png",
             category: "Media"
         },
         {
             id: 12,
             title: "MBA Program",
-            src: "/images/mba.png",
+            src: "/Images/mba.png",
             category: "Management"
         },
         {
             id: 13,
             title: "MBBS Course",
-            src: "/images/mbbs.png",
+            src: "/Images/mbbs.png",
             category: "Medical"
         },
         {
             id: 14,
             title: "MCA Program",
-            src: "/images/mca.png",
+            src: "/Images/mca.png",
             category: "Computer"
         },
         {
             id: 15,
             title: "Nuclear Science",
-            src: "/images/nuclear.png",
+            src: "/Images/nuclear.png",
             category: "Science"
         },
         {
             id: 16,
             title: "Nursing Course",
-            src: "/images/nursing.png",
+            src: "/Images/nursing.png",
             category: "Medical"
         },
         {
             id: 17,
             title: "PhD Program",
-            src: "/images/phd.png",
+            src: "/Images/phd.png",
             category: "Research"
         },
         {
             id: 18,
             title: "Software Engineering",
-            src: "/images/software.png",
+            src: "/Images/software.png",
             category: "Engineering"
         },
         {
             id: 19,
             title: "UPSC Coaching",
-            src: "/images/upsc.png",
+            src: "/Images/upsc.png",
             category: "Civil Services"
         },
         {
             id: 20,
             title: "Web Development",
-            src: "/images/web development.png",
+            src: "/Images/web-development.png",
             category: "Computer"
         }
     ];
@@ -3894,7 +4094,7 @@ function CTASection() {
                         playsInline: true,
                         className: "w-full h-full object-cover",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                            src: "/videos/study1.mp4",
+                            src: "/Videos/study1.mp4",
                             type: "video/mp4"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/CTASection.tsx",
@@ -4806,7 +5006,7 @@ function CommitmentSection() {
                         playsInline: true,
                         className: "w-full h-full object-cover",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                            src: "/videos/study3.mp4",
+                            src: "/Videos/study3.mp4",
                             type: "video/mp4"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/CommitmentSection.tsx",
@@ -5232,27 +5432,27 @@ function ScholarshipSection() {
                 lineNumber: 20,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$BenefitsSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$StatsSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/ScholarshipSection.tsx",
                 lineNumber: 21,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$GallerySection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$CommitmentSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/ScholarshipSection.tsx",
                 lineNumber: 22,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$CTASection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$BenefitsSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/ScholarshipSection.tsx",
                 lineNumber: 23,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$StatsSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$GallerySection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/ScholarshipSection.tsx",
                 lineNumber: 24,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$CommitmentSection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Scholarship$2f$CTASection$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/ScholarshipSection.tsx",
                 lineNumber: 25,
                 columnNumber: 7
@@ -5296,7 +5496,7 @@ function Footer() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center cursor-pointer group",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            src: "/images/logo.png",
+                                            src: "/Images/logo.png",
                                             alt: "KK PADHO INDIA Logo",
                                             className: "h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
                                         }, void 0, false, {

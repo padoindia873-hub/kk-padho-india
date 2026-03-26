@@ -53,7 +53,7 @@ export default function ServicesGrid() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/videos/study6.mp4" type="video/mp4" />
+            <source src="/videos/study4.mp4" type="video/mp4" />
           </video>
           
           {/* Dark Overlay */}

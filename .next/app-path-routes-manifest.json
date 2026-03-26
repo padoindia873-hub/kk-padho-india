@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/committee/page": "/committee",
+  "/contact/page": "/contact",
+  "/events/page": "/events",
+  "/forgot-password/page": "/forgot-password",
+  "/login/page": "/login",
+  "/page": "/",
+  "/register/page": "/register",
+  "/scholarship/page": "/scholarship",
+  "/services/page": "/services",
+  "/signup/page": "/signup"
+}

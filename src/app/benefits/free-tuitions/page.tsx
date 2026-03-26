@@ -190,7 +190,7 @@ export default function FreeITTrainingPage() {
 
             {/* Teacher Interview CTA */}
             <div className="bg-gradient-to-br from-amber-500/10 to-yellow-500/10 backdrop-blur-md rounded-3xl p-8 border border-amber-400/30 flex flex-col justify-center">
-              <h3 className="text-2xl font-bold text-amber-300 mb-6">Ready to Teach?</h3>
+              <h3 className="text-2xl font-bold text-amber-300 mb-6">State Wise Teacher</h3>
               
               <button 
                 onClick={() => alert("Teacher Interview Registration Opened!")}

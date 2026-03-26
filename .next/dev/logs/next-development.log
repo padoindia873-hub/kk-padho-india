@@ -2323,3 +2323,4 @@ Import traces:
 [03:27:18.879] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [03:27:18.879] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [03:27:18.879] Browser LOG     Video play failed: {}
+[03:29:20.084] Server  LOG     ✓ Compiled in 41ms

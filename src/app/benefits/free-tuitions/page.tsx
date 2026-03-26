@@ -196,7 +196,7 @@ export default function FreeITTrainingPage() {
                 onClick={() => alert("Teacher Interview Registration Opened!")}
                 className="bg-gradient-to-r from-amber-500 to-yellow-500 text-black px-8 py-4 rounded-2xl font-bold text-lg hover:from-amber-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg mb-6"
               >
-                Teacher Interview Now
+                Teacher Joining Open
               </button>
 
               <button 

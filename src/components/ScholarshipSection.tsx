@@ -4,7 +4,6 @@ import React from 'react';
 import ScholarshipHero from "@/components/Scholarship/HeroSection";
 
 import ServicesGrid from "@/components/Scholarship/ServicesGrid";
-import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
 import BenefitsSection from "@/components/Scholarship/BenefitsSection";
 
 import GallerySection from "@/components/Scholarship/GallerySection";
@@ -18,13 +17,13 @@ export default function ScholarshipSection() {
       <ScholarshipHero />
      
       <ServicesGrid />
-      <FacilitiesSection />
+      
+      <StatsSection />
+      <CommitmentSection />
       <BenefitsSection />
     
       <GallerySection />
       <CTASection />
-       <StatsSection />
-         <CommitmentSection />
     </>
   );
 }

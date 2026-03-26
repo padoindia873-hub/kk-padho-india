@@ -696,3 +696,676 @@ Import traces:
 [00:05:29.881] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:05:29.881] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:05:29.881] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:28.319] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.319] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.320] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.321] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.326] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.327] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.327] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.328] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.330] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.331] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.332] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.334] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.335] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.336] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.337] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.338] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.339] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.339] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.340] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.340] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.342] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.343] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.343] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.344] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.345] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.346] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.347] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.347] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:28.358] Server  LOG     ✓ Compiled in 106ms
+[00:10:28.620] Browser ERROR   ./src/components/ScholarshipSection.tsx:7:1
+Module not found: Can't resolve '@/components/Scholarship/FacilitiesSection'
+   5 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+   6 | import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
+>  7 | import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+   9 | import GallerySection from "@/components/Scholarship/GallerySection";
+  10 | import CTASection from "@/components/Scholarship/CTASection";
+
+Import map: aliased to relative './src/components/Scholarship/FacilitiesSection' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:44.984] Server  LOG     ✓ Compiled in 33ms
+[00:10:45.621] Browser ERROR   uncaughtError: ReferenceError: FacilitiesSection is not defined
+[00:10:53.452] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:53.555] Server  LOG     ✓ Compiled in 27ms
+[00:10:53.631] Server  WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.632] Server  WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.632] Server  WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.633] Server  WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.633] Server  WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.633] Server  WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.633] Server  WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.633] Server  WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.634] Server  WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.634] Server  WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.634] Server  WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.635] Server  WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.635] Server  WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.635] Server  WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.635] Server  WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.635] Server  WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.636] Server  WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.636] Server  WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.637] Server  WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.637] Server  WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:53.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:54.623] Browser WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:54.623] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:58.409] Browser WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:10:58.409] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.

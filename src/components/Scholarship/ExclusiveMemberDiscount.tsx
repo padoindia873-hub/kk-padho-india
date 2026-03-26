@@ -16,6 +16,7 @@ export default function ExclusiveMemberDiscount() {
     { title: "QCM Medicines", icon: "💊", discount: "UP to 50% off" },
     { title: "Legal Support", icon: "⚖️", discount: "UP to 50% off" },
     { title: "Diagnostics Test", icon: "🔬", discount: "UP to 50% off" },
+    { title: "Nursing Services", icon: "👩‍⚕️", discount: "UP to 50% off" },
   ];
 
   return (
@@ -59,7 +60,7 @@ export default function ExclusiveMemberDiscount() {
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
           {benefits.map((benefit, index) => (
             <div
               key={index}

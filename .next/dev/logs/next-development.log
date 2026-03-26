@@ -1969,3 +1969,7 @@ Import traces:
 [01:36:57.620] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [01:36:57.620] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [01:36:57.620] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[01:49:30.252] Server  LOG     ✓ Compiled in 110ms
+[01:50:16.251] Server  LOG     ✓ Compiled in 44ms
+[01:50:56.957] Server  LOG     ✓ Compiled in 73ms
+[01:51:17.249] Server  LOG     ✓ Compiled in 40ms

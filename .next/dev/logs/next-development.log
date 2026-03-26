@@ -1369,3 +1369,4 @@ https://nextjs.org/docs/messages/module-not-found
 [00:10:58.409] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:10:58.409] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [00:10:58.409] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:13:49.590] Server  LOG     ✓ Compiled in 30ms

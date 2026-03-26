@@ -162,7 +162,7 @@ export default function BenefitsSection() {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Exclusive Member Benefits
+            Exclusive Member Free Benefits
           </h2>
 
           <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 mx-auto mb-6"></div>

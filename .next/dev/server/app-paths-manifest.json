@@ -1,7 +1,14 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/benefits/free-career-counseling/page": "app/benefits/free-career-counseling/page.js",
   "/benefits/free-it-training/page": "app/benefits/free-it-training/page.js",
   "/benefits/free-scholarship/page": "app/benefits/free-scholarship/page.js",
   "/benefits/free-tuitions/page": "app/benefits/free-tuitions/page.js",
+  "/member-exclusive-discount/diagnostics-test/page": "app/member-exclusive-discount/diagnostics-test/page.js",
   "/member-exclusive-discount/kk-raksha-kavach/page": "app/member-exclusive-discount/kk-raksha-kavach/page.js",
+  "/member-exclusive-discount/legal-support/page": "app/member-exclusive-discount/legal-support/page.js",
+  "/member-exclusive-discount/nursing-services/page": "app/member-exclusive-discount/nursing-services/page.js",
+  "/member-exclusive-discount/qar-rides/page": "app/member-exclusive-discount/qar-rides/page.js",
+  "/member-exclusive-discount/qcm-medicines/page": "app/member-exclusive-discount/qcm-medicines/page.js",
   "/page": "app/page.js"
 }

@@ -203,7 +203,7 @@ export default function FreeITTrainingPage() {
                 onClick={() => alert("State-wise Teacher Interview Page Coming Soon")}
                 className="border border-amber-400/50 hover:bg-white/5 text-amber-300 px-8 py-4 rounded-2xl font-medium transition-all duration-300"
               >
-                State Wise Teacher Interview
+                Our All Teachers
               </button>
 
               <p className="text-xs text-gray-400 mt-8 text-center">

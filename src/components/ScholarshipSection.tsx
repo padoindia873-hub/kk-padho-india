@@ -2,11 +2,13 @@
 
 import React from 'react';
 import ScholarshipHero from "@/components/Scholarship/HeroSection";
+
+
+import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
 import ServicesGrid from "@/components/Scholarship/ServicesGrid";
 import ScholarshipSection1 from "@/components/Scholarship/ScholarshipSection1";
 //import FacilitiesSection from "@/components/Scholarship/FacilitiesSection";
-import BenefitsSection from "@/components/Scholarship/BenefitsSection";
-import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
 
 import GallerySection from "@/components/Scholarship/GallerySection";
 import CTASection from "@/components/Scholarship/CTASection";
@@ -17,12 +19,14 @@ export default function ScholarshipSection() {
   return (
     <>
       <ScholarshipHero />
-      <ServicesGrid />
+     
+      <BenefitsSection /> 
+      <ExclusiveMemberDiscount />
+       <ServicesGrid />
       <ScholarshipSection1 />
       <StatsSection />
       <CommitmentSection />
-      <BenefitsSection /> 
-      <ExclusiveMemberDiscount />
+      
       <GallerySection />
       <CTASection />
     </>

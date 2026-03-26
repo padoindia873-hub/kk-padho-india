@@ -11,17 +11,15 @@ interface Service {
 export default function ServicesGrid() {
   const services: Service[] = [
     { title: "Scholarship Details", icon: "🎓", color: "blue" },
-    { title: "Free Tuitions (5 to 12)", icon: "📚", color: "green" },
+    { title: "State Top level school", icon: "📚", color: "green" },
     { title: "Students Registration", icon: "📝", color: "purple" },
     { title: "Scholarship System", icon: "💰", color: "yellow" },
-    { title: "Free IT Training", icon: "💻", color: "indigo" },
+   
     { title: "School Benefits", icon: "🏫", color: "red" },
     { title: "Get Membership Card", icon: "💳", color: "pink" },
-    { title: "Free Medical Treatment", icon: "🏥", color: "teal" },
-    { title: "Legal Support", icon: "⚖️", color: "orange" },
+    { title: "Event live Streaming", icon: "💼", color: "cyan" },
     { title: "Job Vacancy", icon: "💼", color: "cyan" },
-    { title: "Free Spoken English", icon: "🗣️", color: "emerald" },
-    { title: "Up to 70% discount for medicines", icon: "💊", color: "rose" }
+
   ];
 
   const getColorClasses = (color: string) => {
@@ -72,7 +70,7 @@ export default function ServicesGrid() {
             
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <span className="bg-gradient-to-r from-yellow-300 via-orange-300 to-pink-300 bg-clip-text text-transparent">
-                Discover Our Facilities
+               World Class Facilities 
               </span>
             </h2>
             

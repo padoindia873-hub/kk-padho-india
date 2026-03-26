@@ -100,7 +100,11 @@
         "transform": "lodash/{{member}}"
       }
     },
+<<<<<<< HEAD
     "outputFileTracingRoot": "/Users/badalkumar/Desktop/kk-padho-india",
+=======
+    "outputFileTracingRoot": "/Users/jayashreepanda/Documents/Kk-Padho-India-Website",
+>>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -293,11 +297,19 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
+<<<<<<< HEAD
       "root": "/Users/badalkumar/Desktop/kk-padho-india"
     },
     "distDirRoot": ".next"
   },
   "appDir": "/Users/badalkumar/Desktop/kk-padho-india",
+=======
+      "root": "/Users/jayashreepanda/Documents/Kk-Padho-India-Website"
+    },
+    "distDirRoot": ".next"
+  },
+  "appDir": "/Users/jayashreepanda/Documents/Kk-Padho-India-Website",
+>>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

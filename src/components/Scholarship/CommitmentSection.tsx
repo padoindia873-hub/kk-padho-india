@@ -34,7 +34,7 @@ export default function CommitmentSection() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/videos/study3.mp4" type="video/mp4" />
+          <source src="/Videos/study3.mp4" type="video/mp4" />
         </video>
         {/* Dark Overlay for better text readability */}
         <div className="absolute inset-0 bg-black/70"></div>

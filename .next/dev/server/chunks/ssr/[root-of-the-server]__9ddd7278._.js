@@ -70,7 +70,7 @@ function Navbar() {
                 className: "flex items-center cursor-pointer group",
                 onClick: ()=>handleNavigation("/"),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "/images/logo.png",
+                    src: "/Images/logo.png",
                     alt: "",
                     className: "h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
                 }, void 0, false, {
@@ -2072,8 +2072,49 @@ function ServicesGrid() {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
+<<<<<<< HEAD
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "jsx-16e9557dfb267bc4" + " " + "relative w-full py-20 px-4 sm:px-6 lg:px-8 overflow-hidden",
+=======
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 z-0",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: "/Images/study.png",
+                        alt: "Students studying",
+                        className: "jsx-16e9557dfb267bc4" + " " + "w-full h-full object-cover"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                        lineNumber: 61,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 opacity-10",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+                                backgroundSize: '60px 60px'
+                            },
+                            className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                            lineNumber: 69,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                        lineNumber: 68,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/Scholarship/ServicesGrid.tsx",
+                lineNumber: 60,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "jsx-16e9557dfb267bc4" + " " + "relative z-10 max-w-7xl mx-auto",
+>>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "jsx-16e9557dfb267bc4" + " " + "absolute inset-0 z-0",
@@ -2780,7 +2821,7 @@ function BenefitsSection() {
                 className: "absolute inset-0 z-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/benefit.png",
+                        src: "/Images/benefit.png",
                         alt: "Benefits background",
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
@@ -3189,126 +3230,126 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function GallerySection() {
     const [selectedImage, setSelectedImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
-    // Gallery images from public/images/folder with proper titles
+    // Gallery images from public/Images/folder with proper titles
     const galleryImages = [
         {
             id: 1,
             title: "Acting Course",
-            src: "/images/acting.png",
+            src: "/Images/acting.png",
             category: "Acting"
         },
         {
             id: 2,
             title: "Aerospace Engineering",
-            src: "/images/aerospace.png",
+            src: "/Images/aerospace.png",
             category: "Engineering"
         },
         {
             id: 3,
             title: "Agriculture Science",
-            src: "/images/agriculture.png",
+            src: "/Images/agriculture.png",
             category: "Agriculture"
         },
         {
             id: 4,
             title: "Automobile Engineering",
-            src: "/images/automobile.png",
+            src: "/Images/automobile.png",
             category: "Engineering"
         },
         {
             id: 5,
             title: "B.Ed Program",
-            src: "/images/b.ed.png",
+            src: "/Images/b.ed.png",
             category: "Education"
         },
         {
             id: 6,
             title: "BBA Course",
-            src: "/images/bba.png",
+            src: "/Images/bba.png",
             category: "Management"
         },
         {
             id: 7,
             title: "BCA Program",
-            src: "/images/bca.png",
+            src: "/Images/bca.png",
             category: "Computer"
         },
         {
             id: 8,
             title: "Civil Engineering",
-            src: "/images/civil.png",
+            src: "/Images/civil.png",
             category: "Engineering"
         },
         {
             id: 9,
             title: "D.El.Ed Course",
-            src: "/images/deled.png",
+            src: "/Images/deled.png",
             category: "Education"
         },
         {
             id: 10,
             title: "Graphic Design",
-            src: "/images/graphic.png",
+            src: "/Images/graphic.png",
             category: "Design"
         },
         {
             id: 11,
             title: "Journalism",
-            src: "/images/journalism.png",
+            src: "/Images/journalism.png",
             category: "Media"
         },
         {
             id: 12,
             title: "MBA Program",
-            src: "/images/mba.png",
+            src: "/Images/mba.png",
             category: "Management"
         },
         {
             id: 13,
             title: "MBBS Course",
-            src: "/images/mbbs.png",
+            src: "/Images/mbbs.png",
             category: "Medical"
         },
         {
             id: 14,
             title: "MCA Program",
-            src: "/images/mca.png",
+            src: "/Images/mca.png",
             category: "Computer"
         },
         {
             id: 15,
             title: "Nuclear Science",
-            src: "/images/nuclear.png",
+            src: "/Images/nuclear.png",
             category: "Science"
         },
         {
             id: 16,
             title: "Nursing Course",
-            src: "/images/nursing.png",
+            src: "/Images/nursing.png",
             category: "Medical"
         },
         {
             id: 17,
             title: "PhD Program",
-            src: "/images/phd.png",
+            src: "/Images/phd.png",
             category: "Research"
         },
         {
             id: 18,
             title: "Software Engineering",
-            src: "/images/software.png",
+            src: "/Images/software.png",
             category: "Engineering"
         },
         {
             id: 19,
             title: "UPSC Coaching",
-            src: "/images/upsc.png",
+            src: "/Images/upsc.png",
             category: "Civil Services"
         },
         {
             id: 20,
             title: "Web Development",
-            src: "/images/web development.png",
+            src: "/Images/web development.png",
             category: "Computer"
         }
     ];
@@ -3747,7 +3788,7 @@ function CTASection() {
                         playsInline: true,
                         className: "w-full h-full object-cover",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                            src: "/videos/study1.mp4",
+                            src: "/Videos/study1.mp4",
                             type: "video/mp4"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/CTASection.tsx",
@@ -4642,7 +4683,7 @@ function CommitmentSection() {
                         playsInline: true,
                         className: "w-full h-full object-cover",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                            src: "/videos/study3.mp4",
+                            src: "/Videos/study3.mp4",
                             type: "video/mp4"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Scholarship/CommitmentSection.tsx",
@@ -5113,7 +5154,7 @@ function Footer() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center cursor-pointer group",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            src: "/images/logo.png",
+                                            src: "/Images/logo.png",
                                             alt: "KK PADHO INDIA Logo",
                                             className: "h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
                                         }, void 0, false, {

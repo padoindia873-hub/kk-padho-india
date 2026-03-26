@@ -29,6 +29,26 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Render
+
+This project is configured for easy deployment on [Render](https://render.com).
+
+### Deployment using `render.yaml` (Blueprint)
+
+1. Create a [Render](https://render.com) account.
+2. Connect your GitHub/GitLab repository.
+3. Render will automatically detect the `render.yaml` file and prompt you to create the blueprint.
+4. Follow the prompts to set up your service.
+
+### Environment Variables on Render
+
+Make sure to set the following environment variables in the Render dashboard:
+
+- `NEXT_PUBLIC_API_URL`: Your service URL (e.g., `https://your-app-name.onrender.com`)
+- `DATABASE_URL`: Your database connection string
+- `NEXTAUTH_URL`: Same as `NEXT_PUBLIC_API_URL`
+- `NODE_VERSION`: `20` (already set in `render.yaml`)
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.

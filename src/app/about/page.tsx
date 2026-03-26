@@ -22,22 +22,22 @@ export default function AboutPage() {
   const router = useRouter();
 
   const directors: Director[] = [
-    { name: "Bholanath De", role: "Director", image: "/images/bholenath de.png" },
-    { name: "Bipul Mondal", role: "Director", image: "/images/bipul.png" },
-    { name: "Afsasur Rahaman Sardar", role: "Director", image: "/images/Afsasur Rahaman Sardar.png" },
-    { name: "Anirban Saha", role: "Director", image: "/images/Anirban Saha.png" },
-    { name: "Pradip Kumar Goswami", role: "Director", image: "/images/Pradip Kumar Goswami.png" },
-    { name: "Jaggu Sahani", role: "Director", image: "/images/Jaggu Sahani.png" },
-    { name: "Kiran Mondal", role: "Director", image: "/images/Kiran Mondal.png" },
+    { name: "Bholanath De", role: "Director", image: "/Images/bholenath-de.png" },
+    { name: "Bipul Mondal", role: "Director", image: "/Images/bipul.png" },
+    { name: "Afsasur Rahaman Sardar", role: "Director", image: "/Images/Afsasur-Rahaman-Sardar.png" },
+    { name: "Anirban Saha", role: "Director", image: "/Images/Anirban-Saha.png" },
+    { name: "Pradip Kumar Goswami", role: "Director", image: "/Images/Pradip-Kumar-Goswami.png" },
+    { name: "Jaggu Sahani", role: "Director", image: "/Images/Jaggu-Sahani.png" },
+    { name: "Kiran Mondal", role: "Director", image: "/Images/Kiran-Mondal.png" },
   ];
 
   const galleryImages: GalleryImage[] = [
-    { id: 1, src: "/images/image1.png" },
-    { id: 2, src: "/images/image2.png" },
-    { id: 3, src: "/images/image3.png" },
-    { id: 4, src: "/images/image4.png" },
-    { id: 5, src: "/images/image5.png" },
-    { id: 6, src: "/images/image6.png" },
+    { id: 1, src: "/Images/image1.png" },
+    { id: 2, src: "/Images/image2.png" },
+    { id: 3, src: "/Images/image3.png" },
+    { id: 4, src: "/Images/image4.png" },
+    { id: 5, src: "/Images/image5.png" },
+    { id: 6, src: "/Images/image6.png" },
   ];
 
   const handleBack = () => {
@@ -79,7 +79,7 @@ export default function AboutPage() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/videos/study7.mp4" type="video/mp4" />
+            <source src="/Videos/study7.mp4" type="video/mp4" />
           </video>
           {/* Dark Overlay for text readability */}
           <div className="absolute inset-0 bg-black/60"></div>
@@ -120,7 +120,7 @@ export default function AboutPage() {
               playsInline
               className="w-full h-full object-cover"
             >
-              <source src="/videos/study5.mp4" type="video/mp4" />
+              <source src="/Videos/study5.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-black/60"></div>
           </div>
@@ -237,7 +237,7 @@ export default function AboutPage() {
             <div className="md:w-1/3">
               <div className="relative w-48 h-48 mx-auto">
                 <Image
-                  src="/images/kk khan.png"
+                  src="/Images/kk-khan.png"
                   alt="Md. K. Khan"
                   fill
                   className="rounded-2xl object-cover border-2 border-yellow-400 shadow-xl"
@@ -270,7 +270,7 @@ export default function AboutPage() {
               <div key={index} className="text-center group">
                 <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-to-br from-blue-100 to-indigo-100">
                   <Image
-                    src={director.image || "/images/avatar-placeholder.png"}
+                    src={director.image || "/Images/logo.png"}
                     alt={director.name}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-300"

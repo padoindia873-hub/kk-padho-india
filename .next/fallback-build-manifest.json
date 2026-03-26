@@ -5,8 +5,13 @@
   "devFiles": [],
   "polyfillFiles": [],
   "lowPriorityFiles": [
+<<<<<<< HEAD
     "static/jp_ScaelrbgLnSR2kOpXx/_ssgManifest.js",
     "static/jp_ScaelrbgLnSR2kOpXx/_buildManifest.js"
+=======
+    "static/0uQw564QANYceNdsjA-PX/_ssgManifest.js",
+    "static/0uQw564QANYceNdsjA-PX/_buildManifest.js"
+>>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
   ],
   "rootMainFiles": []
 }

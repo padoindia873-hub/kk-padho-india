@@ -14,28 +14,28 @@ export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
-  // Gallery images from public/images/folder with proper titles
+  // Gallery images from public/Images/folder with proper titles
   const galleryImages: GalleryImage[] = [
-    { id: 1, title: "Acting Course", src: "/images/acting.png", category: "Acting" },
-    { id: 2, title: "Aerospace Engineering", src: "/images/aerospace.png", category: "Engineering" },
-    { id: 3, title: "Agriculture Science", src: "/images/agriculture.png", category: "Agriculture" },
-    { id: 4, title: "Automobile Engineering", src: "/images/automobile.png", category: "Engineering" },
-    { id: 5, title: "B.Ed Program", src: "/images/b.ed.png", category: "Education" },
-    { id: 6, title: "BBA Course", src: "/images/bba.png", category: "Management" },
-    { id: 7, title: "BCA Program", src: "/images/bca.png", category: "Computer" },
-    { id: 8, title: "Civil Engineering", src: "/images/civil.png", category: "Engineering" },
-    { id: 9, title: "D.El.Ed Course", src: "/images/deled.png", category: "Education" },
-    { id: 10, title: "Graphic Design", src: "/images/graphic.png", category: "Design" },
-    { id: 11, title: "Journalism", src: "/images/journalism.png", category: "Media" },
-    { id: 12, title: "MBA Program", src: "/images/mba.png", category: "Management" },
-    { id: 13, title: "MBBS Course", src: "/images/mbbs.png", category: "Medical" },
-    { id: 14, title: "MCA Program", src: "/images/mca.png", category: "Computer" },
-    { id: 15, title: "Nuclear Science", src: "/images/nuclear.png", category: "Science" },
-    { id: 16, title: "Nursing Course", src: "/images/nursing.png", category: "Medical" },
-    { id: 17, title: "PhD Program", src: "/images/phd.png", category: "Research" },
-    { id: 18, title: "Software Engineering", src: "/images/software.png", category: "Engineering" },
-    { id: 19, title: "UPSC Coaching", src: "/images/upsc.png", category: "Civil Services" },
-    { id: 20, title: "Web Development", src: "/images/web development.png", category: "Computer" }
+    { id: 1, title: "Acting Course", src: "/Images/acting.png", category: "Acting" },
+    { id: 2, title: "Aerospace Engineering", src: "/Images/aerospace.png", category: "Engineering" },
+    { id: 3, title: "Agriculture Science", src: "/Images/agriculture.png", category: "Agriculture" },
+    { id: 4, title: "Automobile Engineering", src: "/Images/automobile.png", category: "Engineering" },
+    { id: 5, title: "B.Ed Program", src: "/Images/b.ed.png", category: "Education" },
+    { id: 6, title: "BBA Course", src: "/Images/bba.png", category: "Management" },
+    { id: 7, title: "BCA Program", src: "/Images/bca.png", category: "Computer" },
+    { id: 8, title: "Civil Engineering", src: "/Images/civil.png", category: "Engineering" },
+    { id: 9, title: "D.El.Ed Course", src: "/Images/deled.png", category: "Education" },
+    { id: 10, title: "Graphic Design", src: "/Images/graphic.png", category: "Design" },
+    { id: 11, title: "Journalism", src: "/Images/journalism.png", category: "Media" },
+    { id: 12, title: "MBA Program", src: "/Images/mba.png", category: "Management" },
+    { id: 13, title: "MBBS Course", src: "/Images/mbbs.png", category: "Medical" },
+    { id: 14, title: "MCA Program", src: "/Images/mca.png", category: "Computer" },
+    { id: 15, title: "Nuclear Science", src: "/Images/nuclear.png", category: "Science" },
+    { id: 16, title: "Nursing Course", src: "/Images/nursing.png", category: "Medical" },
+    { id: 17, title: "PhD Program", src: "/Images/phd.png", category: "Research" },
+    { id: 18, title: "Software Engineering", src: "/Images/software.png", category: "Engineering" },
+    { id: 19, title: "UPSC Coaching", src: "/Images/upsc.png", category: "Civil Services" },
+    { id: 20, title: "Web Development", src: "/Images/web-development.png", category: "Computer" }
   ];
 
   // Function to get category color
@@ -101,7 +101,7 @@ export default function GallerySection() {
               onClick={() => setSelectedImage(image)}
               className="group relative aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105"
             >
-              {/* Actual Image from public/images/folder */}
+              {/* Actual Image from public/Images/folder */}
               <Image
                 src={image.src}
                 alt={image.title}

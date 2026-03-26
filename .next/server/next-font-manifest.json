@@ -27,6 +27,12 @@
     "[project]/src/app/register/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
+<<<<<<< HEAD
+=======
+    "[project]/src/app/reset-password/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+>>>>>>> 907a02f8217ba6ace4af5d706c134d2a4840697f
     "[project]/src/app/scholarship/page": [
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],

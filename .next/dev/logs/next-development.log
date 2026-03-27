@@ -810,3 +810,10 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:32:12.012] Browser ERROR   uncaughtError: Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
 [04:32:12.874] Browser ERROR   uncaughtError: Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
 [04:32:14.327] Browser ERROR   uncaughtError: Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+[04:32:33.786] Browser ERROR   uncaughtError: Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+[04:32:34.532] Browser ERROR   uncaughtError: Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+[04:33:11.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:33:13.610] Browser LOG     Video play failed: {}
+[04:33:30.529] Browser LOG     Video play failed: {}
+[04:33:32.608] Browser LOG     Video play failed: {}
+[04:33:34.734] Browser LOG     Video play failed: {}

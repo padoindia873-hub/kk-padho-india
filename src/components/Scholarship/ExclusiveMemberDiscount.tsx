@@ -27,7 +27,7 @@ export default function ExclusiveMemberDiscount() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/Images/benefit.png"
+          src="/images/benefit.png"
           alt="Benefits background"
           className="w-full h-full object-cover"
         />

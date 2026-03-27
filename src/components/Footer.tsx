@@ -80,8 +80,6 @@ export default function Footer() {
               <li><Link href="/about" className="text-gray-300 hover:text-blue-400 transition-colors">About</Link></li>
               <li><Link href="/scholarship" className="text-gray-300 hover:text-blue-400 transition-colors">Scholarships</Link></li>
               <li><Link href="/contact" className="text-gray-300 hover:text-blue-400 transition-colors">Contact</Link></li>
-              <li><Link href="/services" className="text-gray-300 hover:text-blue-400 transition-colors">Services</Link></li>
-              <li><Link href="/committee" className="text-gray-300 hover:text-blue-400 transition-colors">Committee</Link></li>
             </ul>
           </div>
 

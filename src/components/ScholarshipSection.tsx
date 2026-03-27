@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import ScholarshipHero from "@/components/Scholarship/HeroSection";
+import ScholarshipHero from "@/components/Scholarship/PadhoIndia";
 import BenefitsSection from "@/components/Scholarship/BenefitsSection";
 import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
 import ServicesGrid from "@/components/Scholarship/ServicesGrid";

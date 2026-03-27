@@ -822,3 +822,279 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:35:34.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [04:36:05.439] Browser LOG     Video play failed: {}
 [04:36:24.678] Server  LOG     ✓ Compiled in 12ms
+[04:39:50.276] Browser LOG     Video play failed: {}
+[04:40:01.733] Browser LOG     Video play failed: {}
+[04:40:16.005] Browser LOG     Video play failed: {}
+[04:42:34.696] Browser LOG     Video play failed: {}
+[04:53:57.911] Browser LOG     Video play failed: {}
+[04:55:21.041] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.042] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.044] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.044] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.046] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.046] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.048] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.048] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.048] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.049] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.049] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.049] Server  ERROR   ⨯ ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:55:21.075] Server  LOG     ✓ Compiled in 111ms
+[04:55:21.911] Browser ERROR   ./src/components/ScholarshipSection.tsx:4:1
+Module not found: Can't resolve '@/components/Scholarship/HeroSection'
+  2 |
+  3 | import React from 'react';
+> 4 | import ScholarshipHero from "@/components/Scholarship/HeroSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import BenefitsSection from "@/components/Scholarship/BenefitsSection";
+  6 | import ExclusiveMemberDiscount from "@/components/Scholarship/ExclusiveMemberDiscount";
+  7 | import ServicesGrid from "@/components/Scholarship/ServicesGrid";
+
+Import map: aliased to relative './src/components/Scholarship/HeroSection' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/components/ScholarshipSection.tsx
+    ./src/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found

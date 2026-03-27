@@ -1,9 +1,11 @@
 "use client";
 
 import React from 'react';
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 export default function DiagnosticsTestPage() {
+  const router = useRouter();
+
   return (
     <section className="relative w-full min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
 
@@ -14,11 +16,15 @@ export default function DiagnosticsTestPage() {
 
       <div className="relative z-10 max-w-5xl mx-auto">
         
+        {/* Back Button - Using router.back() */}
         <div className="mb-8">
-          <Link href="/" className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors group">
+          <button 
+            onClick={() => router.back()}
+            className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors group"
+          >
             <span className="text-2xl group-hover:-translate-x-1 transition-transform">←</span>
-            <span>Back to Benefits</span>
-          </Link>
+            <span>Back to Member Discounts</span>
+          </button>
         </div>
 
         <div className="text-center mb-12">
@@ -97,7 +103,10 @@ export default function DiagnosticsTestPage() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-cyan-600 hover:to-teal-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+          <button 
+            onClick={() => alert("Test booking will open soon!")}
+            className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-cyan-600 hover:to-teal-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
             Book Test Now
           </button>
           <p className="text-gray-400 text-sm mt-4">50% off • Free home collection</p>

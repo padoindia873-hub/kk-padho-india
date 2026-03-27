@@ -61,7 +61,7 @@ export default function ExclusiveMemberDiscount() {
           </p>
         </div>
 
-        {/* Benefits Grid with Links */}
+        {/* Benefits Grid with Links - Updated to point to /member-exclusive-discount */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
           {benefits.map((benefit, index) => (
             <Link href={`/member-exclusive-discount/${benefit.slug}`} key={index}>
@@ -102,7 +102,10 @@ export default function ExclusiveMemberDiscount() {
 
         {/* Bottom CTA */}
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-3 rounded-full font-bold text-lg hover:from-yellow-500 hover:to-orange-500 transform hover:scale-105 transition-all duration-300 shadow-xl">
+          <button 
+            onClick={() => alert("Membership registration will open soon!")}
+            className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-3 rounded-full font-bold text-lg hover:from-yellow-500 hover:to-orange-500 transform hover:scale-105 transition-all duration-300 shadow-xl"
+          >
             Become a Member Today
           </button>
           <p className="text-gray-300 text-sm mt-4">*Terms and conditions apply</p>

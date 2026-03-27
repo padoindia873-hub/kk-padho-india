@@ -7,6 +7,8 @@
   "/benefits/free-spoken-english/page": "app/benefits/free-spoken-english/page.js",
   "/benefits/free-tuitions/page": "app/benefits/free-tuitions/page.js",
   "/member-exclusive-discount/kk-raksha-kavach/page": "app/member-exclusive-discount/kk-raksha-kavach/page.js",
+  "/member-exclusive-discount/legal-support/page": "app/member-exclusive-discount/legal-support/page.js",
+  "/member-exclusive-discount/nursing-services/page": "app/member-exclusive-discount/nursing-services/page.js",
   "/member-exclusive-discount/qar-rides/page": "app/member-exclusive-discount/qar-rides/page.js",
   "/page": "app/page.js",
   "/teacher/all-teachers/page": "app/teacher/all-teachers/page.js",

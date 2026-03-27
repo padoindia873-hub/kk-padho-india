@@ -12,7 +12,7 @@ interface GalleryImage {
 
 export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [visibleCount, setVisibleCount] = useState(10); // Initially show 10 images
 
   // Gallery images from public/Images/folder with proper titles
   const galleryImages: GalleryImage[] = [
@@ -37,6 +37,20 @@ export default function GallerySection() {
     { id: 19, title: "UPSC Coaching", src: "/Images/upsc.png", category: "Civil Services" },
     { id: 20, title: "Web Development", src: "/Images/web-development.png", category: "Computer" }
   ];
+
+  // Get visible images based on count
+  const visibleImages = galleryImages.slice(0, visibleCount);
+  const hasMore = visibleCount < galleryImages.length;
+
+  // Function to load more images
+  const loadMoreImages = () => {
+    setVisibleCount(prevCount => Math.min(prevCount + 10, galleryImages.length));
+  };
+
+  // Function to show all images
+  const showAllImages = () => {
+    setVisibleCount(galleryImages.length);
+  };
 
   // Function to get category color
   const getCategoryColor = (category: string) => {
@@ -91,15 +105,24 @@ export default function GallerySection() {
             Explore various educational courses and programs we offer
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mt-4"></div>
+          
+          {/* Stats */}
+          <div className="mt-6 inline-flex items-center gap-3 bg-white shadow-md rounded-full px-4 py-2">
+            <span className="text-gray-600">Showing</span>
+            <span className="font-bold text-blue-600">{visibleImages.length}</span>
+            <span className="text-gray-600">of</span>
+            <span className="font-bold text-blue-600">{galleryImages.length}</span>
+            <span className="text-gray-600">courses</span>
+          </div>
         </div>
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          {galleryImages.map((image) => (
+          {visibleImages.map((image) => (
             <div
               key={image.id}
               onClick={() => setSelectedImage(image)}
-              className="group relative aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105"
+              className="group relative aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105"
             >
               {/* Actual Image from public/Images/folder */}
               <Image
@@ -108,15 +131,7 @@ export default function GallerySection() {
                 fill
                 sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
-                onLoadingComplete={() => setIsLoading(false)}
               />
-              
-              {/* Loading Placeholder */}
-              {isLoading && (
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-purple-200 flex items-center justify-center">
-                  <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
-                </div>
-              )}
               
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -140,11 +155,51 @@ export default function GallerySection() {
           ))}
         </div>
 
-        {/* View More Button */}
+        {/* Load More / View All Buttons */}
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Load More Courses
+          {hasMore ? (
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button 
+                onClick={loadMoreImages}
+                className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+                Load More Courses ({galleryImages.length - visibleCount} remaining)
+              </button>
+              <button 
+                onClick={showAllImages}
+                className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300"
+              >
+                View All Courses
+              </button>
+            </div>
+          ) : (
+            <div className="text-center">
+              <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-6 py-3 rounded-full">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="font-semibold">All {galleryImages.length} courses loaded!</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Category Filters (Optional - for better UX) */}
+        <div className="mt-8 flex flex-wrap justify-center gap-2">
+          <button className="px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-semibold shadow-md">
+            All Courses
           </button>
+          {["Engineering", "Medical", "Computer", "Management", "Education", "Acting", "Design", "Media", "Science", "Civil Services"].map((cat) => (
+            <button 
+              key={cat}
+              className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-semibold hover:bg-blue-100 hover:text-blue-700 transition-all duration-300"
+            >
+              {cat}
+            </button>
+          ))}
         </div>
 
         {/* Modal for Image Preview */}
@@ -184,40 +239,78 @@ export default function GallerySection() {
                           {selectedImage.category}
                         </span>
                       </div>
+                      <p className="text-gray-600 mt-2 text-sm">
+                        Explore this course and many more opportunities with Padho India.
+                      </p>
                     </div>
-                    <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm">
-                      Download
-                    </button>
+                    <div className="flex gap-2">
+                      <button 
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          alert(`Enrollment for ${selectedImage.title} will open soon!`);
+                        }}
+                        className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm"
+                      >
+                        Enroll Now
+                      </button>
+                      <button 
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          // Download functionality
+                          const link = document.createElement('a');
+                          link.href = selectedImage.src;
+                          link.download = `${selectedImage.title}.png`;
+                          document.body.appendChild(link);
+                          link.click();
+                          document.body.removeChild(link);
+                        }}
+                        className="border border-blue-600 text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors text-sm"
+                      >
+                        Download
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Navigation Arrows */}
-              <button 
-                onClick={(e) => {
-                  e.stopPropagation();
-                  const prevId = selectedImage.id > 1 ? selectedImage.id - 1 : galleryImages.length;
-                  setSelectedImage(galleryImages.find(img => img.id === prevId) || null);
-                }}
-                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/10 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/20 transition-colors"
-              >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-              </button>
-              
-              <button 
-                onClick={(e) => {
-                  e.stopPropagation();
-                  const nextId = selectedImage.id < galleryImages.length ? selectedImage.id + 1 : 1;
-                  setSelectedImage(galleryImages.find(img => img.id === nextId) || null);
-                }}
-                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/10 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/20 transition-colors"
-              >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
+              {visibleImages.length > 1 && (
+                <>
+                  <button 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const currentIndex = visibleImages.findIndex(img => img.id === selectedImage.id);
+                      if (currentIndex > 0) {
+                        setSelectedImage(visibleImages[currentIndex - 1]);
+                      } else {
+                        setSelectedImage(visibleImages[visibleImages.length - 1]);
+                      }
+                    }}
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/10 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/20 transition-colors"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                  </button>
+                  
+                  <button 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const currentIndex = visibleImages.findIndex(img => img.id === selectedImage.id);
+                      if (currentIndex < visibleImages.length - 1) {
+                        setSelectedImage(visibleImages[currentIndex + 1]);
+                      } else {
+                        setSelectedImage(visibleImages[0]);
+                      }
+                    }}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/10 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/20 transition-colors"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+                </>
+              )}
             </div>
           </div>
         )}

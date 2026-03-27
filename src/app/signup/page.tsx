@@ -56,30 +56,7 @@ export default function SignupPage() {
               className="absolute inset-0 w-full h-full object-cover"
               priority
             />
-            <div className="relative z-30 text-center">
-              <h3 className="text-4xl font-bold mb-4">Start Your Journey</h3>
-              <p className="text-xl mb-8">Join thousands of students achieving their dreams</p>
-              
-              {/* Benefits */}
-              <div className="space-y-4 mt-8">
-                <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-3">
-                  <span className="text-2xl">🎓</span>
-                  <span className="text-left">Access to 25+ scholarships</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-3">
-                  <span className="text-2xl">📚</span>
-                  <span className="text-left">Free study materials</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-3">
-                  <span className="text-2xl">🤝</span>
-                  <span className="text-left">1-on-1 mentorship</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-3">
-                  <span className="text-2xl">💼</span>
-                  <span className="text-left">Career guidance</span>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
 

@@ -819,3 +819,6 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:33:34.734] Browser LOG     Video play failed: {}
 [04:34:46.678] Server  LOG     ✓ Compiled in 12ms
 [04:35:11.309] Browser LOG     Video play failed: {}
+[04:35:34.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:36:05.439] Browser LOG     Video play failed: {}
+[04:36:24.678] Server  LOG     ✓ Compiled in 12ms

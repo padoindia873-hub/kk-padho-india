@@ -107,7 +107,7 @@ export default function ExclusiveMemberDiscount() {
               Become a Member Today
             </button>
           </Link>
-          <p className="text-gray-300 text-sm mt-4">*Terms and conditions apply</p>
+          
         </div>
       </div>
     </section>

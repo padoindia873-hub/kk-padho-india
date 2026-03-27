@@ -1184,3 +1184,10 @@ https://nextjs.org/docs/messages/module-not-found
 [05:53:29.805] Server  LOG     ✓ Compiled in 44ms
 [05:53:40.066] Browser LOG     Video play failed: {}
 [05:53:45.397] Server  LOG     ✓ Compiled in 24ms
+[05:53:59.114] Browser LOG     Video play failed: {}
+[05:54:05.636] Browser LOG     Video play failed: {}
+[05:54:13.723] Browser LOG     Video play failed: {}
+[05:54:15.918] Browser LOG     Video play failed: {}
+[05:54:24.105] Browser LOG     Video play failed: {}
+[05:54:28.599] Browser LOG     Video play failed: {}
+[05:54:37.707] Browser LOG     Video play failed: {}

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import Image from 'next/image';
 
 interface GalleryImage {
@@ -12,9 +12,9 @@ interface GalleryImage {
 
 export default function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
-  const [visibleCount, setVisibleCount] = useState(10); // Initially show 10 images
+  const [visibleCount, setVisibleCount] = useState(10);
 
-  // Gallery images from public/Images/folder with proper titles
+  // Gallery images
   const galleryImages: GalleryImage[] = [
     { id: 1, title: "Acting Course", src: "/Images/acting.png", category: "Acting" },
     { id: 2, title: "Aerospace Engineering", src: "/Images/aerospace.png", category: "Engineering" },
@@ -38,22 +38,23 @@ export default function GallerySection() {
     { id: 20, title: "Web Development", src: "/Images/web-development.png", category: "Computer" }
   ];
 
-  // Get visible images based on count
   const visibleImages = galleryImages.slice(0, visibleCount);
   const hasMore = visibleCount < galleryImages.length;
   const canShowLess = visibleCount > 10;
 
-  // Function to load more images - STAYS ON SAME PAGE
-  const loadMoreImages = () => {
+  // Prevent any default behavior and navigation
+  const loadMoreImages = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
     setVisibleCount(prevCount => Math.min(prevCount + 10, galleryImages.length));
-  };
+  }, []);
 
-  // Function to show less images - STAYS ON SAME PAGE
-  const showLessImages = () => {
+  const showLessImages = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
     setVisibleCount(10);
-  };
+  }, []);
 
-  // Function to get category color
   const getCategoryColor = (category: string) => {
     const colors: Record<string, string> = {
       "Acting": "bg-purple-500",
@@ -155,7 +156,7 @@ export default function GallerySection() {
           ))}
         </div>
 
-        {/* Load More / Show Less Buttons - NO NAVIGATION, JUST UPDATES STATE */}
+        {/* Load More / Show Less Buttons */}
         <div className="text-center mt-12">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             {hasMore && (
@@ -186,7 +187,7 @@ export default function GallerySection() {
           </div>
         </div>
 
-        {/* Category Filters - Optional */}
+        {/* Category Filters */}
         <div className="mt-8 flex flex-wrap justify-center gap-2">
           <button 
             type="button"
@@ -211,7 +212,7 @@ export default function GallerySection() {
             className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-4"
             onClick={() => setSelectedImage(null)}
           >
-            <div className="relative max-w-5xl w-full">
+            <div className="relative max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
               {/* Close Button */}
               <button 
                 type="button"

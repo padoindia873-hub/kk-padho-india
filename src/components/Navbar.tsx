@@ -234,9 +234,9 @@ export default function Navbar() {
             {/* Scholarship Mobile - Simple Link */}
             <li>
               <Link 
-                href="/scholarship"
+                href="/services/scholarship-details"
                 className="flex items-center gap-3 py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
-                onClick={() => handleNavigation("/scholarship")}
+                onClick={() => handleNavigation("/services/scholarship-details")}
               >
                 <span className="text-green-600">🎓</span>
                 Scholarship

@@ -43,15 +43,14 @@ export default function GallerySection() {
   const hasMore = visibleCount < galleryImages.length;
   const canShowLess = visibleCount > 10;
 
-  // Function to load more images
+  // Function to load more images - STAYS ON SAME PAGE
   const loadMoreImages = () => {
     setVisibleCount(prevCount => Math.min(prevCount + 10, galleryImages.length));
   };
 
-  // Function to show less images (reset to 10)
+  // Function to show less images - STAYS ON SAME PAGE
   const showLessImages = () => {
     setVisibleCount(10);
-    window.scrollTo({ top: document.querySelector('.gallery-grid')?.getBoundingClientRect().top || 0, behavior: 'smooth' });
   };
 
   // Function to get category color
@@ -119,14 +118,13 @@ export default function GallerySection() {
         </div>
 
         {/* Gallery Grid */}
-        <div className="gallery-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {visibleImages.map((image) => (
             <div
               key={image.id}
               onClick={() => setSelectedImage(image)}
               className="group relative aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:scale-105"
             >
-              {/* Actual Image from public/Images/folder */}
               <Image
                 src={image.src}
                 alt={image.title}
@@ -157,12 +155,13 @@ export default function GallerySection() {
           ))}
         </div>
 
-        {/* Load More / Show Less Buttons */}
+        {/* Load More / Show Less Buttons - NO NAVIGATION, JUST UPDATES STATE */}
         <div className="text-center mt-12">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             {hasMore && (
               <button 
                 onClick={loadMoreImages}
+                type="button"
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -175,6 +174,7 @@ export default function GallerySection() {
             {canShowLess && (
               <button 
                 onClick={showLessImages}
+                type="button"
                 className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center gap-2"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -186,14 +186,18 @@ export default function GallerySection() {
           </div>
         </div>
 
-        {/* Category Filters */}
+        {/* Category Filters - Optional */}
         <div className="mt-8 flex flex-wrap justify-center gap-2">
-          <button className="px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-semibold shadow-md">
+          <button 
+            type="button"
+            className="px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-semibold shadow-md"
+          >
             All Courses
           </button>
           {["Engineering", "Medical", "Computer", "Management", "Education", "Acting", "Design", "Media", "Science", "Civil Services"].map((cat) => (
             <button 
               key={cat}
+              type="button"
               className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-semibold hover:bg-blue-100 hover:text-blue-700 transition-all duration-300"
             >
               {cat}
@@ -210,6 +214,7 @@ export default function GallerySection() {
             <div className="relative max-w-5xl w-full">
               {/* Close Button */}
               <button 
+                type="button"
                 onClick={() => setSelectedImage(null)}
                 className="absolute -top-12 right-0 text-white hover:text-yellow-400 transition-colors bg-white/10 backdrop-blur-sm p-2 rounded-full"
               >
@@ -244,6 +249,7 @@ export default function GallerySection() {
                     </div>
                     <div className="flex gap-2">
                       <button 
+                        type="button"
                         onClick={(e) => {
                           e.stopPropagation();
                           alert(`Enrollment for ${selectedImage.title} will open soon!`);
@@ -253,9 +259,9 @@ export default function GallerySection() {
                         Enroll Now
                       </button>
                       <button 
+                        type="button"
                         onClick={(e) => {
                           e.stopPropagation();
-                          // Download functionality
                           const link = document.createElement('a');
                           link.href = selectedImage.src;
                           link.download = `${selectedImage.title}.png`;
@@ -276,6 +282,7 @@ export default function GallerySection() {
               {visibleImages.length > 1 && (
                 <>
                   <button 
+                    type="button"
                     onClick={(e) => {
                       e.stopPropagation();
                       const currentIndex = visibleImages.findIndex(img => img.id === selectedImage.id);
@@ -293,6 +300,7 @@ export default function GallerySection() {
                   </button>
                   
                   <button 
+                    type="button"
                     onClick={(e) => {
                       e.stopPropagation();
                       const currentIndex = visibleImages.findIndex(img => img.id === selectedImage.id);

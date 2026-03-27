@@ -93,7 +93,7 @@ export default function GallerySection() {
 
   return (
     <section className="w-full bg-gradient-to-b from-blue-50 to-white py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+     
         
         {/* Header */}
         <div className="text-center mb-12">
@@ -108,15 +108,7 @@ export default function GallerySection() {
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mt-4"></div>
           
-          {/* Stats */}
-          <div className="mt-6 inline-flex items-center gap-3 bg-white shadow-md rounded-full px-4 py-2">
-            <span className="text-gray-600">Showing</span>
-            <span className="font-bold text-blue-600">{visibleImages.length}</span>
-            <span className="text-gray-600">of</span>
-            <span className="font-bold text-blue-600">{galleryImages.length}</span>
-            <span className="text-gray-600">courses</span>
-          </div>
-        </div>
+          
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">

@@ -1245,3 +1245,9 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [06:41:20.669] Server  LOG     ✓ Compiled in 14ms
 [06:43:14.564] Server  LOG     ✓ Compiled in 8ms
 [06:43:23.907] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:44:00.890] Browser LOG     Video play failed: {}
+[06:44:02.895] Browser LOG     Login clicked
+[06:44:06.985] Browser LOG     Video play failed: {}
+[06:44:09.011] Browser LOG     Login clicked
+[06:44:14.766] Browser LOG     Video play failed: {}
+[06:44:19.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

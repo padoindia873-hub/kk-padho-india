@@ -1098,3 +1098,4 @@ Import trace:
     ./src/app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
+[04:56:06.868] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

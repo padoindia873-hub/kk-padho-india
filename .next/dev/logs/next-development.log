@@ -1227,3 +1227,5 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [06:19:50.523] Server  LOG     ✓ Compiled in 9ms
 [06:21:25.863] Server  LOG     ✓ Compiled in 6ms
 [06:21:34.302] Browser LOG     Video play failed: {}
+[06:23:06.630] Server  LOG     ✓ Compiled in 19ms
+[06:23:09.742] Browser LOG     Video play failed: {}

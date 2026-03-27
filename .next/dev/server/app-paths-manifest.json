@@ -9,6 +9,7 @@
   "/benefits/free-tuitions/page": "app/benefits/free-tuitions/page.js",
   "/committee/page": "app/committee/page.js",
   "/contact/page": "app/contact/page.js",
+  "/faq/page": "app/faq/page.js",
   "/join-mission/page": "app/join-mission/page.js",
   "/login/page": "app/login/page.js",
   "/member-exclusive-discount/diagnostics-test/page": "app/member-exclusive-discount/diagnostics-test/page.js",
@@ -32,5 +33,6 @@
   "/services/state-top-level-school/page": "app/services/state-top-level-school/page.js",
   "/services/students-registration/page": "app/services/students-registration/page.js",
   "/teacher/all-teachers/page": "app/teacher/all-teachers/page.js",
-  "/teacher/join/page": "app/teacher/join/page.js"
+  "/teacher/join/page": "app/teacher/join/page.js",
+  "/terms/page": "app/terms/page.js"
 }

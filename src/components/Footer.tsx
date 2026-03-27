@@ -1,9 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 export default function Footer() {
+  const [email, setEmail] = useState("");
+  const [subscribeStatus, setSubscribeStatus] = useState("");
+
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email) {
+      setSubscribeStatus("Thank you for subscribing!");
+      setEmail("");
+      setTimeout(() => setSubscribeStatus(""), 3000);
+    }
+  };
+
   return (
     <footer className="w-full bg-gradient-to-br from-gray-900 to-gray-800 text-white pt-16 pb-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -102,13 +114,15 @@ export default function Footer() {
               Together We Rise, Together We Shine.
             </p>
 
-            {/* Newsletter (simple version - can be enhanced later with real form) */}
+            {/* Newsletter */}
             <div className="mt-6">
               <p className="text-xs text-gray-400 mb-2">Subscribe to our newsletter</p>
-              <form className="flex">
+              <form onSubmit={handleSubscribe} className="flex">
                 <input
                   type="email"
                   placeholder="Your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   required
                   className="bg-gray-700 text-white text-sm px-4 py-2.5 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 flex-1 border border-gray-600"
                 />
@@ -119,6 +133,9 @@ export default function Footer() {
                   Subscribe
                 </button>
               </form>
+              {subscribeStatus && (
+                <p className="text-green-400 text-xs mt-2">{subscribeStatus}</p>
+              )}
             </div>
           </div>
         </div>

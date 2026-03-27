@@ -756,3 +756,19 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:11:36.182] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [04:11:37.997] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [04:11:40.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:18:35.695] Server  LOG     ✓ Compiled in 40ms
+[04:18:44.802] Browser LOG     Video play failed: {}
+[04:18:46.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:18:47.767] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:18:50.782] Browser LOG     Video play failed: {}
+[04:18:51.667] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:18:53.066] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:18:55.962] Browser LOG     Video play failed: {}
+[04:19:01.176] Server  ERROR   ⨯ Error: The default export is not a React Component in "/privacy/page"
+[04:19:01.304] Server  ERROR   ⨯ Error: The default export is not a React Component in "/privacy/page"
+[04:19:01.552] Server  ERROR   ⨯ Error: The default export is not a React Component in "/privacy/page"
+[04:19:01.685] Server  ERROR   ⨯ Error: The default export is not a React Component in "/privacy/page"
+[04:19:01.771] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/privacy/page"
+[04:19:14.673] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:19:25.292] Server  LOG     ✓ Compiled in 60ms
+[04:19:36.931] Server  LOG     ✓ Compiled in 64ms

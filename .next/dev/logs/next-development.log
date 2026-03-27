@@ -577,3 +577,33 @@ Unterminated string constant
 [01:52:42.232] Browser LOG     Video play failed: {}
 [01:55:28.977] Server  LOG     ✓ Compiled in 59ms
 [01:55:38.463] Browser LOG     Video play failed: {}
+[02:04:18.427] Browser LOG     Video play failed: {}
+[02:04:19.891] Browser LOG     Video play failed: {}
+[02:04:22.507] Browser LOG     Video play failed: {}
+[02:04:24.285] Browser LOG     Video play failed: {}
+[02:04:25.982] Browser LOG     Video play failed: {}
+[02:04:27.504] Browser LOG     Video play failed: {}
+[02:04:29.322] Browser LOG     Video play failed: {}
+[02:04:31.608] Browser LOG     Video play failed: {}
+[02:04:36.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:04:38.111] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:04:38.249] Browser WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:04:38.249] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.

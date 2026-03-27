@@ -1243,3 +1243,5 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [06:36:05.562] Server  LOG     ✓ Compiled in 7ms
 [06:36:13.093] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [06:41:20.669] Server  LOG     ✓ Compiled in 14ms
+[06:43:14.564] Server  LOG     ✓ Compiled in 8ms
+[06:43:23.907] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

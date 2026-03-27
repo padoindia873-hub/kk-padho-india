@@ -1251,3 +1251,17 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [06:44:09.011] Browser LOG     Login clicked
 [06:44:14.766] Browser LOG     Video play failed: {}
 [06:44:19.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:15:03.167] Server  LOG     ✓ Compiled in 51ms
+[07:15:10.632] Browser LOG     Video play failed: {}
+[07:15:12.752] Browser LOG     Video play failed: {}
+[07:15:15.045] Browser LOG     Video play failed: {}
+[07:15:17.899] Browser LOG     Video play failed: {}
+[07:15:20.597] Browser LOG     Video play failed: {}
+[07:15:22.582] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:15:24.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:15:39.654] Server  LOG     ✓ Compiled in 17ms
+[07:17:07.844] Server  LOG     ✓ Compiled in 11ms
+[07:17:14.868] Browser LOG     Video play failed: {}
+[07:17:17.098] Browser LOG     Video play failed: {}
+[07:17:18.945] Browser LOG     Video play failed: {}
+[07:17:22.401] Browser LOG     Video play failed: {}

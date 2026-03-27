@@ -61,7 +61,7 @@ export default function Navbar() {
           </Link>
         </li>
 
-        {/* Scholarship - Link to scholarship details page */}
+        {/* Scholarship */}
         <li>
           <Link 
             href="/services/scholarship-details"
@@ -71,7 +71,7 @@ export default function Navbar() {
           </Link>
         </li>
 
-        {/* Events - Simple Link without dropdown */}
+        {/* Events */}
         <li>
           <Link 
             href="/events"
@@ -101,35 +101,14 @@ export default function Navbar() {
           </Link>
         </li>
 
-        {/* Committee with Dropdown */}
-        <li className="relative">
-          <button 
-            onClick={() => toggleDropdown('committee')}
-            className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
-              openDropdown === 'committee' 
-                ? 'text-green-600 bg-green-50' 
-                : 'hover:text-green-600 hover:bg-green-50'
-            }`}
+        {/* Committee - Simple Link (No Dropdown) */}
+        <li>
+          <Link 
+            href="/committee"
+            className="hover:text-green-600 transition-colors duration-300 px-3 py-2 rounded-lg hover:bg-green-50"
           >
             Committee
-            <svg 
-              className={`w-4 h-4 transition-transform duration-300 ${openDropdown === 'committee' ? 'rotate-180' : ''}`}
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          
-          {/* Desktop Dropdown Menu */}
-          {openDropdown === 'committee' && (
-            <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100">
-              <Link href="/committee/members" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">👥 All Members</Link>
-              <Link href="/committee/board" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📋 Board Members</Link>
-              <Link href="/committee/advisors" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700">💡 Advisors</Link>
-            </div>
-          )}
+          </Link>
         </li>
 
         {/* Services with Dropdown */}
@@ -231,7 +210,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            {/* Scholarship Mobile - Link to scholarship details page */}
+            {/* Scholarship */}
             <li>
               <Link 
                 href="/services/scholarship-details"
@@ -243,7 +222,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            {/* Events Mobile - Simple Link */}
+            {/* Events */}
             <li>
               <Link 
                 href="/events"
@@ -279,35 +258,19 @@ export default function Navbar() {
               </Link>
             </li>
 
-            {/* Committee Mobile with Dropdown */}
+            {/* Committee - Simple Link */}
             <li>
-              <button 
-                onClick={() => toggleMobileDropdown('committee')}
-                className="w-full flex items-center justify-between py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
+              <Link 
+                href="/committee"
+                className="flex items-center gap-3 py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
+                onClick={() => handleNavigation("/committee")}
               >
-                <span className="flex items-center gap-3">
-                  <span className="text-green-600">👥</span>
-                  Committee
-                </span>
-                <svg 
-                  className={`w-4 h-4 transition-transform duration-300 ${mobileDropdown === 'committee' ? 'rotate-180' : ''}`}
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {mobileDropdown === 'committee' && (
-                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2">
-                  <Link href="/committee/members" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/members")}>👥 All Members</Link>
-                  <Link href="/committee/board" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/board")}>📋 Board Members</Link>
-                  <Link href="/committee/advisors" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/committee/advisors")}>💡 Advisors</Link>
-                </div>
-              )}
+                <span className="text-green-600">👥</span>
+                Committee
+              </Link>
             </li>
 
-            {/* Services Mobile with Dropdown */}
+            {/* Services with Dropdown in Mobile */}
             <li>
               <button 
                 onClick={() => toggleMobileDropdown('services')}

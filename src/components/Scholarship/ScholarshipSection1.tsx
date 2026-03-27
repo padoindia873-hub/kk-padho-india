@@ -36,7 +36,7 @@ export default function ScholarshipSection1() {
       icon: "💳",
       color: "purple",
       buttonText: "Get Card",
-      link: "/membership"
+      link: "/scholarship/membership"
     },
   ];
 

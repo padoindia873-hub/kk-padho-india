@@ -650,3 +650,46 @@ Unterminated string constant
 [02:10:29.760] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [02:13:40.064] Server  LOG     ✓ Compiled in 31ms
 [02:13:48.788] Server  LOG     ✓ Compiled in 28ms
+[02:14:45.293] Server  LOG     ✓ Compiled in 27ms
+[02:15:27.445] Server  LOG     ✓ Compiled in 31ms
+[02:15:32.657] Server  WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.658] Server  WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.658] Server  WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.659] Server  WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.659] Server  WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.659] Server  WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.659] Server  WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.659] Server  WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.660] Server  WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.660] Server  WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.660] Server  WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.661] Server  WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.661] Server  WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.661] Server  WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.661] Server  WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.661] Server  WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.662] Server  WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.662] Server  WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.663] Server  WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.663] Server  WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:15:32.930] Browser WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:15:32.930] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.

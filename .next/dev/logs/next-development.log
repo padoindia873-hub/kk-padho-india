@@ -1150,3 +1150,8 @@ https://nextjs.org/docs/messages/module-not-found
 [05:26:48.543] Browser LOG     Video play failed: {}
 [05:26:51.499] Browser LOG     Video play failed: {}
 [05:26:53.719] Browser LOG     Video play failed: {}
+[05:35:57.877] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:35:59.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:36:03.951] Browser LOG     Video play failed: {}
+[05:36:57.841] Browser LOG     Video play failed: {}
+[05:37:04.496] Browser LOG     Video play failed: {}

@@ -9,6 +9,7 @@
   "/benefits/free-tuitions/page": "app/benefits/free-tuitions/page.js",
   "/committee/page": "app/committee/page.js",
   "/contact/page": "app/contact/page.js",
+  "/events/page": "app/events/page.js",
   "/faq/page": "app/faq/page.js",
   "/join-mission/page": "app/join-mission/page.js",
   "/login/page": "app/login/page.js",

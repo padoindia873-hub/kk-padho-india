@@ -4393,6 +4393,10 @@
     color: var(--color-yellow-400);
   }
 
+  .text-yellow-500 {
+    color: var(--color-yellow-500);
+  }
+
   .text-yellow-700 {
     color: var(--color-yellow-700);
   }

@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 
 interface Commitment {
   text: string;
@@ -137,11 +138,13 @@ export default function CommitmentSection() {
           </div>
         </div>
 
-        {/* Bottom CTA */}
+        {/* Bottom CTA - Updated with Link */}
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-3 rounded-full font-bold text-lg hover:from-yellow-500 hover:to-orange-500 transform hover:scale-105 transition-all duration-300 shadow-xl">
-            Join Our Mission
-          </button>
+          <Link href="/join-mission">
+            <button className="bg-gradient-to-r from-yellow-400 to-orange-400 text-gray-900 px-8 py-3 rounded-full font-bold text-lg hover:from-yellow-500 hover:to-orange-500 transform hover:scale-105 transition-all duration-300 shadow-xl">
+              Join Our Mission
+            </button>
+          </Link>
         </div>
       </div>
     </section>

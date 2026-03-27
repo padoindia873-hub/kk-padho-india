@@ -124,3 +124,69 @@
 [00:27:18.808] Browser LOG     Video play failed: {}
 [00:30:14.915] Browser LOG     Video play failed: {}
 [00:31:00.571] Browser LOG     Video play failed: {}
+[00:45:59.262] Server  LOG     ✓ Compiled in 41ms
+[00:46:12.399] Server  LOG     ✓ Compiled in 39ms
+[00:46:26.896] Browser LOG     Video play failed: {}
+[00:46:29.434] Browser LOG     Video play failed: {}
+[00:46:34.474] Browser LOG     Video play failed: {}
+[00:46:38.586] Browser LOG     Video play failed: {}
+[00:46:46.117] Browser LOG     Video play failed: {}
+[00:46:57.389] Browser LOG     Video play failed: {}
+[00:53:49.133] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/benefits/free-tuitions/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:53:49.218] Server  WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.219] Server  WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.219] Server  WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.220] Server  WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.220] Server  WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.220] Server  WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.220] Server  WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.220] Server  WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.221] Server  WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.221] Server  WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.221] Server  WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.222] Server  WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.222] Server  WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.222] Server  WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.222] Server  WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.222] Server  WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.223] Server  WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.223] Server  WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.224] Server  WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.224] Server  WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:49.230] Server  LOG     ✓ Compiled in 28ms
+[00:53:49.442] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:50.332] Browser WARN    Image with src "/Images/acting.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/aerospace.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/agriculture.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/automobile.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/b.ed.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/bba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/bca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/civil.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/deled.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/graphic.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/journalism.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/mba.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/mbbs.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/mca.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/nuclear.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/nursing.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/phd.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:50.332] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:53:53.773] Browser LOG     Video play failed: {}
+[00:53:57.749] Browser LOG     Video play failed: {}
+[00:54:00.307] Browser LOG     Video play failed: {}
+[00:55:41.624] Server  LOG     ✓ Compiled in 32ms
+[00:56:10.399] Browser LOG     Video play failed: {}
+[01:01:58.503] Browser LOG     Video play failed: {}
+[01:02:00.391] Browser LOG     Video play failed: {}
+[01:02:04.377] Browser LOG     Video play failed: {}
+[01:02:18.761] Server  LOG     ✓ Compiled in 69ms
+[01:02:25.587] Browser LOG     Video play failed: {}
+[01:04:37.815] Browser LOG     Video play failed: {}
+[01:04:42.000] Browser LOG     Video play failed: {}
+[01:05:00.629] Server  LOG     ✓ Compiled in 30ms
+[01:05:04.516] Browser LOG     Video play failed: {}
+[01:05:06.179] Browser LOG     Video play failed: {}

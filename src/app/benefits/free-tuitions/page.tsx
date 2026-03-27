@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-export default function FreeITTrainingPage() {
+export default function FreeTuitionPage() {
   const router = useRouter();
 
   return (
@@ -18,10 +18,10 @@ export default function FreeITTrainingPage() {
 
       <div className="relative z-10 max-w-6xl mx-auto">
         
-        {/* Back Button */}
+        {/* Back Button - Using router.back() like scholarship and IT training pages */}
         <div className="mb-8">
           <button 
-            onClick={() => router.push('/')}
+            onClick={() => router.back()}
             className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors group"
           >
             <span className="text-2xl group-hover:-translate-x-1 transition-transform">←</span>
@@ -32,7 +32,7 @@ export default function FreeITTrainingPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-28 h-28 bg-gradient-to-br from-green-500/30 to-emerald-500/30 rounded-3xl mb-6 mx-auto border border-green-400/50 shadow-xl">
-            <span className="text-7xl">💻</span>
+            <span className="text-7xl">📚</span>
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
@@ -44,23 +44,23 @@ export default function FreeITTrainingPage() {
           <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-6 rounded-full"></div>
           
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Learn in-demand IT skills with our free training programs.
+            Get free tuition for classes 5th to 12th with expert teachers and quality education.
           </p>
         </div>
 
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           
-          {/* Courses Offered */}
+          {/* Subjects Offered */}
           <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-green-400 mb-4">💻 Courses Offered</h2>
+            <h2 className="text-2xl font-bold text-green-400 mb-4">📚 Subjects Offered</h2>
             <ul className="space-y-3">
               {[
-                "Web Development (HTML, CSS, JS, React)",
-                "Python Programming",
-                "Data Science & AI",
-                "Digital Marketing",
-                "Cloud Computing (AWS, Azure)"
+                "Mathematics",
+                "Science (Physics, Chemistry, Biology)",
+                "English",
+                "Social Science",
+                "Hindi & Sanskrit"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-gray-300">
                   <span className="text-green-400 mt-1">✓</span>
@@ -75,10 +75,10 @@ export default function FreeITTrainingPage() {
             <h2 className="text-2xl font-bold text-green-400 mb-4">✅ Eligibility</h2>
             <ul className="space-y-3">
               {[
-                "Minimum 12th pass",
-                "Basic computer knowledge",
-                "Age 16+ years",
-                "Internet connection required"
+                "Students from Class 5th to 12th",
+                "Minimum 60% marks in previous class",
+                "Family income less than ₹3 LPA",
+                "Indian citizens only"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-gray-300">
                   <span className="text-green-400 mt-1">•</span>
@@ -93,11 +93,11 @@ export default function FreeITTrainingPage() {
             <h2 className="text-2xl font-bold text-green-400 mb-4">📝 How to Enroll</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
-                "Choose your preferred course",
-                "Fill the registration form",
-                "Take a basic aptitude test",
+                "Fill online registration form",
+                "Upload income certificate & marksheet",
+                "Take basic aptitude test",
                 "Get enrolled in batch",
-                "Start learning with projects"
+                "Start learning with expert teachers"
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-3 text-gray-300">
                   <span className="flex items-center justify-center w-6 h-6 bg-green-500/20 rounded-full text-green-400 text-sm font-bold">{i + 1}</span>
@@ -114,9 +114,9 @@ export default function FreeITTrainingPage() {
             onClick={() => alert("Registration form will open soon!")}
             className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
-            Register Now - Free IT Training
+            Register Now - Free Tuition
           </button>
-          <p className="text-gray-400 text-sm mt-4">Limited seats • Certificate provided</p>
+          <p className="text-gray-400 text-sm mt-4">Limited seats • Free study material provided</p>
         </div>
 
         {/* ==================== TEACHER JOINING SECTION ==================== */}
@@ -149,7 +149,7 @@ export default function FreeITTrainingPage() {
                 <div className="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-colors">
                   <h4 className="font-semibold text-lg text-white mb-4">Class 5th to 6th</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["English", "Mathematics"].map((sub, i) => (
+                    {["English", "Mathematics", "Science", "Social Science"].map((sub, i) => (
                       <span key={i} className="px-4 py-1.5 bg-green-500/10 text-green-400 text-sm rounded-full border border-green-400/20">
                         {sub}
                       </span>
@@ -161,7 +161,7 @@ export default function FreeITTrainingPage() {
                 <div className="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-colors">
                   <h4 className="font-semibold text-lg text-white mb-4">Class 7th</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["English", "Mathematics", "Science"].map((sub, i) => (
+                    {["English", "Mathematics", "Science", "Social Science", "Hindi"].map((sub, i) => (
                       <span key={i} className="px-4 py-1.5 bg-green-500/10 text-green-400 text-sm rounded-full border border-green-400/20">
                         {sub}
                       </span>
@@ -173,7 +173,7 @@ export default function FreeITTrainingPage() {
                 <div className="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-colors">
                   <h4 className="font-semibold text-lg text-white mb-4">Class 8th</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["English", "Mathematics", "Science"].map((sub, i) => (
+                    {["English", "Mathematics", "Science", "Social Science", "Hindi"].map((sub, i) => (
                       <span key={i} className="px-4 py-1.5 bg-green-500/10 text-green-400 text-sm rounded-full border border-green-400/20">
                         {sub}
                       </span>
@@ -185,19 +185,32 @@ export default function FreeITTrainingPage() {
                 <div className="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-colors">
                   <h4 className="font-semibold text-lg text-white mb-4">Class 9th &amp; 10th</h4>
                   <div className="flex flex-wrap gap-2">
-                    {["All Subjects"].map((sub, i) => (
+                    {["Mathematics", "Science", "English", "Social Science", "Hindi", "Sanskrit"].map((sub, i) => (
                       <span key={i} className="px-4 py-1.5 bg-green-500/10 text-green-400 text-sm rounded-full border border-green-400/20">
                         {sub}
                       </span>
                     ))}
                   </div>
-                  <p className="text-xs text-gray-400 mt-3">All subject Science, Maths, English, Social Science, Hindi etc.</p>
+                  <p className="text-xs text-gray-400 mt-3">All subjects available with expert teachers</p>
+                </div>
+
+                {/* 11th - 12th */}
+                <div className="bg-white/5 rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-colors md:col-span-2">
+                  <h4 className="font-semibold text-lg text-white mb-4">Class 11th &amp; 12th</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {["Physics", "Chemistry", "Mathematics", "Biology", "English", "Computer Science", "Economics", "Business Studies", "Accountancy"].map((sub, i) => (
+                      <span key={i} className="px-4 py-1.5 bg-green-500/10 text-green-400 text-sm rounded-full border border-green-400/20">
+                        {sub}
+                      </span>
+                    ))}
+                  </div>
+                  <p className="text-xs text-gray-400 mt-3">Science, Commerce & Arts streams available</p>
                 </div>
 
               </div>
             </div>
 
-            {/* Teacher Interview CTA - Updated with Links */}
+            {/* Teacher Interview CTA */}
             <div className="bg-gradient-to-br from-amber-500/10 to-yellow-500/10 backdrop-blur-md rounded-3xl p-8 border border-amber-400/30 flex flex-col justify-center">
               <h3 className="text-2xl font-bold text-amber-300 mb-6">State Wise Teacher</h3>
               

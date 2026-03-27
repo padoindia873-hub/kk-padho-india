@@ -1202,3 +1202,12 @@ https://nextjs.org/docs/messages/module-not-found
 [05:56:35.523] Server  LOG     ✓ Compiled in 16ms
 [05:56:46.422] Browser LOG     Video play failed: {}
 [05:56:48.516] Browser LOG     Video play failed: {}
+[05:59:49.466] Server  LOG     ✓ Compiled in 13ms
+[05:59:55.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:00:04.477] Browser LOG     Video play failed: {}
+[06:00:07.438] Browser LOG     Video play failed: {}
+[06:00:12.594] Browser LOG     Video play failed: {}
+[06:00:17.257] Browser LOG     Video play failed: {}
+[06:00:42.783] Server  LOG     ✓ Compiled in 10ms
+[06:01:07.997] Server  LOG     ✓ Compiled in 10ms
+[06:01:14.391] Browser LOG     Video play failed: {}

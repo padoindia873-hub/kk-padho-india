@@ -41,7 +41,9 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex gap-3 mt-6">
               <a
-                href="#"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
                 aria-label="Facebook"
               >
@@ -51,7 +53,9 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
                 aria-label="Twitter"
               >
@@ -61,7 +65,9 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
                 aria-label="LinkedIn"
               >
@@ -78,7 +84,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-300 hover:text-blue-400 transition-colors">Home</Link></li>
               <li><Link href="/about" className="text-gray-300 hover:text-blue-400 transition-colors">About</Link></li>
-              <li><Link href="/scholarship" className="text-gray-300 hover:text-blue-400 transition-colors">Scholarships</Link></li>
+              <li><Link href="/services/scholarship-details" className="text-gray-300 hover:text-blue-400 transition-colors">Scholarships</Link></li>
               <li><Link href="/contact" className="text-gray-300 hover:text-blue-400 transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -93,11 +99,15 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-gray-300">
                 <span className="text-blue-400">✉️</span>
-                <span>padoindia873@gmail.com</span>
+                <a href="mailto:padoindia873@gmail.com" className="hover:text-blue-400 transition-colors">padoindia873@gmail.com</a>
               </li>
               <li className="flex items-center gap-3 text-gray-300">
                 <span className="text-blue-400">📍</span>
-                <span>Kolkata, West Bengal, India, 700125</span>
+                <span>Kolkata, West Bengal, India - 700125</span>
+              </li>
+              <li className="flex items-center gap-3 text-gray-300">
+                <span className="text-blue-400">⏰</span>
+                <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
               </li>
             </ul>
           </div>
@@ -108,7 +118,7 @@ export default function Footer() {
             <p className="text-gray-300 text-sm leading-relaxed italic border-l-4 border-blue-400 pl-4">
               Let us come together to build the future of our children, who are the resources of our country, the pillars of our nation, and the future of India.
             </p>
-            <p className="text-white text-sm mt-3 font-semibold">
+            <p className="text-yellow-400 text-sm mt-3 font-semibold">
               Together We Rise, Together We Shine.
             </p>
 
@@ -142,11 +152,12 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm">
             <p className="text-gray-400">
-              © {new Date().getFullYear()} All Rights Reserved. KK PADHO INDIA
+              © {new Date().getFullYear()} KK PADHO INDIA. All Rights Reserved.
             </p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <Link href="/privacy" className="text-gray-400 hover:text-blue-400 transition-colors">Privacy Policy</Link>
               <Link href="/terms" className="text-gray-400 hover:text-blue-400 transition-colors">Terms of Service</Link>
+              
             </div>
           </div>
         </div>

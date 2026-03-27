@@ -19,14 +19,12 @@ export default function ScholarshipSection() {
   return (
     <>
       <ScholarshipHero />
-     
       <BenefitsSection /> 
       <ExclusiveMemberDiscount />
        <ServicesGrid />
       <ScholarshipSection1 />
       <StatsSection />
       <CommitmentSection />
-      
       <GallerySection />
       <CTASection />
     </>

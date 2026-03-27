@@ -937,6 +937,10 @@
     margin-block: calc(var(--spacing) * 8);
   }
 
+  .-mt-3 {
+    margin-top: calc(var(--spacing) * -3);
+  }
+
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
   }
@@ -3105,6 +3109,20 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
+  .from-purple-500\/20 {
+    --tw-gradient-from: #ac4bff33;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .from-purple-500\/20 {
+      --tw-gradient-from: color-mix(in oklab, var(--color-purple-500) 20%, transparent);
+    }
+  }
+
+  .from-purple-500\/20 {
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
   .from-purple-500\/30 {
     --tw-gradient-from: #ac4bff4d;
   }
@@ -3845,6 +3863,20 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
+  .to-violet-500\/20 {
+    --tw-gradient-to: #8d54ff33;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .to-violet-500\/20 {
+      --tw-gradient-to: color-mix(in oklab, var(--color-violet-500) 20%, transparent);
+    }
+  }
+
+  .to-violet-500\/20 {
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
   .to-violet-500\/30 {
     --tw-gradient-to: #8d54ff4d;
   }
@@ -4371,6 +4403,10 @@
 
   .text-purple-400 {
     color: var(--color-purple-400);
+  }
+
+  .text-purple-500 {
+    color: var(--color-purple-500);
   }
 
   .text-purple-700 {
@@ -5041,6 +5077,18 @@
     @supports (color: color-mix(in lab, red, red)) {
       .hover\:border-purple-400\/30:hover {
         border-color: color-mix(in oklab, var(--color-purple-400) 30%, transparent);
+      }
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:border-purple-400\/70:hover {
+      border-color: #c07effb3;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:border-purple-400\/70:hover {
+        border-color: color-mix(in oklab, var(--color-purple-400) 70%, transparent);
       }
     }
   }

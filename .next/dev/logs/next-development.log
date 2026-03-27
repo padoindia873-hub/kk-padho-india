@@ -732,3 +732,7 @@ Unterminated string constant
 [02:24:15.231] Server  LOG     ✓ Compiled in 32ms
 [02:24:21.155] Browser LOG     Video play failed: {}
 [03:49:06.724] Server  LOG     ✓ Compiled in 71ms
+[03:49:22.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:49:46.873] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:50:33.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:51:57.805] Server  LOG     ✓ Compiled in 35ms

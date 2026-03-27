@@ -41,15 +41,17 @@ export default function GallerySection() {
   // Get visible images based on count
   const visibleImages = galleryImages.slice(0, visibleCount);
   const hasMore = visibleCount < galleryImages.length;
+  const canShowLess = visibleCount > 10;
 
   // Function to load more images
   const loadMoreImages = () => {
     setVisibleCount(prevCount => Math.min(prevCount + 10, galleryImages.length));
   };
 
-  // Function to show all images
-  const showAllImages = () => {
-    setVisibleCount(galleryImages.length);
+  // Function to show less images (reset to 10)
+  const showLessImages = () => {
+    setVisibleCount(10);
+    window.scrollTo({ top: document.querySelector('.gallery-grid')?.getBoundingClientRect().top || 0, behavior: 'smooth' });
   };
 
   // Function to get category color
@@ -117,7 +119,7 @@ export default function GallerySection() {
         </div>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        <div className="gallery-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {visibleImages.map((image) => (
             <div
               key={image.id}
@@ -155,10 +157,10 @@ export default function GallerySection() {
           ))}
         </div>
 
-        {/* Load More / View All Buttons */}
+        {/* Load More / Show Less Buttons */}
         <div className="text-center mt-12">
-          {hasMore ? (
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            {hasMore && (
               <button 
                 onClick={loadMoreImages}
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2"
@@ -166,28 +168,25 @@ export default function GallerySection() {
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
-                Load More Courses ({galleryImages.length - visibleCount} remaining)
+                Load More Courses
               </button>
+            )}
+            
+            {canShowLess && (
               <button 
-                onClick={showAllImages}
-                className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300"
+                onClick={showLessImages}
+                className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center gap-2"
               >
-                View All Courses
-              </button>
-            </div>
-          ) : (
-            <div className="text-center">
-              <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-6 py-3 rounded-full">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
                 </svg>
-                <span className="font-semibold">All {galleryImages.length} courses loaded!</span>
-              </div>
-            </div>
-          )}
+                Show Less
+              </button>
+            )}
+          </div>
         </div>
 
-        {/* Category Filters (Optional - for better UX) */}
+        {/* Category Filters */}
         <div className="mt-8 flex flex-wrap justify-center gap-2">
           <button className="px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-semibold shadow-md">
             All Courses

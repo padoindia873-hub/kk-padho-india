@@ -723,3 +723,8 @@ Unterminated string constant
 [02:17:45.481] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [02:17:45.481] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [02:18:32.114] Server  LOG     ✓ Compiled in 64ms
+[02:19:04.347] Browser LOG     Video play failed: {}
+[02:19:05.951] Browser LOG     Video play failed: {}
+[02:19:07.894] Browser LOG     Video play failed: {}
+[02:19:15.604] Browser LOG     Video play failed: {}
+[02:19:19.013] Browser LOG     Video play failed: {}

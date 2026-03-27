@@ -6,6 +6,7 @@
   "/benefits/free-scholarship/page": "app/benefits/free-scholarship/page.js",
   "/benefits/free-spoken-english/page": "app/benefits/free-spoken-english/page.js",
   "/benefits/free-tuitions/page": "app/benefits/free-tuitions/page.js",
+  "/login/page": "app/login/page.js",
   "/member-exclusive-discount/diagnostics-test/page": "app/member-exclusive-discount/diagnostics-test/page.js",
   "/member-exclusive-discount/kk-raksha-kavach/page": "app/member-exclusive-discount/kk-raksha-kavach/page.js",
   "/member-exclusive-discount/legal-support/page": "app/member-exclusive-discount/legal-support/page.js",
@@ -14,6 +15,10 @@
   "/member-exclusive-discount/qcm-medicines/page": "app/member-exclusive-discount/qcm-medicines/page.js",
   "/page": "app/page.js",
   "/register/page": "app/register/page.js",
+  "/services/scholarship-details/page": "app/services/scholarship-details/page.js",
+  "/services/scholarship-system/page": "app/services/scholarship-system/page.js",
+  "/services/state-top-level-school/page": "app/services/state-top-level-school/page.js",
+  "/services/students-registration/page": "app/services/students-registration/page.js",
   "/teacher/all-teachers/page": "app/teacher/all-teachers/page.js",
   "/teacher/join/page": "app/teacher/join/page.js"
 }

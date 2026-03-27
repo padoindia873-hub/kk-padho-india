@@ -1,25 +1,25 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
 
 interface Service {
   title: string;
   icon: string;
   color: string;
+  slug: string;
 }
 
 export default function ServicesGrid() {
   const services: Service[] = [
-    { title: "Scholarship Details", icon: "🎓", color: "blue" },
-    { title: "State Top level school", icon: "📚", color: "green" },
-    { title: "Students Registration", icon: "📝", color: "purple" },
-    { title: "Scholarship System", icon: "💰", color: "yellow" },
-   
-    { title: "School Benefits", icon: "🏫", color: "red" },
-    { title: "Get Membership Card", icon: "💳", color: "pink" },
-    { title: "Event live Streaming", icon: "💼", color: "cyan" },
-    { title: "Job Vacancy", icon: "💼", color: "cyan" },
-
+    { title: "Scholarship Details", icon: "🎓", color: "blue", slug: "scholarship-details" },
+    { title: "State Top level school", icon: "📚", color: "green", slug: "state-top-level-school" },
+    { title: "Students Registration", icon: "📝", color: "purple", slug: "students-registration" },
+    { title: "Scholarship System", icon: "💰", color: "yellow", slug: "scholarship-system" },
+    { title: "School Benefits", icon: "🏫", color: "red", slug: "school-benefits" },
+    { title: "Get Membership Card", icon: "💳", color: "pink", slug: "get-membership-card" },
+    { title: "Event live Streaming", icon: "📺", color: "cyan", slug: "event-live-streaming" },
+    { title: "Job Vacancy", icon: "💼", color: "orange", slug: "job-vacancy" },
   ];
 
   const getColorClasses = (color: string) => {
@@ -28,14 +28,10 @@ export default function ServicesGrid() {
       green: { bg: "bg-green-50/90 backdrop-blur-sm", text: "text-green-700", hover: "hover:bg-green-600 hover:text-white", border: "border-green-200" },
       purple: { bg: "bg-purple-50/90 backdrop-blur-sm", text: "text-purple-700", hover: "hover:bg-purple-600 hover:text-white", border: "border-purple-200" },
       yellow: { bg: "bg-yellow-50/90 backdrop-blur-sm", text: "text-yellow-700", hover: "hover:bg-yellow-600 hover:text-white", border: "border-yellow-200" },
-      indigo: { bg: "bg-indigo-50/90 backdrop-blur-sm", text: "text-indigo-700", hover: "hover:bg-indigo-600 hover:text-white", border: "border-indigo-200" },
       red: { bg: "bg-red-50/90 backdrop-blur-sm", text: "text-red-700", hover: "hover:bg-red-600 hover:text-white", border: "border-red-200" },
       pink: { bg: "bg-pink-50/90 backdrop-blur-sm", text: "text-pink-700", hover: "hover:bg-pink-600 hover:text-white", border: "border-pink-200" },
-      teal: { bg: "bg-teal-50/90 backdrop-blur-sm", text: "text-teal-700", hover: "hover:bg-teal-600 hover:text-white", border: "border-teal-200" },
-      orange: { bg: "bg-orange-50/90 backdrop-blur-sm", text: "text-orange-700", hover: "hover:bg-orange-600 hover:text-white", border: "border-orange-200" },
       cyan: { bg: "bg-cyan-50/90 backdrop-blur-sm", text: "text-cyan-700", hover: "hover:bg-cyan-600 hover:text-white", border: "border-cyan-200" },
-      emerald: { bg: "bg-emerald-50/90 backdrop-blur-sm", text: "text-emerald-700", hover: "hover:bg-emerald-600 hover:text-white", border: "border-emerald-200" },
-      rose: { bg: "bg-rose-50/90 backdrop-blur-sm", text: "text-rose-700", hover: "hover:bg-rose-600 hover:text-white", border: "border-rose-200" },
+      orange: { bg: "bg-orange-50/90 backdrop-blur-sm", text: "text-orange-700", hover: "hover:bg-orange-600 hover:text-white", border: "border-orange-200" },
     };
     return colors[color] || colors.blue;
   };
@@ -81,38 +77,39 @@ export default function ServicesGrid() {
             </p>
           </div>
 
-          {/* Services Grid */}
+          {/* Services Grid with Links */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             {services.map((service, index) => {
               const colors = getColorClasses(service.color);
               return (
-                <div
-                  key={index}
-                  className={`group ${colors.bg} ${colors.border} border-2 rounded-xl p-5 
-                            hover:shadow-2xl transition-all duration-500 cursor-pointer
-                            transform hover:-translate-y-2 hover:scale-105
-                            backdrop-blur-sm ${colors.hover} relative overflow-hidden`}
-                >
-                  {/* Decorative Corner */}
-                  <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-white/20 to-transparent rounded-bl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                  
-                  {/* Content */}
-                  <div className="flex flex-col items-center text-center relative z-10">
-                    <div className={`w-16 h-16 ${colors.text} bg-white/50 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 group-hover:rotate-3`}>
-                      <span className="text-4xl">{service.icon}</span>
+                <Link href={`/services/${service.slug}`} key={index}>
+                  <div
+                    className={`group ${colors.bg} ${colors.border} border-2 rounded-xl p-5 
+                              hover:shadow-2xl transition-all duration-500 cursor-pointer
+                              transform hover:-translate-y-2 hover:scale-105
+                              backdrop-blur-sm ${colors.hover} relative overflow-hidden`}
+                  >
+                    {/* Decorative Corner */}
+                    <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-white/20 to-transparent rounded-bl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    
+                    {/* Content */}
+                    <div className="flex flex-col items-center text-center relative z-10">
+                      <div className={`w-16 h-16 ${colors.text} bg-white/50 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-300 group-hover:rotate-3`}>
+                        <span className="text-4xl">{service.icon}</span>
+                      </div>
+                      
+                      <span className={`font-semibold text-base ${colors.text} group-hover:text-white transition-colors duration-300`}>
+                        {service.title}
+                      </span>
+                      
+                      {/* Hover Indicator */}
+                      <div className="mt-3 w-8 h-0.5 bg-current opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:w-12"></div>
                     </div>
-                    
-                    <span className={`font-semibold text-base ${colors.text} group-hover:text-white transition-colors duration-300`}>
-                      {service.title}
-                    </span>
-                    
-                    {/* Hover Indicator */}
-                    <div className="mt-3 w-8 h-0.5 bg-current opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:w-12"></div>
-                  </div>
 
-                  {/* Shine Effect */}
-                  <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
-                </div>
+                    {/* Shine Effect */}
+                    <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+                  </div>
+                </Link>
               );
             })}
           </div>

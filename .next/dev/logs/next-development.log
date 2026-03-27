@@ -693,3 +693,4 @@ Unterminated string constant
 [02:15:32.930] Browser WARN    Image with src "/Images/software.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [02:15:32.930] Browser WARN    Image with src "/Images/upsc.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
 [02:15:32.930] Browser WARN    Image with src "/Images/web-development.png" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[02:16:16.192] Server  LOG     ✓ Compiled in 56ms

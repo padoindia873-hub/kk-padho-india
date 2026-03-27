@@ -781,3 +781,20 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:27:13.358] Browser LOG     Video play failed: {}
 [04:27:20.098] Browser LOG     Video play failed: {}
 [04:27:23.990] Browser LOG     Video play failed: {}
+[04:29:12.791] Browser LOG     Video play failed: {}
+[04:29:14.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:29:16.330] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:29:23.972] Browser LOG     Video play failed: {}
+[04:29:26.111] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:29:27.866] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:29:29.564] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:29:31.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:29:33.190] Browser LOG     Login clicked
+[04:29:37.129] Browser LOG     Video play failed: {}
+[04:29:38.358] Browser LOG     Login clicked
+[04:29:45.845] Browser LOG     Video play failed: {}
+[04:30:27.341] Browser ERROR   uncaughtError: Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.
+[04:30:27.579] Server  LOG     ✓ Compiled in 625ms
+[04:30:36.592] Server  LOG     ✓ Compiled in 41ms
+[04:30:36.596] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[04:30:36.750] Browser ERROR   uncaughtError: Error: An unexpected Turbopack error occurred. Please see the output of `next dev` for more details.

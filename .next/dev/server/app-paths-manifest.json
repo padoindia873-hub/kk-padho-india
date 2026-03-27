@@ -34,6 +34,7 @@
   "/services/school-benefits/page": "app/services/school-benefits/page.js",
   "/services/state-top-level-school/page": "app/services/state-top-level-school/page.js",
   "/services/students-registration/page": "app/services/students-registration/page.js",
+  "/signup/page": "app/signup/page.js",
   "/teacher/all-teachers/page": "app/teacher/all-teachers/page.js",
   "/teacher/join/page": "app/teacher/join/page.js",
   "/terms/page": "app/terms/page.js"

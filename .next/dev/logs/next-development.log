@@ -1211,3 +1211,10 @@ https://nextjs.org/docs/messages/module-not-found
 [06:00:42.783] Server  LOG     ✓ Compiled in 10ms
 [06:01:07.997] Server  LOG     ✓ Compiled in 10ms
 [06:01:14.391] Browser LOG     Video play failed: {}
+[06:03:55.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:08:53.852] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:08:53.982] Browser WARN    Image with src "/Images/aerospace.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[06:08:58.880] Browser LOG     Video play failed: {}
+[06:09:01.734] Browser LOG     Video play failed: {}
+[06:09:05.223] Browser LOG     Video play failed: {}

@@ -61,10 +61,10 @@ export default function Navbar() {
           </Link>
         </li>
 
-        {/* Scholarship - Simple Link without dropdown */}
+        {/* Scholarship - Link to scholarship details page */}
         <li>
           <Link 
-            href="/scholarship"
+            href="/services/scholarship-details"
             className="hover:text-green-600 transition-colors duration-300 px-3 py-2 rounded-lg hover:bg-green-50"
           >
             Scholarship
@@ -231,7 +231,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            {/* Scholarship Mobile - Simple Link */}
+            {/* Scholarship Mobile - Link to scholarship details page */}
             <li>
               <Link 
                 href="/services/scholarship-details"

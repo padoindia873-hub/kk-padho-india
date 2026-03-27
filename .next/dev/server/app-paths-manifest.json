@@ -1,3 +1,11 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/benefits/free-it-training/page": "app/benefits/free-it-training/page.js",
+  "/benefits/free-scholarship/page": "app/benefits/free-scholarship/page.js",
+  "/benefits/free-tuitions/page": "app/benefits/free-tuitions/page.js",
+  "/member-exclusive-discount/kk-raksha-kavach/page": "app/member-exclusive-discount/kk-raksha-kavach/page.js",
+  "/member-exclusive-discount/qar-rides/page": "app/member-exclusive-discount/qar-rides/page.js",
+  "/page": "app/page.js",
+  "/teacher/all-teachers/page": "app/teacher/all-teachers/page.js",
+  "/teacher/join/page": "app/teacher/join/page.js"
 }

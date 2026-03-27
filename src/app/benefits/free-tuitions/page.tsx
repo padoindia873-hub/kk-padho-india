@@ -2,8 +2,11 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 export default function FreeITTrainingPage() {
+  const router = useRouter();
+
   return (
     <section className="relative w-full min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
 
@@ -17,10 +20,13 @@ export default function FreeITTrainingPage() {
         
         {/* Back Button */}
         <div className="mb-8">
-          <Link href="/" className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors group">
+          <button 
+            onClick={() => router.push('/')}
+            className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors group"
+          >
             <span className="text-2xl group-hover:-translate-x-1 transition-transform">←</span>
             <span>Back to Benefits</span>
-          </Link>
+          </button>
         </div>
 
         {/* Header */}
@@ -104,13 +110,16 @@ export default function FreeITTrainingPage() {
 
         {/* Register Now Button */}
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+          <button 
+            onClick={() => alert("Registration form will open soon!")}
+            className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
             Register Now - Free IT Training
           </button>
           <p className="text-gray-400 text-sm mt-4">Limited seats • Certificate provided</p>
         </div>
 
-        {/* ==================== NEW TEACHER JOINING SECTION ==================== */}
+        {/* ==================== TEACHER JOINING SECTION ==================== */}
 
         <div className="mt-20 pt-16 border-t border-white/10">
           <div className="text-center mb-12">
@@ -188,23 +197,21 @@ export default function FreeITTrainingPage() {
               </div>
             </div>
 
-            {/* Teacher Interview CTA */}
+            {/* Teacher Interview CTA - Updated with Links */}
             <div className="bg-gradient-to-br from-amber-500/10 to-yellow-500/10 backdrop-blur-md rounded-3xl p-8 border border-amber-400/30 flex flex-col justify-center">
               <h3 className="text-2xl font-bold text-amber-300 mb-6">State Wise Teacher</h3>
               
-              <button 
-                onClick={() => alert("Teacher Interview Registration Opened!")}
-                className="bg-gradient-to-r from-amber-500 to-yellow-500 text-black px-8 py-4 rounded-2xl font-bold text-lg hover:from-amber-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg mb-6"
-              >
-                Teacher Joining Open
-              </button>
+              <Link href="/teacher/join">
+                <button className="w-full bg-gradient-to-r from-amber-500 to-yellow-500 text-black px-8 py-4 rounded-2xl font-bold text-lg hover:from-amber-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg mb-6">
+                  Teacher Joining Open
+                </button>
+              </Link>
 
-              <button 
-                onClick={() => alert("State-wise Teacher Interview Page Coming Soon")}
-                className="border border-amber-400/50 hover:bg-white/5 text-amber-300 px-8 py-4 rounded-2xl font-medium transition-all duration-300"
-              >
-                Our All Teachers
-              </button>
+              <Link href="/teacher/all-teachers">
+                <button className="w-full border border-amber-400/50 hover:bg-white/5 text-amber-300 px-8 py-4 rounded-2xl font-medium transition-all duration-300">
+                  Our All Teachers
+                </button>
+              </Link>
 
               <p className="text-xs text-gray-400 mt-8 text-center">
                 Earn good income • Flexible timing • Work from home option available

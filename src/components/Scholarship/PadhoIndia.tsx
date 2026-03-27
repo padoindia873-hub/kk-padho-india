@@ -1,8 +1,15 @@
 "use client";
 
 import React from 'react';
+import { useRouter } from 'next/navigation';
 
-export default function ScholarshipHero() {
+export default function PadhoIndia() {
+  const router = useRouter();
+
+  const handleApplyClick = () => {
+    router.push('/scholarship/apply');
+  };
+
   return (
     <section className="relative w-full bg-gradient-to-br from-indigo-50 via-blue-50 to-cyan-50 py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
       
@@ -96,11 +103,14 @@ export default function ScholarshipHero() {
           </div>
         </div>
 
-        {/* CTA Button */}
+        {/* CTA Button - Now with working navigation */}
         <div className="mt-12">
           <div className="relative inline-block group">
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-400 to-cyan-400 rounded-full blur-xl opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
-            <button className="relative bg-gradient-to-r from-indigo-600 to-cyan-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-indigo-700 hover:to-cyan-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+            <button 
+              onClick={handleApplyClick}
+              className="relative bg-gradient-to-r from-indigo-600 to-cyan-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-indigo-700 hover:to-cyan-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer"
+            >
               <span className="flex items-center gap-2">
                 Apply for Scholarship
                 <span className="text-xl group-hover:translate-x-1 transition-transform">→</span>

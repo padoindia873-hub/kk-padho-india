@@ -745,3 +745,5 @@ Unterminated string constant
 [04:06:21.662] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [04:06:21.806] Browser WARN    Image with src "/Images/aerospace.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:06:53.904] Browser LOG     Video play failed: {}
+[04:07:09.958] Browser LOG     Video play failed: {}

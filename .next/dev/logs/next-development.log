@@ -1115,3 +1115,38 @@ https://nextjs.org/docs/messages/module-not-found
 [05:05:05.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [05:08:44.366] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [05:08:46.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:12:56.560] Server  LOG     ✓ Compiled in 18ms
+[05:13:02.003] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:13:34.209] Server  LOG     ✓ Compiled in 18ms
+[05:14:45.849] Server  LOG     ✓ Compiled in 17ms
+[05:14:50.561] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:14:52.385] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:15:33.075] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:15:34.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:18:31.239] Server  LOG     ✓ Compiled in 16ms
+[05:18:41.598] Browser LOG     Video play failed: {}
+[05:19:28.283] Browser LOG     Video play failed: {}
+[05:25:48.136] Browser LOG     Video play failed: {}
+[05:25:57.465] Browser LOG     Video play failed: {}
+[05:26:01.445] Browser LOG     Video play failed: {}
+[05:26:03.725] Browser LOG     Video play failed: {}
+[05:26:05.961] Browser LOG     Video play failed: {}
+[05:26:09.174] Browser LOG     Video play failed: {}
+[05:26:10.954] Browser LOG     Video play failed: {}
+[05:26:13.504] Browser LOG     Video play failed: {}
+[05:26:15.368] Browser LOG     Video play failed: {}
+[05:26:17.772] Browser LOG     Video play failed: {}
+[05:26:20.272] Browser LOG     Video play failed: {}
+[05:26:25.084] Browser LOG     Video play failed: {}
+[05:26:26.762] Browser LOG     Video play failed: {}
+[05:26:29.005] Browser LOG     Video play failed: {}
+[05:26:31.394] Browser LOG     Video play failed: {}
+[05:26:33.739] Browser LOG     Video play failed: {}
+[05:26:35.339] Browser LOG     Video play failed: {}
+[05:26:37.204] Browser LOG     Video play failed: {}
+[05:26:39.322] Browser LOG     Video play failed: {}
+[05:26:44.666] Browser LOG     Video play failed: {}
+[05:26:46.531] Browser LOG     Video play failed: {}
+[05:26:48.543] Browser LOG     Video play failed: {}
+[05:26:51.499] Browser LOG     Video play failed: {}
+[05:26:53.719] Browser LOG     Video play failed: {}

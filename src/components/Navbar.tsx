@@ -44,7 +44,7 @@ export default function Navbar() {
       >
         <img 
           src="/Images/logo.png"
-          alt="" 
+          alt="KK Padho India Logo" 
           className="h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
         />
       </div>
@@ -61,68 +61,24 @@ export default function Navbar() {
           </Link>
         </li>
 
-        {/* Scholarship with Dropdown */}
-        <li className="relative">
-          <button 
-            onClick={() => toggleDropdown('scholarship')}
-            className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
-              openDropdown === 'scholarship' 
-                ? 'text-green-600 bg-green-50' 
-                : 'hover:text-green-600 hover:bg-green-50'
-            }`}
+        {/* Scholarship - Simple Link without dropdown */}
+        <li>
+          <Link 
+            href="/scholarship"
+            className="hover:text-green-600 transition-colors duration-300 px-3 py-2 rounded-lg hover:bg-green-50"
           >
             Scholarship
-            <svg 
-              className={`w-4 h-4 transition-transform duration-300 ${openDropdown === 'scholarship' ? 'rotate-180' : ''}`}
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          
-          {/* Desktop Dropdown Menu */}
-          {openDropdown === 'scholarship' && (
-            <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100">
-              <Link href="/scholarship/merit" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🏆 Merit Based</Link>
-              <Link href="/scholarship/need" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🤝 Need Based</Link>
-              <Link href="/scholarship/women" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">👩‍🎓 Women in STEM</Link>
-              <Link href="/scholarship/sports" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700">⚽ Sports Excellence</Link>
-            </div>
-          )}
+          </Link>
         </li>
 
-        {/* Events with Dropdown */}
-        <li className="relative">
-          <button 
-            onClick={() => toggleDropdown('events')}
-            className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
-              openDropdown === 'events' 
-                ? 'text-green-600 bg-green-50' 
-                : 'hover:text-green-600 hover:bg-green-50'
-            }`}
+        {/* Events - Simple Link without dropdown */}
+        <li>
+          <Link 
+            href="/events"
+            className="hover:text-green-600 transition-colors duration-300 px-3 py-2 rounded-lg hover:bg-green-50"
           >
             Events
-            <svg 
-              className={`w-4 h-4 transition-transform duration-300 ${openDropdown === 'events' ? 'rotate-180' : ''}`}
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          
-          {/* Desktop Dropdown Menu */}
-          {openDropdown === 'events' && (
-            <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100">
-              <Link href="/events/upcoming" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📅 Upcoming Events</Link>
-              <Link href="/events/past" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📆 Past Events</Link>
-              <Link href="/events/workshops" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">🛠️ Workshops</Link>
-              <Link href="/events/seminars" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700">🎤 Seminars</Link>
-            </div>
-          )}
+          </Link>
         </li>
 
         {/* About */}
@@ -176,7 +132,7 @@ export default function Navbar() {
           )}
         </li>
 
-        {/* Services with Dropdown - Updated with new items */}
+        {/* Services with Dropdown */}
         <li className="relative">
           <button 
             onClick={() => toggleDropdown('services')}
@@ -197,7 +153,7 @@ export default function Navbar() {
             </svg>
           </button>
           
-          {/* Desktop Dropdown Menu - Expanded with new items */}
+          {/* Desktop Dropdown Menu */}
           {openDropdown === 'services' && (
             <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl py-2 z-50 border border-green-100 max-h-96 overflow-y-auto">
               <Link href="/services/live-stream" className="block px-4 py-3 hover:bg-green-50 hover:text-green-600 transition-colors text-gray-700 border-b border-gray-50 last:border-0">📺 Live Stream</Link>
@@ -275,62 +231,28 @@ export default function Navbar() {
               </Link>
             </li>
 
-            {/* Scholarship Mobile */}
-            <li className="border-t border-gray-100 pt-2">
-              <button 
-                onClick={() => toggleMobileDropdown('scholarship')}
-                className="w-full flex items-center justify-between py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
+            {/* Scholarship Mobile - Simple Link */}
+            <li>
+              <Link 
+                href="/scholarship"
+                className="flex items-center gap-3 py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
+                onClick={() => handleNavigation("/scholarship")}
               >
-                <span className="flex items-center gap-3">
-                  <span className="text-green-600">🎓</span>
-                  Scholarship
-                </span>
-                <svg 
-                  className={`w-4 h-4 transition-transform duration-300 ${mobileDropdown === 'scholarship' ? 'rotate-180' : ''}`}
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {mobileDropdown === 'scholarship' && (
-                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2">
-                  <Link href="/scholarship/merit" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/merit")}>🏆 Merit Based</Link>
-                  <Link href="/scholarship/need" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/need")}>🤝 Need Based</Link>
-                  <Link href="/scholarship/women" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/women")}>👩‍🎓 Women in STEM</Link>
-                  <Link href="/scholarship/sports" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/scholarship/sports")}>⚽ Sports Excellence</Link>
-                </div>
-              )}
+                <span className="text-green-600">🎓</span>
+                Scholarship
+              </Link>
             </li>
 
-            {/* Events Mobile */}
+            {/* Events Mobile - Simple Link */}
             <li>
-              <button 
-                onClick={() => toggleMobileDropdown('events')}
-                className="w-full flex items-center justify-between py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
+              <Link 
+                href="/events"
+                className="flex items-center gap-3 py-3 px-4 hover:bg-green-50 hover:text-green-600 rounded-xl transition-colors text-gray-700 font-medium"
+                onClick={() => handleNavigation("/events")}
               >
-                <span className="flex items-center gap-3">
-                  <span className="text-green-600">📅</span>
-                  Events
-                </span>
-                <svg 
-                  className={`w-4 h-4 transition-transform duration-300 ${mobileDropdown === 'events' ? 'rotate-180' : ''}`}
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              {mobileDropdown === 'events' && (
-                <div className="pl-11 mt-1 space-y-1 bg-gray-50 rounded-xl p-2">
-                  <Link href="/events/upcoming" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/upcoming")}>📅 Upcoming Events</Link>
-                  <Link href="/events/past" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/past")}>📆 Past Events</Link>
-                  <Link href="/events/workshops" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/workshops")}>🛠️ Workshops</Link>
-                  <Link href="/events/seminars" className="block py-2.5 px-4 text-sm hover:bg-green-50 hover:text-green-600 rounded-lg" onClick={() => handleNavigation("/events/seminars")}>🎤 Seminars</Link>
-                </div>
-              )}
+                <span className="text-green-600">📅</span>
+                Events
+              </Link>
             </li>
 
             {/* About */}
@@ -357,7 +279,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            {/* Committee Mobile */}
+            {/* Committee Mobile with Dropdown */}
             <li>
               <button 
                 onClick={() => toggleMobileDropdown('committee')}
@@ -385,7 +307,7 @@ export default function Navbar() {
               )}
             </li>
 
-            {/* Services Mobile - Updated with new items */}
+            {/* Services Mobile with Dropdown */}
             <li>
               <button 
                 onClick={() => toggleMobileDropdown('services')}

@@ -1,4 +1,5 @@
 {
+  "/benefits/free-career-counseling/page": "app/benefits/free-career-counseling/page.js",
   "/benefits/free-it-training/page": "app/benefits/free-it-training/page.js",
   "/benefits/free-medical-treatment/page": "app/benefits/free-medical-treatment/page.js",
   "/benefits/free-scholarship/page": "app/benefits/free-scholarship/page.js",

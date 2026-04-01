@@ -1,6 +1,7 @@
 {
   "/member-exclusive-discount/kk-raksha-kavach/page": "app/member-exclusive-discount/kk-raksha-kavach/page.js",
   "/member-exclusive-discount/qar-rides/page": "app/member-exclusive-discount/qar-rides/page.js",
+  "/member-exclusive-discount/qcm-medicines/page": "app/member-exclusive-discount/qcm-medicines/page.js",
   "/page": "app/page.js",
   "/scholarship/membership/page": "app/scholarship/membership/page.js",
   "/services/event-live-streaming/page": "app/services/event-live-streaming/page.js",

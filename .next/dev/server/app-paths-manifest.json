@@ -13,6 +13,7 @@
   "/member-exclusive-discount/nursing-services/page": "app/member-exclusive-discount/nursing-services/page.js",
   "/member-exclusive-discount/qar-rides/page": "app/member-exclusive-discount/qar-rides/page.js",
   "/member-exclusive-discount/qcm-medicines/page": "app/member-exclusive-discount/qcm-medicines/page.js",
+  "/member/join/page": "app/member/join/page.js",
   "/page": "app/page.js",
   "/scholarship/apply/page": "app/scholarship/apply/page.js",
   "/scholarship/membership/page": "app/scholarship/membership/page.js",

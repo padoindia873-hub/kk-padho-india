@@ -5,43 +5,39 @@ import { useRouter } from 'next/navigation';
 
 export default function EventLiveStreamingPage() {
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState('upcoming');
+  const [activeTab, setActiveTab] = useState('live');
 
   // Live events list data
   const liveEvents = [
-    { id: 1, title: "National Education Summit 2024", speaker: "Dr. Amit Sharma", viewers: 1245, status: "live", thumbnail: "🎓" },
-    { id: 2, title: "Future of Digital Learning", speaker: "Prof. Meera Singh", viewers: 876, status: "live", thumbnail: "💻" },
-    { id: 3, title: "Scholarship Application Workshop", speaker: "Ms. Priya Patel", viewers: 543, status: "live", thumbnail: "💰" }
+    { id: 1, title: "National Education Summit 2024", speaker: "Dr. Amit Sharma", viewers: 1245, time: "10:00 AM" },
+    { id: 2, title: "Future of Digital Learning", speaker: "Prof. Meera Singh", viewers: 876, time: "11:30 AM" },
+    { id: 3, title: "Scholarship Application Workshop", speaker: "Ms. Priya Patel", viewers: 543, time: "2:00 PM" }
   ];
 
   // Webinars & sessions data
   const webinars = [
-    { id: 1, title: "Career Guidance for Students", date: "March 28, 2024", time: "3:00 PM", duration: "90 mins", speaker: "Career Expert Panel", level: "Intermediate" },
-    { id: 2, title: "Study Abroad Opportunities", date: "April 5, 2024", time: "11:00 AM", duration: "60 mins", speaker: "International Counselors", level: "All Levels" },
-    { id: 3, title: "Research Methodology Workshop", date: "April 12, 2024", time: "2:00 PM", duration: "120 mins", speaker: "Dr. Rajesh Kumar", level: "Advanced" },
-    { id: 4, title: "Soft Skills Development", date: "April 20, 2024", time: "10:00 AM", duration: "75 mins", speaker: "Corporate Trainers", level: "Beginner" },
-    { id: 5, title: "AI in Education", date: "April 28, 2024", time: "4:00 PM", duration: "90 mins", speaker: "Tech Industry Leaders", level: "Advanced" },
-    { id: 6, title: "Parent-Teacher Collaboration", date: "May 5, 2024", time: "5:30 PM", duration: "60 mins", speaker: "Educational Psychologists", level: "All Levels" }
+    { id: 1, title: "Career Guidance for Students", date: "March 28, 2024", time: "3:00 PM", speaker: "Career Expert Panel" },
+    { id: 2, title: "Study Abroad Opportunities", date: "April 5, 2024", time: "11:00 AM", speaker: "International Counselors" },
+    { id: 3, title: "Research Methodology Workshop", date: "April 12, 2024", time: "2:00 PM", speaker: "Dr. Rajesh Kumar" },
+    { id: 4, title: "Soft Skills Development", date: "April 20, 2024", time: "10:00 AM", speaker: "Corporate Trainers" }
   ];
 
   // Event schedule data
   const eventSchedule = [
-    { date: "March 25-27, 2024", event: "Annual Education Conference", venue: "Virtual + Delhi", type: "Conference" },
-    { date: "April 8-10, 2024", event: "Teachers Training Program", venue: "Virtual", type: "Workshop" },
-    { date: "April 15-20, 2024", event: "Student Skill Development Week", venue: "Virtual + Multiple Cities", type: "Festival" },
-    { date: "May 1-3, 2024", event: "Scholarship Fair 2024", venue: "Virtual", type: "Fair" },
-    { date: "May 15-17, 2024", event: "STEM Innovation Summit", venue: "Virtual + Bangalore", type: "Summit" },
-    { date: "June 5-7, 2024", event: "Career Counseling Expo", venue: "Virtual", type: "Expo" }
+    { date: "March 25, 2024", event: "National Education Summit", time: "10:00 AM - 5:00 PM", type: "Conference" },
+    { date: "March 28, 2024", event: "Career Guidance Webinar", time: "3:00 PM - 4:30 PM", type: "Webinar" },
+    { date: "April 5, 2024", event: "Study Abroad Session", time: "11:00 AM - 12:30 PM", type: "Seminar" },
+    { date: "April 12, 2024", event: "Research Workshop", time: "2:00 PM - 4:00 PM", type: "Workshop" },
+    { date: "April 20, 2024", event: "Soft Skills Training", time: "10:00 AM - 11:30 AM", type: "Workshop" },
+    { date: "April 28, 2024", event: "AI in Education Summit", time: "4:00 PM - 6:00 PM", type: "Conference" }
   ];
 
   // Streaming access features
   const streamingFeatures = [
-    { icon: "📱", title: "Multi-Platform", desc: "Watch on mobile, tablet, desktop, or smart TV" },
-    { icon: "💬", title: "Live Chat", desc: "Real-time interaction with speakers and attendees" },
-    { icon: "📝", title: "Notes & Resources", desc: "Download session materials and presentations" },
-    { icon: "🔁", title: "Replay Available", desc: "Access recorded sessions for 30 days" },
-    { icon: "🎥", title: "HD Quality", desc: "High-definition streaming up to 1080p" },
-    { icon: "🔔", title: "Reminders", desc: "Get notified before events start" }
+    { icon: "📱", title: "Multi-Device Access", desc: "Watch on mobile, tablet, or desktop" },
+    { icon: "💬", title: "Live Chat", desc: "Interact with speakers and attendees" },
+    { icon: "📝", title: "Download Resources", desc: "Get session materials and slides" },
+    { icon: "🔁", title: "Recording Available", desc: "Replay for 30 days after event" }
   ];
 
   return (
@@ -79,22 +75,12 @@ export default function EventLiveStreamingPage() {
           <div className="w-24 h-1 bg-gradient-to-r from-orange-500 to-amber-600 mx-auto mb-6 rounded-full"></div>
           
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Watch educational events, webinars, and sessions live from anywhere. Connect with experts and enhance your learning experience.
+            Watch educational events, webinars, and sessions live from anywhere
           </p>
         </div>
 
         {/* Tabs Navigation */}
         <div className="flex flex-wrap justify-center gap-3 mb-10">
-          <button 
-            onClick={() => setActiveTab('upcoming')}
-            className={`px-6 py-2.5 rounded-full font-medium transition-all ${
-              activeTab === 'upcoming' 
-                ? 'bg-gradient-to-r from-orange-600 to-amber-600 text-white shadow-md' 
-                : 'bg-white/70 text-gray-700 hover:bg-white shadow-sm'
-            }`}
-          >
-            📅 Upcoming Events
-          </button>
           <button 
             onClick={() => setActiveTab('live')}
             className={`px-6 py-2.5 rounded-full font-medium transition-all ${
@@ -103,7 +89,7 @@ export default function EventLiveStreamingPage() {
                 : 'bg-white/70 text-gray-700 hover:bg-white shadow-sm'
             }`}
           >
-            🔴 Live Now
+            🔴 Live Events
           </button>
           <button 
             onClick={() => setActiveTab('webinars')}
@@ -123,85 +109,81 @@ export default function EventLiveStreamingPage() {
                 : 'bg-white/70 text-gray-700 hover:bg-white shadow-sm'
             }`}
           >
-            📋 Event Schedule
+            📅 Event Schedule
+          </button>
+          <button 
+            onClick={() => setActiveTab('access')}
+            className={`px-6 py-2.5 rounded-full font-medium transition-all ${
+              activeTab === 'access' 
+                ? 'bg-gradient-to-r from-orange-600 to-amber-600 text-white shadow-md' 
+                : 'bg-white/70 text-gray-700 hover:bg-white shadow-sm'
+            }`}
+          >
+            🎥 Streaming Access
           </button>
         </div>
 
-        {/* 1. Live Events List - Live Now Tab */}
+        {/* 1. Live Events List */}
         {activeTab === 'live' && (
           <div className="mb-12">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
-              </span>
-              <h2 className="text-2xl font-bold text-gray-800">Live Events Now</h2>
-            </div>
-            
-            {liveEvents.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {liveEvents.map((event) => (
-                  <div key={event.id} className="bg-white rounded-xl shadow-lg border border-orange-100 overflow-hidden hover:shadow-xl transition-shadow">
-                    <div className="bg-gradient-to-r from-orange-500 to-amber-500 p-4 text-white">
-                      <div className="flex justify-between items-center">
-                        <span className="text-3xl">{event.thumbnail}</span>
-                        <span className="bg-red-500 px-2 py-1 rounded-full text-xs font-bold animate-pulse">LIVE</span>
-                      </div>
-                    </div>
-                    <div className="p-5">
-                      <h3 className="font-bold text-gray-800 text-lg mb-2">{event.title}</h3>
-                      <p className="text-gray-600 text-sm mb-2">🎤 {event.speaker}</p>
-                      <p className="text-gray-500 text-sm mb-4">👥 {event.viewers} watching now</p>
-                      <button className="w-full bg-gradient-to-r from-orange-600 to-amber-600 text-white px-4 py-2 rounded-lg font-semibold hover:shadow-md transition-all">
-                        Watch Live →
-                      </button>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <div className="bg-white rounded-xl p-12 text-center shadow-sm border border-orange-100">
-                <div className="text-6xl mb-4">📺</div>
-                <p className="text-gray-500">No live events at the moment</p>
-                <p className="text-sm text-gray-400 mt-1">Check upcoming events schedule</p>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* 2. Webinars & Sessions Tab */}
-        {activeTab === 'webinars' && (
-          <div className="mb-12">
             <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-              <span className="text-3xl">🎯</span> Upcoming Webinars & Sessions
+              <span className="text-3xl">🔴</span> Live Now
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {webinars.map((webinar) => (
-                <div key={webinar.id} className="bg-white rounded-xl p-5 shadow-sm border border-orange-100 hover:shadow-md transition-shadow">
-                  <div className="flex justify-between items-start mb-3">
-                    <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
-                      <span className="text-xl">🎓</span>
-                    </div>
-                    <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded-full">{webinar.level}</span>
+              {liveEvents.map((event) => (
+                <div key={event.id} className="bg-white rounded-xl shadow-lg border border-orange-100 overflow-hidden hover:shadow-xl transition-shadow">
+                  <div className="bg-gradient-to-r from-orange-500 to-amber-500 p-3 px-4 flex justify-between items-center">
+                    <span className="text-white font-semibold">LIVE</span>
+                    <span className="bg-red-500 px-2 py-1 rounded-full text-xs font-bold animate-pulse">● LIVE</span>
                   </div>
-                  <h3 className="font-semibold text-gray-800 mb-2">{webinar.title}</h3>
-                  <p className="text-gray-600 text-sm mb-1">🎤 {webinar.speaker}</p>
-                  <p className="text-gray-500 text-sm mb-1">📅 {webinar.date} • ⏰ {webinar.time}</p>
-                  <p className="text-gray-400 text-xs mb-3">⏱️ Duration: {webinar.duration}</p>
-                  <button className="w-full bg-gradient-to-r from-orange-600 to-amber-600 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:shadow-md transition-all">
-                    Register & Set Reminder
-                  </button>
+                  <div className="p-5">
+                    <h3 className="font-bold text-gray-800 text-lg mb-2">{event.title}</h3>
+                    <p className="text-gray-600 text-sm mb-1">🎤 {event.speaker}</p>
+                    <p className="text-gray-500 text-sm mb-1">⏰ {event.time}</p>
+                    <p className="text-gray-500 text-sm mb-4">👥 {event.viewers} watching</p>
+                    <button className="w-full bg-gradient-to-r from-orange-600 to-amber-600 text-white px-4 py-2 rounded-lg font-semibold hover:shadow-md transition-all">
+                      Watch Live →
+                    </button>
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         )}
 
-        {/* 3. Event Schedule Tab */}
+        {/* 2. Webinars & Sessions */}
+        {activeTab === 'webinars' && (
+          <div className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+              <span className="text-3xl">🎯</span> Upcoming Webinars & Sessions
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {webinars.map((webinar) => (
+                <div key={webinar.id} className="bg-white rounded-xl p-5 shadow-sm border border-orange-100 hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center text-2xl">
+                      🎓
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-gray-800 mb-1">{webinar.title}</h3>
+                      <p className="text-gray-600 text-sm">🎤 {webinar.speaker}</p>
+                      <p className="text-gray-500 text-sm mt-1">📅 {webinar.date} • ⏰ {webinar.time}</p>
+                      <button className="mt-3 text-orange-600 font-medium text-sm hover:text-orange-800">
+                        Set Reminder →
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* 3. Event Schedule */}
         {activeTab === 'schedule' && (
           <div className="mb-12">
             <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-              <span className="text-3xl">📋</span> Complete Event Schedule
+              <span className="text-3xl">📅</span> Event Schedule
             </h2>
             <div className="bg-white rounded-xl shadow-sm border border-orange-100 overflow-hidden">
               <div className="overflow-x-auto">
@@ -210,7 +192,7 @@ export default function EventLiveStreamingPage() {
                     <tr>
                       <th className="text-left p-4 font-semibold text-gray-700">Date</th>
                       <th className="text-left p-4 font-semibold text-gray-700">Event</th>
-                      <th className="text-left p-4 font-semibold text-gray-700">Venue</th>
+                      <th className="text-left p-4 font-semibold text-gray-700">Time</th>
                       <th className="text-left p-4 font-semibold text-gray-700">Type</th>
                       <th className="text-left p-4 font-semibold text-gray-700"></th>
                     </tr>
@@ -220,21 +202,19 @@ export default function EventLiveStreamingPage() {
                       <tr key={idx} className="border-b border-gray-100 hover:bg-orange-50/50 transition-colors">
                         <td className="p-4 text-gray-700 font-medium">{item.date}</td>
                         <td className="p-4 text-gray-800">{item.event}</td>
-                        <td className="p-4 text-gray-600">{item.venue}</td>
+                        <td className="p-4 text-gray-600">{item.time}</td>
                         <td className="p-4">
                           <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                            item.type === 'Conference' ? 'bg-blue-100 text-blue-700' :
+                            item.type === 'Conference' ? 'bg-purple-100 text-purple-700' :
+                            item.type === 'Webinar' ? 'bg-blue-100 text-blue-700' :
                             item.type === 'Workshop' ? 'bg-green-100 text-green-700' :
-                            item.type === 'Festival' ? 'bg-purple-100 text-purple-700' :
-                            item.type === 'Fair' ? 'bg-pink-100 text-pink-700' :
-                            item.type === 'Summit' ? 'bg-orange-100 text-orange-700' :
-                            'bg-gray-100 text-gray-700'
+                            'bg-orange-100 text-orange-700'
                           }`}>
                             {item.type}
                           </span>
                         </td>
                         <td className="p-4">
-                          <button className="text-orange-600 font-medium text-sm hover:text-orange-800">Remind Me →</button>
+                          <button className="text-orange-600 text-sm hover:text-orange-800">Remind</button>
                         </td>
                       </tr>
                     ))}
@@ -245,71 +225,34 @@ export default function EventLiveStreamingPage() {
           </div>
         )}
 
-        {/* 4. Streaming Access Features */}
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-            <span className="text-3xl">🎥</span> Streaming Access Features
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {streamingFeatures.map((feature, idx) => (
-              <div key={idx} className="bg-white rounded-xl p-5 shadow-sm border border-orange-100 flex items-start gap-3">
-                <div className="text-3xl">{feature.icon}</div>
-                <div>
+        {/* 4. Streaming Access */}
+        {activeTab === 'access' && (
+          <div className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+              <span className="text-3xl">🎥</span> Streaming Access
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+              {streamingFeatures.map((feature, idx) => (
+                <div key={idx} className="bg-white rounded-xl p-5 text-center shadow-sm border border-orange-100 hover:shadow-md transition-shadow">
+                  <div className="text-4xl mb-3">{feature.icon}</div>
                   <h3 className="font-semibold text-gray-800 mb-1">{feature.title}</h3>
                   <p className="text-gray-500 text-sm">{feature.desc}</p>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Upcoming Events Tab - Featured Events */}
-        {activeTab === 'upcoming' && (
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-              <span className="text-3xl">📅</span> Featured Upcoming Events
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-r from-orange-500 to-amber-500 rounded-xl p-6 text-white">
-                <div className="text-3xl mb-3">🎓</div>
-                <h3 className="text-2xl font-bold mb-2">National Education Summit 2024</h3>
-                <p className="mb-2">March 25-27, 2024 | 10:00 AM - 5:00 PM</p>
-                <p className="mb-4 opacity-90">Join 5000+ educators, students, and industry leaders</p>
-                <button className="bg-white text-orange-600 px-6 py-2 rounded-lg font-semibold hover:shadow-lg transition-all">
-                  Register Now →
-                </button>
-              </div>
-              <div className="bg-gradient-to-r from-amber-500 to-yellow-500 rounded-xl p-6 text-white">
-                <div className="text-3xl mb-3">💡</div>
-                <h3 className="text-2xl font-bold mb-2">Scholarship Awareness Week</h3>
-                <p className="mb-2">April 15-20, 2024 | Daily Sessions</p>
-                <p className="mb-4 opacity-90">Learn about 100+ scholarship opportunities</p>
-                <button className="bg-white text-amber-600 px-6 py-2 rounded-lg font-semibold hover:shadow-lg transition-all">
-                  Learn More →
-                </button>
-              </div>
+              ))}
             </div>
           </div>
         )}
 
-        {/* CTA Buttons */}
+        {/* CTA Button */}
         <div className="text-center">
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => alert("Watch live events and webinars from our streaming platform!")} 
-              className="bg-gradient-to-r from-orange-600 to-amber-600 text-white px-8 py-3 rounded-xl font-semibold hover:shadow-lg transition-all"
-            >
-              Watch Live
-            </button>
-            <button 
-              onClick={() => alert("Subscribe to get notified about upcoming events and webinars!")} 
-              className="bg-white text-orange-600 px-8 py-3 rounded-xl font-semibold hover:shadow-lg transition-all border border-orange-300"
-            >
-              Subscribe for Updates
-            </button>
-          </div>
+          <button 
+            onClick={() => alert("Watch live events and webinars now!")} 
+            className="bg-gradient-to-r from-orange-600 to-amber-600 text-white px-10 py-4 rounded-xl font-bold text-lg hover:shadow-lg transition-all"
+          >
+            Watch Live
+          </button>
           <p className="text-gray-500 text-sm mt-4">
-            All sessions are recorded and available for 30 days • Watch anytime, anywhere
+            All sessions are recorded • Watch anytime, anywhere
           </p>
         </div>
       </div>

@@ -31,8 +31,8 @@ export default function ExclusiveMemberDiscount() {
           alt="Benefits background"
           className="w-full h-full object-cover"
         />
-        {/* Light Overlay - Reduced opacity for better visibility */}
-        <div className="absolute inset-0 bg-amber-100/70"></div>
+        {/* Light Overlay */}
+        <div className="absolute inset-0 bg-amber-100/80"></div>
       </div>
 
       {/* Decorative Elements */}
@@ -47,16 +47,16 @@ export default function ExclusiveMemberDiscount() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-amber-200/90 rounded-full px-4 py-2 mb-4 border border-amber-300">
             <span className="w-2 h-2 bg-amber-600 rounded-full animate-pulse mr-2"></span>
-            <span className="text-amber-900 text-sm font-medium tracking-wider">✨ MEMBER PERKS ✨</span>
+            <span className="text-amber-800 text-sm font-medium tracking-wider">✨ MEMBER PERKS ✨</span>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             Exclusive Member Discount Benefits
           </h2>
 
           <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-orange-500 mx-auto mb-6"></div>
 
-          <p className="text-xl text-orange-700 font-semibold">
+          <p className="text-xl text-amber-700 font-semibold">
             Up to 70% discount on various services
           </p>
         </div>
@@ -83,12 +83,12 @@ export default function ExclusiveMemberDiscount() {
                   </span>
                 </div>
 
-                <h3 className="text-amber-900 font-semibold text-base mb-2 group-hover:text-orange-800 transition-colors">
+                <h3 className="text-gray-800 font-semibold text-base mb-2 group-hover:text-amber-700 transition-colors">
                   {benefit.title}
                 </h3>
 
                 {benefit.discount && (
-                  <div className="inline-block bg-amber-500 text-amber-900 px-3 py-1 rounded-full text-xs font-bold shadow-sm">
+                  <div className="inline-block bg-amber-500 text-amber-50 px-3 py-1 rounded-full text-xs font-bold shadow-sm">
                     {benefit.discount}
                   </div>
                 )}
@@ -103,7 +103,7 @@ export default function ExclusiveMemberDiscount() {
         {/* Bottom CTA - Now links to member join page */}
         <div className="text-center mt-12">
           <Link href="/member/join">
-            <button className="bg-gradient-to-r from-amber-500 to-orange-500 text-white px-8 py-3 rounded-full font-bold text-lg hover:from-amber-600 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-lg">
+            <button className="bg-gradient-to-r from-amber-500 to-orange-500 text-amber-50 px-8 py-3 rounded-full font-bold text-lg hover:from-amber-600 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-lg">
               Become a Member Today
             </button>
           </Link>

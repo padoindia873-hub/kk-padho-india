@@ -11,16 +11,11 @@ export default function ScholarshipApplyPage() {
     phone: '',
     dob: '',
     address: '',
-    city: '',
-    state: '',
-    pincode: '',
     qualification: '',
     institution: '',
     course: '',
     percentage: '',
-    income: '',
-    caste: '',
-    aadhar: ''
+    income: ''
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -32,16 +27,11 @@ export default function ScholarshipApplyPage() {
       phone: '',
       dob: '',
       address: '',
-      city: '',
-      state: '',
-      pincode: '',
       qualification: '',
       institution: '',
       course: '',
       percentage: '',
-      income: '',
-      caste: '',
-      aadhar: ''
+      income: ''
     });
   };
 
@@ -50,81 +40,296 @@ export default function ScholarshipApplyPage() {
   };
 
   return (
-    <section className="relative w-full min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
-      <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 left-1/4 w-96 h-96 bg-yellow-500/30 rounded-full blur-[150px]"></div>
-        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-orange-500/30 rounded-full blur-[150px]"></div>
-      </div>
-
-      <div className="relative z-10 max-w-5xl mx-auto">
-        <div className="mb-8">
-          <button onClick={() => router.back()} className="inline-flex items-center gap-2 text-yellow-400 hover:text-yellow-300 transition-colors group">
-            <span className="text-2xl group-hover:-translate-x-1 transition-transform">←</span>
-            <span>Back to Scholarship Programs</span>
+    <section className="min-h-screen w-full py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-gray-100">
+      <div className="max-w-6xl mx-auto">
+        
+        {/* Back Button */}
+        <div className="mb-10">
+          <button 
+            onClick={() => router.back()} 
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors group"
+          >
+            <span className="text-xl group-hover:-translate-x-1 transition-transform">←</span>
+            <span className="font-medium">Back to Scholarship Programs</span>
           </button>
         </div>
 
+        {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-28 h-28 bg-gradient-to-br from-yellow-500/30 to-orange-500/30 rounded-3xl mb-6 mx-auto border border-yellow-400/50 shadow-xl">
-            <span className="text-7xl">🎓</span>
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-blue-50 rounded-2xl mb-6">
+            <span className="text-4xl">📝</span>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-              Apply for Scholarship
-            </span>
+          
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+            Apply for Scholarship
           </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-400 mx-auto mb-6 rounded-full"></div>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Fill out the application form to apply for merit-based and need-based scholarships.
+          
+          <div className="w-20 h-0.5 bg-blue-400 mx-auto mb-5"></div>
+          
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Complete the application to avail merit-based and need-based scholarships
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
-            <h2 className="text-2xl font-bold text-yellow-400 mb-4">📋 Scholarship Details</h2>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">✓</span><span>Merit-based: Up to 100% fee waiver</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">✓</span><span>Need-based: Up to 80% fee waiver</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">✓</span><span>Sports scholarship: Up to 70% fee waiver</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">✓</span><span>Girl child education: Up to 90% fee waiver</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">✓</span><span>Monthly stipend for top performers</span></li>
+        {/* Three Info Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          
+          {/* Card 1: Direct application form */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+            <div className="text-3xl mb-4">📋</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Direct application form
+            </h2>
+            <p className="text-gray-600 text-sm leading-relaxed">
+              Simple and straightforward application process. Fill your personal, academic, and income details to apply for scholarship.
+            </p>
+          </div>
+
+          {/* Card 2: Instructions */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+            <div className="text-3xl mb-4">📌</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Instructions
+            </h2>
+            <ul className="space-y-2 text-gray-600 text-sm">
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Fill all mandatory fields (*)</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Provide accurate academic details</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Income proof may be required later</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Keep documents ready for upload</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Application review takes 7-10 days</span>
+              </li>
             </ul>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10">
-            <h2 className="text-2xl font-bold text-yellow-400 mb-4">✅ Eligibility Criteria</h2>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">•</span><span>Minimum 60% marks in last examination</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">•</span><span>Family income less than ₹3 LPA (for need-based)</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">•</span><span>Indian citizens only</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">•</span><span>Students from class 8 to Post Graduation</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-yellow-400 mt-1">•</span><span>Valid ID proof required</span></li>
+          {/* Card 3: Document upload */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+            <div className="text-3xl mb-4">📎</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Document upload
+            </h2>
+            <ul className="space-y-2 text-gray-600 text-sm">
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">✓</span>
+                <span>Previous marksheets</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">✓</span>
+                <span>Income certificate (if applicable)</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">✓</span>
+                <span>Aadhar card / ID proof</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">✓</span>
+                <span>Passport size photograph</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">✓</span>
+                <span>Category certificate (if applicable)</span>
+              </li>
             </ul>
+            <div className="mt-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
+              <p className="text-xs text-gray-500 text-center">
+                📁 Upload documents after submission via email
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className="bg-white/5 backdrop-blur-md rounded-3xl p-8 border border-white/10 mt-8">
-          <h2 className="text-3xl font-bold text-yellow-400 mb-6 text-center">Scholarship Application Form</h2>
+        {/* Application Form */}
+        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+            Scholarship Application Form
+          </h2>
+          
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div><label className="block text-gray-300 mb-2">Full Name *</label><input type="text" name="fullName" required value={formData.fullName} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="Enter full name" /></div>
-              <div><label className="block text-gray-300 mb-2">Email Address *</label><input type="email" name="email" required value={formData.email} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="your@email.com" /></div>
-              <div><label className="block text-gray-300 mb-2">Phone Number *</label><input type="tel" name="phone" required value={formData.phone} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="+91 98765 43210" /></div>
-              <div><label className="block text-gray-300 mb-2">Date of Birth *</label><input type="date" name="dob" required value={formData.dob} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" /></div>
-              <div><label className="block text-gray-300 mb-2">Address *</label><textarea name="address" required value={formData.address} onChange={handleChange} rows={2} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="Enter your address"></textarea></div>
-              <div><label className="block text-gray-300 mb-2">City *</label><input type="text" name="city" required value={formData.city} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="Your city" /></div>
-              <div><label className="block text-gray-300 mb-2">State *</label><input type="text" name="state" required value={formData.state} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="Your state" /></div>
-              <div><label className="block text-gray-300 mb-2">Pincode *</label><input type="text" name="pincode" required value={formData.pincode} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="6-digit pincode" /></div>
-              <div><label className="block text-gray-300 mb-2">Qualification *</label><select name="qualification" required value={formData.qualification} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none"><option value="">Select qualification</option><option value="10">Class 10</option><option value="12">Class 12</option><option value="graduate">Graduate</option><option value="postgraduate">Post Graduate</option></select></div>
-              <div><label className="block text-gray-300 mb-2">Institution/College *</label><input type="text" name="institution" required value={formData.institution} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="Your institution name" /></div>
-              <div><label className="block text-gray-300 mb-2">Course/Stream *</label><input type="text" name="course" required value={formData.course} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="Course or stream" /></div>
-              <div><label className="block text-gray-300 mb-2">Percentage/GPA *</label><input type="text" name="percentage" required value={formData.percentage} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="e.g., 85% or 8.5 CGPA" /></div>
-              <div><label className="block text-gray-300 mb-2">Annual Family Income *</label><select name="income" required value={formData.income} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none"><option value="">Select income range</option><option value="<1">Less than ₹1 Lakh</option><option value="1-2">₹1-2 Lakhs</option><option value="2-3">₹2-3 Lakhs</option><option value="3-5">₹3-5 Lakhs</option><option value=">5">More than ₹5 Lakhs</option></select></div>
-              <div><label className="block text-gray-300 mb-2">Caste Category</label><select name="caste" value={formData.caste} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none"><option value="">Select category</option><option value="general">General</option><option value="obc">OBC</option><option value="sc">SC</option><option value="st">ST</option><option value="other">Other</option></select></div>
-              <div><label className="block text-gray-300 mb-2">Aadhar Number *</label><input type="text" name="aadhar" required value={formData.aadhar} onChange={handleChange} className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:border-yellow-400 focus:outline-none" placeholder="12-digit Aadhar number" /></div>
+              
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Full Name <span className="text-red-500">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  name="fullName" 
+                  required 
+                  value={formData.fullName} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                  placeholder="Enter full name"
+                />
+              </div>
+
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Email Address <span className="text-red-500">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  name="email" 
+                  required 
+                  value={formData.email} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                  placeholder="your@email.com"
+                />
+              </div>
+
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Phone Number <span className="text-red-500">*</span>
+                </label>
+                <input 
+                  type="tel" 
+                  name="phone" 
+                  required 
+                  value={formData.phone} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                  placeholder="+91 98765 43210"
+                />
+              </div>
+
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Date of Birth <span className="text-red-500">*</span>
+                </label>
+                <input 
+                  type="date" 
+                  name="dob" 
+                  required 
+                  value={formData.dob} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                />
+              </div>
+
+              <div className="md:col-span-2">
+                <label className="block text-gray-700 font-medium mb-2">
+                  Address <span className="text-red-500">*</span>
+                </label>
+                <textarea 
+                  name="address" 
+                  required 
+                  value={formData.address} 
+                  onChange={handleChange} 
+                  rows={2} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                  placeholder="Enter your complete address"
+                ></textarea>
+              </div>
+
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Qualification <span className="text-red-500">*</span>
+                </label>
+                <select 
+                  name="qualification" 
+                  required 
+                  value={formData.qualification} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                >
+                  <option value="">Select qualification</option>
+                  <option value="10">Class 10</option>
+                  <option value="12">Class 12</option>
+                  <option value="graduate">Graduate</option>
+                  <option value="postgraduate">Post Graduate</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Institution/College <span className="text-red-500">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  name="institution" 
+                  required 
+                  value={formData.institution} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                  placeholder="Your institution name"
+                />
+              </div>
+
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Course/Stream <span className="text-red-500">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  name="course" 
+                  required 
+                  value={formData.course} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                  placeholder="Course or stream"
+                />
+              </div>
+
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Percentage/GPA <span className="text-red-500">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  name="percentage" 
+                  required 
+                  value={formData.percentage} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                  placeholder="e.g., 85% or 8.5 CGPA"
+                />
+              </div>
+
+              <div>
+                <label className="block text-gray-700 font-medium mb-2">
+                  Annual Family Income <span className="text-red-500">*</span>
+                </label>
+                <select 
+                  name="income" 
+                  required 
+                  value={formData.income} 
+                  onChange={handleChange} 
+                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500 text-gray-800"
+                >
+                  <option value="">Select income range</option>
+                  <option value="<1">Less than ₹1 Lakh</option>
+                  <option value="1-2">₹1 - 2 Lakhs</option>
+                  <option value="2-3">₹2 - 3 Lakhs</option>
+                  <option value="3-5">₹3 - 5 Lakhs</option>
+                  <option value=">5">More than ₹5 Lakhs</option>
+                </select>
+              </div>
             </div>
-            <button type="submit" className="w-full bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:from-yellow-600 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-lg">Submit Application</button>
+
+            <button 
+              type="submit" 
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors shadow-sm mt-4"
+            >
+              Submit Application
+            </button>
           </form>
+          
+          <p className="text-gray-500 text-xs text-center mt-6">
+            * All fields are mandatory • Documents will be verified • Application review takes 7-10 days
+          </p>
         </div>
       </div>
     </section>

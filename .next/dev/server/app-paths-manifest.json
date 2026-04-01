@@ -7,6 +7,7 @@
   "/benefits/free-tuitions/page": "app/benefits/free-tuitions/page.js",
   "/contact/page": "app/contact/page.js",
   "/join-mission/page": "app/join-mission/page.js",
+  "/login/page": "app/login/page.js",
   "/member-exclusive-discount/diagnostics-test/page": "app/member-exclusive-discount/diagnostics-test/page.js",
   "/member-exclusive-discount/kk-raksha-kavach/page": "app/member-exclusive-discount/kk-raksha-kavach/page.js",
   "/member-exclusive-discount/legal-support/page": "app/member-exclusive-discount/legal-support/page.js",

@@ -16,6 +16,7 @@
   "/member-exclusive-discount/qcm-medicines/page": "app/member-exclusive-discount/qcm-medicines/page.js",
   "/member/join/page": "app/member/join/page.js",
   "/page": "app/page.js",
+  "/register/page": "app/register/page.js",
   "/scholarship/apply/page": "app/scholarship/apply/page.js",
   "/scholarship/membership/page": "app/scholarship/membership/page.js",
   "/services/event-live-streaming/page": "app/services/event-live-streaming/page.js",

@@ -115,3 +115,8 @@
 [04:38:20.016] Server  LOG     ✓ Compiled in 7ms
 [04:38:50.796] Server  LOG     ✓ Compiled in 7ms
 [04:40:27.484] Server  LOG     ✓ Compiled in 4ms
+[04:43:23.522] Server  LOG     ✓ Compiled in 8ms
+[04:43:35.891] Server  LOG     ✓ Compiled in 7ms
+[04:44:44.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:45:31.703] Browser LOG     Video play failed: {}
+[04:46:32.339] Browser LOG     Video play failed: {}

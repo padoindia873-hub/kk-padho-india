@@ -1,4 +1,5 @@
 {
+  "/member-exclusive-discount/diagnostics-test/page": "app/member-exclusive-discount/diagnostics-test/page.js",
   "/member-exclusive-discount/kk-raksha-kavach/page": "app/member-exclusive-discount/kk-raksha-kavach/page.js",
   "/member-exclusive-discount/legal-support/page": "app/member-exclusive-discount/legal-support/page.js",
   "/member-exclusive-discount/qar-rides/page": "app/member-exclusive-discount/qar-rides/page.js",

@@ -1,4 +1,5 @@
 {
+  "/benefits/free-scholarship/page": "app/benefits/free-scholarship/page.js",
   "/member-exclusive-discount/diagnostics-test/page": "app/member-exclusive-discount/diagnostics-test/page.js",
   "/member-exclusive-discount/kk-raksha-kavach/page": "app/member-exclusive-discount/kk-raksha-kavach/page.js",
   "/member-exclusive-discount/legal-support/page": "app/member-exclusive-discount/legal-support/page.js",

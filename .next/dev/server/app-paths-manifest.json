@@ -2,6 +2,7 @@
   "/page": "app/page.js",
   "/services/scholarship-details/page": "app/services/scholarship-details/page.js",
   "/services/scholarship-system/page": "app/services/scholarship-system/page.js",
+  "/services/school-benefits/page": "app/services/school-benefits/page.js",
   "/services/state-top-level-school/page": "app/services/state-top-level-school/page.js",
   "/services/students-registration/page": "app/services/students-registration/page.js"
 }

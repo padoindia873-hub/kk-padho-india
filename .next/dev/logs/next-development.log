@@ -5,3 +5,16 @@
 [00:25:28.492] Server  LOG     ✓ Compiled in 61ms
 [00:26:01.255] Browser LOG     Video play failed: {}
 [00:26:09.483] Browser LOG     Video play failed: {}
+[00:35:51.500] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./src/app/services/scholarship-details/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:35:51.559] Server  LOG     ✓ Compiled in 66ms
+[00:35:51.672] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:56.803] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:57.602] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:58.449] Browser LOG     Video play failed: {}
+[00:36:34.040] Server  LOG     ✓ Compiled in 41ms
+[00:36:38.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:29.451] Browser LOG     Video play failed: {}
+[00:37:37.757] Browser LOG     Video play failed: {}
+[00:37:40.342] Browser LOG     Video play failed: {}
+[00:37:42.817] Browser LOG     Video play failed: {}
+[00:37:45.995] Browser LOG     Video play failed: {}

@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
   "/services/scholarship-details/page": "app/services/scholarship-details/page.js",
-  "/services/state-top-level-school/page": "app/services/state-top-level-school/page.js"
+  "/services/state-top-level-school/page": "app/services/state-top-level-school/page.js",
+  "/services/students-registration/page": "app/services/students-registration/page.js"
 }

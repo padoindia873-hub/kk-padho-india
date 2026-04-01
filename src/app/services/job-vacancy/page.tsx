@@ -3,13 +3,42 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
+// Define proper types for jobs
+interface JobOpening {
+  id: number;
+  title: string;
+  company: string;
+  location: string;
+  experience: string;
+  salary: string;
+  type: string;
+  posted: string;
+  description: string;
+  requirements: string[];
+}
+
+interface Internship {
+  id: number;
+  title: string;
+  company: string;
+  location: string;
+  duration: string;
+  stipend: string;
+  type: string;
+  posted: string;
+  description: string;
+  requirements: string[];
+}
+
+type Job = JobOpening | Internship;
+
 export default function JobVacancyPage() {
   const router = useRouter();
   const [filter, setFilter] = useState('all');
-  const [selectedJob, setSelectedJob] = useState<any>(null);
+  const [selectedJob, setSelectedJob] = useState<Job | null>(null);
 
   // Latest job openings data
-  const jobOpenings = [
+  const jobOpenings: JobOpening[] = [
     { 
       id: 1, 
       title: "Web Developer", 
@@ -73,7 +102,7 @@ export default function JobVacancyPage() {
   ];
 
   // Internship opportunities data
-  const internships = [
+  const internships: Internship[] = [
     { 
       id: 6, 
       title: "Python Developer Intern", 
@@ -154,8 +183,24 @@ export default function JobVacancyPage() {
     { step: 5, title: "Selection", desc: "Offer letter and onboarding" }
   ];
 
-  const allJobs = [...jobOpenings, ...internships];
+  const allJobs: Job[] = [...jobOpenings, ...internships];
   const filteredJobs = filter === 'all' ? allJobs : allJobs.filter(job => job.type === filter);
+
+  // Helper function to get experience/duration display
+  const getExperienceOrDuration = (job: Job) => {
+    if ('experience' in job) {
+      return job.experience;
+    }
+    return job.duration;
+  };
+
+  // Helper function to get salary/stipend display
+  const getSalaryOrStipend = (job: Job) => {
+    if ('salary' in job) {
+      return job.salary;
+    }
+    return job.stipend;
+  };
 
   return (
     <section className="relative w-full min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
@@ -258,10 +303,10 @@ export default function JobVacancyPage() {
                     <span>📍</span> {job.location}
                   </p>
                   <p className="text-gray-600 text-sm flex items-center gap-2">
-                    <span>📚</span> {job.experience || job.duration}
+                    <span>📚</span> {getExperienceOrDuration(job)}
                   </p>
                   <p className="text-gray-600 text-sm flex items-center gap-2">
-                    <span>💰</span> {job.salary || job.stipend}
+                    <span>💰</span> {getSalaryOrStipend(job)}
                   </p>
                   <p className="text-gray-500 text-sm flex items-center gap-2">
                     <span>⏰</span> Posted {job.posted}
@@ -336,12 +381,12 @@ export default function JobVacancyPage() {
                     <p className="text-gray-800 text-sm font-semibold">{selectedJob.location}</p>
                   </div>
                   <div className="bg-gray-50 rounded-xl p-3 text-center">
-                    <p className="text-gray-500 text-xs">Experience/Duration</p>
-                    <p className="text-gray-800 text-sm font-semibold">{selectedJob.experience || selectedJob.duration}</p>
+                    <p className="text-gray-500 text-xs">{'experience' in selectedJob ? 'Experience' : 'Duration'}</p>
+                    <p className="text-gray-800 text-sm font-semibold">{getExperienceOrDuration(selectedJob)}</p>
                   </div>
                   <div className="bg-gray-50 rounded-xl p-3 text-center">
-                    <p className="text-gray-500 text-xs">Salary/Stipend</p>
-                    <p className="text-gray-800 text-sm font-semibold">{selectedJob.salary || selectedJob.stipend}</p>
+                    <p className="text-gray-500 text-xs">{'salary' in selectedJob ? 'Salary' : 'Stipend'}</p>
+                    <p className="text-gray-800 text-sm font-semibold">{getSalaryOrStipend(selectedJob)}</p>
                   </div>
                   <div className="bg-gray-50 rounded-xl p-3 text-center">
                     <p className="text-gray-500 text-xs">Type</p>

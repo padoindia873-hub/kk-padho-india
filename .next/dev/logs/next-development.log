@@ -38,3 +38,7 @@
 [01:40:43.631] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [01:43:43.199] Server  LOG     ✓ Compiled in 11ms
 [01:45:43.638] Server  LOG     ✓ Compiled in 13ms
+[01:46:26.459] Browser LOG     Video play failed: {}
+[01:46:41.878] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:44.118] Browser LOG     Video play failed: {}
+[01:47:17.885] Browser LOG     Video play failed: {}

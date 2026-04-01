@@ -280,15 +280,15 @@ export default function JobVacancyPage() {
           </div>
         </div>
 
-        {/* 3. Eligibility Criteria */}
+        {/* 2. Eligibility Criteria */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
             <span className="text-3xl">✅</span> Eligibility Criteria
           </h2>
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-gray-100">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
               {eligibilityCriteria.map((item, idx) => (
-                <div key={idx} className="p-5">
+                <div key={idx} className="p-4 bg-gray-50 rounded-xl">
                   <h3 className="font-semibold text-gray-800 mb-2">{item.category}</h3>
                   <p className="text-gray-600 text-sm">{item.details}</p>
                 </div>
@@ -297,7 +297,7 @@ export default function JobVacancyPage() {
           </div>
         </div>
 
-        {/* 4. Apply Process */}
+        {/* 3. Apply Process */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
             <span className="text-3xl">📝</span> How to Apply

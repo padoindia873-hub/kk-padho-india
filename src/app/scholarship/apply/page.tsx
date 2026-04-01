@@ -50,7 +50,7 @@ export default function ScholarshipApplyPage() {
             className="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors group"
           >
             <span className="text-xl group-hover:-translate-x-1 transition-transform">←</span>
-            <span className="font-medium">Back to Scholarship Programs</span>
+            <span className="font-medium">Back</span>
           </button>
         </div>
 
@@ -67,7 +67,7 @@ export default function ScholarshipApplyPage() {
           <div className="w-20 h-0.5 bg-blue-400 mx-auto mb-5"></div>
           
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Complete the application to avail merit-based and need-based scholarships
+            Complete your application to avail scholarship benefits
           </p>
         </div>
 
@@ -75,18 +75,22 @@ export default function ScholarshipApplyPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           
           {/* Card 1: Direct application form */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
             <div className="text-3xl mb-4">📋</div>
             <h2 className="text-xl font-semibold text-gray-800 mb-3">
               Direct application form
             </h2>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Simple and straightforward application process. Fill your personal, academic, and income details to apply for scholarship.
+              Simple and straightforward application process. Fill your personal and academic details to apply for scholarship.
             </p>
+            <div className="mt-4 pt-4 border-t border-gray-100">
+              <p className="text-xs text-blue-600">✓ Quick submission</p>
+              <p className="text-xs text-blue-600 mt-1">✓ Instant confirmation</p>
+            </div>
           </div>
 
           {/* Card 2: Instructions */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
             <div className="text-3xl mb-4">📌</div>
             <h2 className="text-xl font-semibold text-gray-800 mb-3">
               Instructions
@@ -102,21 +106,21 @@ export default function ScholarshipApplyPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-500 mt-0.5">•</span>
-                <span>Income proof may be required later</span>
+                <span>Double-check contact information</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-500 mt-0.5">•</span>
-                <span>Keep documents ready for upload</span>
+                <span>Submit before deadline</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-500 mt-0.5">•</span>
-                <span>Application review takes 7-10 days</span>
+                <span>Keep reference number for future</span>
               </li>
             </ul>
           </div>
 
           {/* Card 3: Document upload */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
             <div className="text-3xl mb-4">📎</div>
             <h2 className="text-xl font-semibold text-gray-800 mb-3">
               Document upload
@@ -143,9 +147,9 @@ export default function ScholarshipApplyPage() {
                 <span>Category certificate (if applicable)</span>
               </li>
             </ul>
-            <div className="mt-4 p-3 bg-gray-50 rounded-lg border border-gray-200">
-              <p className="text-xs text-gray-500 text-center">
-                📁 Upload documents after submission via email
+            <div className="mt-4 p-2 bg-gray-50 rounded-lg border border-gray-200 text-center">
+              <p className="text-xs text-gray-600">
+                Upload documents after submission
               </p>
             </div>
           </div>
@@ -153,7 +157,7 @@ export default function ScholarshipApplyPage() {
 
         {/* Application Form */}
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">
             Scholarship Application Form
           </h2>
           
@@ -323,12 +327,12 @@ export default function ScholarshipApplyPage() {
               type="submit" 
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors shadow-sm mt-4"
             >
-              Submit Application
+              Submit
             </button>
           </form>
           
           <p className="text-gray-500 text-xs text-center mt-6">
-            * All fields are mandatory • Documents will be verified • Application review takes 7-10 days
+            * All fields are mandatory • Documents will be verified after submission
           </p>
         </div>
       </div>

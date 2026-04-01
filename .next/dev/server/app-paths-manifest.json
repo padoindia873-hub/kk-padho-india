@@ -2,6 +2,7 @@
   "/page": "app/page.js",
   "/services/event-live-streaming/page": "app/services/event-live-streaming/page.js",
   "/services/get-membership-card/page": "app/services/get-membership-card/page.js",
+  "/services/job-vacancy/page": "app/services/job-vacancy/page.js",
   "/services/scholarship-details/page": "app/services/scholarship-details/page.js",
   "/services/scholarship-system/page": "app/services/scholarship-system/page.js",
   "/services/school-benefits/page": "app/services/school-benefits/page.js",

@@ -8,7 +8,8 @@ export default function JobVacancyPage() {
   const [filter, setFilter] = useState('all');
   const [selectedJob, setSelectedJob] = useState<any>(null);
 
-  const jobs = [
+  // Latest job openings data
+  const jobOpenings = [
     { 
       id: 1, 
       title: "Web Developer", 
@@ -19,8 +20,7 @@ export default function JobVacancyPage() {
       type: "full-time", 
       posted: "2 days ago", 
       description: "Looking for a skilled web developer with React and Node.js experience.",
-      requirements: ["React.js", "Node.js", "JavaScript", "HTML/CSS", "Git"],
-      benefits: ["Health insurance", "Work from home", "Flexible hours", "Learning budget"]
+      requirements: ["React.js", "Node.js", "JavaScript", "HTML/CSS", "Git"]
     },
     { 
       id: 2, 
@@ -32,8 +32,7 @@ export default function JobVacancyPage() {
       type: "full-time", 
       posted: "3 days ago", 
       description: "Seeking data scientist with Python, ML, and AI expertise.",
-      requirements: ["Python", "Machine Learning", "SQL", "TensorFlow", "Statistics"],
-      benefits: ["Performance bonus", "Stock options", "Free meals", "Gym membership"]
+      requirements: ["Python", "Machine Learning", "SQL", "TensorFlow", "Statistics"]
     },
     { 
       id: 3, 
@@ -45,8 +44,7 @@ export default function JobVacancyPage() {
       type: "full-time", 
       posted: "5 days ago", 
       description: "Creative UI/UX designer needed for web and mobile applications.",
-      requirements: ["Figma", "Adobe XD", "User Research", "Prototyping", "Design Systems"],
-      benefits: ["Creative environment", "Team outings", "Flexible timing", "Design tools license"]
+      requirements: ["Figma", "Adobe XD", "User Research", "Prototyping", "Design Systems"]
     },
     { 
       id: 4, 
@@ -58,24 +56,10 @@ export default function JobVacancyPage() {
       type: "full-time", 
       posted: "1 week ago", 
       description: "Digital marketing expert for SEO, social media, and content strategy.",
-      requirements: ["SEO", "Google Analytics", "Social Media Marketing", "Content Writing", "Email Marketing"],
-      benefits: ["Performance bonus", "Certification courses", "Flexible hours", "Annual retreat"]
+      requirements: ["SEO", "Google Analytics", "Social Media Marketing", "Content Writing", "Email Marketing"]
     },
     { 
       id: 5, 
-      title: "Python Developer (Intern)", 
-      company: "Code Labs", 
-      location: "Hyderabad", 
-      experience: "Fresher", 
-      salary: "₹15-20K/month", 
-      type: "internship", 
-      posted: "3 days ago", 
-      description: "Internship opportunity for passionate Python developers.",
-      requirements: ["Python", "Basic Django", "SQL", "Problem Solving"],
-      benefits: ["Stipend", "Certificate", "PPO opportunity", "Mentorship"]
-    },
-    { 
-      id: 6, 
       title: "Full Stack Developer", 
       company: "Digital Innovations", 
       location: "Pune", 
@@ -84,236 +68,299 @@ export default function JobVacancyPage() {
       type: "full-time", 
       posted: "4 days ago", 
       description: "Full stack developer with MERN stack expertise.",
-      requirements: ["MongoDB", "Express.js", "React.js", "Node.js", "AWS"],
-      benefits: ["Health insurance", "WFH options", "Annual bonus", "Skill development"]
-    },
-    { 
-      id: 7, 
-      title: "Content Writer", 
-      company: "Content Factory", 
-      location: "Remote", 
-      experience: "0-2 years", 
-      salary: "₹2-4 LPA", 
-      type: "part-time", 
-      posted: "1 day ago", 
-      description: "Content writer for blogs, articles, and social media content.",
-      requirements: ["Excellent writing skills", "SEO knowledge", "Research ability", "Creativity"],
-      benefits: ["Flexible schedule", "Work from home", "Performance bonus", "Free courses"]
-    },
-    { 
-      id: 8, 
-      title: "HR Executive", 
-      company: "People Solutions", 
-      location: "Chennai", 
-      experience: "1-3 years", 
-      salary: "₹3-4.5 LPA", 
-      type: "full-time", 
-      posted: "6 days ago", 
-      description: "HR executive for recruitment, onboarding, and employee engagement.",
-      requirements: ["Recruitment", "Employee relations", "HR policies", "Communication skills"],
-      benefits: ["Health insurance", "Provident fund", "Annual leave", "Training programs"]
+      requirements: ["MongoDB", "Express.js", "React.js", "Node.js", "AWS"]
     }
   ];
 
-  const filteredJobs = filter === 'all' ? jobs : jobs.filter(job => job.type === filter);
+  // Internship opportunities data
+  const internships = [
+    { 
+      id: 6, 
+      title: "Python Developer Intern", 
+      company: "Code Labs", 
+      location: "Hyderabad", 
+      duration: "3-6 months", 
+      stipend: "₹15-20K/month", 
+      type: "internship", 
+      posted: "3 days ago", 
+      description: "Internship opportunity for passionate Python developers.",
+      requirements: ["Python", "Basic Django", "SQL", "Problem Solving"]
+    },
+    { 
+      id: 7, 
+      title: "Content Writing Intern", 
+      company: "Content Factory", 
+      location: "Remote", 
+      duration: "2-3 months", 
+      stipend: "₹8-12K/month", 
+      type: "internship", 
+      posted: "1 day ago", 
+      description: "Content writing internship for blogs, articles, and social media.",
+      requirements: ["Excellent writing", "SEO basics", "Research skills", "Creativity"]
+    },
+    { 
+      id: 8, 
+      title: "Graphic Design Intern", 
+      company: "Creative Studio", 
+      location: "Mumbai", 
+      duration: "3 months", 
+      stipend: "₹10-15K/month", 
+      type: "internship", 
+      posted: "5 days ago", 
+      description: "Graphic design intern for social media and branding materials.",
+      requirements: ["Photoshop", "Illustrator", "Canva", "Creativity", "Portfolio"]
+    },
+    { 
+      id: 9, 
+      title: "HR Intern", 
+      company: "People Solutions", 
+      location: "Chennai", 
+      duration: "2-3 months", 
+      stipend: "₹8-10K/month", 
+      type: "internship", 
+      posted: "6 days ago", 
+      description: "HR intern for recruitment and employee engagement activities.",
+      requirements: ["Communication skills", "MS Office", "Organization", "Team player"]
+    },
+    { 
+      id: 10, 
+      title: "Digital Marketing Intern", 
+      company: "Growth Hackers", 
+      location: "Delhi NCR", 
+      duration: "3 months", 
+      stipend: "₹12-15K/month", 
+      type: "internship", 
+      posted: "4 days ago", 
+      description: "Digital marketing intern for SEO and social media management.",
+      requirements: ["Social Media", "Content Creation", "Analytics", "Creativity"]
+    }
+  ];
+
+  // Eligibility criteria
+  const eligibilityCriteria = [
+    { category: "Educational Qualification", details: "Minimum 60% in graduation for full-time roles; pursuing degree for internships" },
+    { category: "Experience", details: "Freshers welcome for internships; 1-5 years experience for full-time positions" },
+    { category: "Skills", details: "Relevant technical/domain skills as per job description" },
+    { category: "Age Limit", details: "18-30 years for full-time; 18-25 years for internships" },
+    { category: "Location", details: "Open to candidates from all locations; remote options available" }
+  ];
+
+  // Apply process steps
+  const applySteps = [
+    { step: 1, title: "Register", desc: "Create your profile on our portal" },
+    { step: 2, title: "Upload Resume", desc: "Upload updated resume/CV" },
+    { step: 3, title: "Apply", desc: "Select job and submit application" },
+    { step: 4, title: "Shortlist", desc: "Get shortlisted for interview" },
+    { step: 5, title: "Selection", desc: "Offer letter and onboarding" }
+  ];
+
+  const allJobs = [...jobOpenings, ...internships];
+  const filteredJobs = filter === 'all' ? allJobs : allJobs.filter(job => job.type === filter);
 
   return (
-    <section className="relative w-full min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
-      <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 left-1/4 w-96 h-96 bg-orange-500/30 rounded-full blur-[150px]"></div>
-        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-amber-500/30 rounded-full blur-[150px]"></div>
+    <section className="relative w-full min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+      
+      {/* Simple decorative elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-indigo-200/30 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
+        
+        {/* Back Button */}
         <div className="mb-8">
           <button 
             onClick={() => router.back()} 
-            className="inline-flex items-center gap-2 text-orange-400 hover:text-orange-300 transition-colors group"
+            className="inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-700 transition-colors group bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm border border-gray-100"
           >
-            <span className="text-2xl group-hover:-translate-x-1 transition-transform">←</span>
-            <span>Back to Facilities</span>
+            <span className="text-lg group-hover:-translate-x-1 transition-transform">←</span>
+            <span>Back</span>
           </button>
         </div>
 
+        {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-28 h-28 bg-gradient-to-br from-orange-500/30 to-amber-500/30 rounded-3xl mb-6 mx-auto border border-orange-400/50 shadow-xl">
-            <span className="text-7xl">💼</span>
+          <div className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl mb-6 mx-auto shadow-lg">
+            <span className="text-5xl">💼</span>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-orange-400 to-amber-400 bg-clip-text text-transparent">
-              Job Vacancy
-            </span>
+          
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            Job Vacancy
           </h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-orange-400 to-amber-400 mx-auto mb-6 rounded-full"></div>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 mx-auto mb-6 rounded-full"></div>
+          
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Find your dream job with our partner companies. Exclusive opportunities for members.
           </p>
         </div>
 
-        {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 text-center border border-white/10">
-            <div className="text-3xl font-bold text-orange-400">{jobs.length}+</div>
-            <p className="text-gray-400 text-sm mt-2">Open Positions</p>
-          </div>
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 text-center border border-white/10">
-            <div className="text-3xl font-bold text-orange-400">20+</div>
-            <p className="text-gray-400 text-sm mt-2">Companies Hiring</p>
-          </div>
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 text-center border border-white/10">
-            <div className="text-3xl font-bold text-orange-400">10+</div>
-            <p className="text-gray-400 text-sm mt-2">Cities Covered</p>
-          </div>
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 text-center border border-white/10">
-            <div className="text-3xl font-bold text-orange-400">500+</div>
-            <p className="text-gray-400 text-sm mt-2">Placements Done</p>
-          </div>
-        </div>
-
         {/* Filter Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-3 mb-10">
           <button 
             onClick={() => setFilter('all')}
-            className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${filter === 'all' ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-lg' : 'bg-white/10 text-gray-300 hover:bg-white/20'}`}
+            className={`px-6 py-2.5 rounded-full font-medium transition-all ${
+              filter === 'all' 
+                ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md' 
+                : 'bg-white text-gray-600 hover:bg-gray-50 shadow-sm border border-gray-200'
+            }`}
           >
-            All Jobs
+            All Openings
           </button>
           <button 
             onClick={() => setFilter('full-time')}
-            className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${filter === 'full-time' ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-lg' : 'bg-white/10 text-gray-300 hover:bg-white/20'}`}
+            className={`px-6 py-2.5 rounded-full font-medium transition-all ${
+              filter === 'full-time' 
+                ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md' 
+                : 'bg-white text-gray-600 hover:bg-gray-50 shadow-sm border border-gray-200'
+            }`}
           >
             Full Time
           </button>
           <button 
-            onClick={() => setFilter('part-time')}
-            className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${filter === 'part-time' ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-lg' : 'bg-white/10 text-gray-300 hover:bg-white/20'}`}
-          >
-            Part Time
-          </button>
-          <button 
             onClick={() => setFilter('internship')}
-            className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${filter === 'internship' ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-lg' : 'bg-white/10 text-gray-300 hover:bg-white/20'}`}
+            className={`px-6 py-2.5 rounded-full font-medium transition-all ${
+              filter === 'internship' 
+                ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md' 
+                : 'bg-white text-gray-600 hover:bg-gray-50 shadow-sm border border-gray-200'
+            }`}
           >
             Internship
           </button>
         </div>
 
-        {/* Job Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {filteredJobs.map((job) => (
-            <div 
-              key={job.id} 
-              className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-orange-400/40 transition-all duration-300 hover:transform hover:scale-105 group cursor-pointer"
-              onClick={() => setSelectedJob(job)}
-            >
-              <div className="flex items-start justify-between mb-4">
-                <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center">
-                  <span className="text-2xl">💼</span>
+        {/* 1. Latest Job Openings & Internship Opportunities */}
+        <div className="mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredJobs.map((job) => (
+              <div 
+                key={job.id} 
+                className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
+                onClick={() => setSelectedJob(job)}
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl flex items-center justify-center">
+                    <span className="text-2xl">💼</span>
+                  </div>
+                  <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
+                    job.type === 'full-time' ? 'bg-green-100 text-green-700' : 'bg-purple-100 text-purple-700'
+                  }`}>
+                    {job.type === 'full-time' ? 'FULL TIME' : 'INTERNSHIP'}
+                  </span>
                 </div>
-                <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                  job.type === 'full-time' ? 'bg-green-500/20 text-green-400' :
-                  job.type === 'part-time' ? 'bg-blue-500/20 text-blue-400' :
-                  'bg-purple-500/20 text-purple-400'
-                }`}>
-                  {job.type.toUpperCase()}
-                </span>
+                
+                <h3 className="text-xl font-bold text-gray-800 mb-1">{job.title}</h3>
+                <p className="text-gray-500 text-sm mb-3">{job.company}</p>
+                
+                <div className="space-y-2 mb-4">
+                  <p className="text-gray-600 text-sm flex items-center gap-2">
+                    <span>📍</span> {job.location}
+                  </p>
+                  <p className="text-gray-600 text-sm flex items-center gap-2">
+                    <span>📚</span> {job.experience || job.duration}
+                  </p>
+                  <p className="text-gray-600 text-sm flex items-center gap-2">
+                    <span>💰</span> {job.salary || job.stipend}
+                  </p>
+                  <p className="text-gray-500 text-sm flex items-center gap-2">
+                    <span>⏰</span> Posted {job.posted}
+                  </p>
+                </div>
+                
+                <p className="text-gray-500 text-sm mb-4 line-clamp-2">
+                  {job.description}
+                </p>
+                
+                <button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2.5 rounded-xl font-semibold hover:shadow-md transition-all">
+                  View Details
+                </button>
               </div>
-              
-              <h3 className="text-xl font-bold text-white mb-1 group-hover:text-orange-400 transition-colors">
-                {job.title}
-              </h3>
-              <p className="text-gray-400 text-sm mb-3">{job.company}</p>
-              
-              <div className="space-y-2 mb-4">
-                <p className="text-gray-300 text-sm flex items-center gap-2">
-                  <span>📍</span> {job.location}
-                </p>
-                <p className="text-gray-300 text-sm flex items-center gap-2">
-                  <span>📚</span> {job.experience}
-                </p>
-                <p className="text-gray-300 text-sm flex items-center gap-2">
-                  <span>💰</span> {job.salary}
-                </p>
-                <p className="text-gray-300 text-sm flex items-center gap-2">
-                  <span>⏰</span> Posted {job.posted}
-                </p>
-              </div>
-              
-              <p className="text-gray-400 text-sm mb-4 line-clamp-2">
-                {job.description}
-              </p>
-              
-              <button className="w-full bg-gradient-to-r from-orange-500 to-amber-500 text-white px-4 py-2 rounded-lg font-semibold hover:from-orange-600 hover:to-amber-600 transition-all duration-300">
-                View Details
-              </button>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
-        {filteredJobs.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-gray-400 text-lg">No jobs found in this category.</p>
+        {/* 3. Eligibility Criteria */}
+        <div className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+            <span className="text-3xl">✅</span> Eligibility Criteria
+          </h2>
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-gray-100">
+              {eligibilityCriteria.map((item, idx) => (
+                <div key={idx} className="p-5">
+                  <h3 className="font-semibold text-gray-800 mb-2">{item.category}</h3>
+                  <p className="text-gray-600 text-sm">{item.details}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        )}
+        </div>
+
+        {/* 4. Apply Process */}
+        <div className="mb-12">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+            <span className="text-3xl">📝</span> How to Apply
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+            {applySteps.map((step) => (
+              <div key={step.step} className="bg-white rounded-xl p-4 text-center shadow-sm border border-gray-100 hover:shadow-md transition-all">
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-3 text-white font-bold">
+                  {step.step}
+                </div>
+                <h3 className="font-semibold text-gray-800 mb-1">{step.title}</h3>
+                <p className="text-gray-500 text-xs">{step.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
 
         {/* Job Details Modal */}
         {selectedJob && (
           <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={() => setSelectedJob(null)}>
-            <div className="bg-gradient-to-br from-gray-900 to-black rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto border border-orange-400/30 shadow-2xl" onClick={(e) => e.stopPropagation()}>
-              <div className="sticky top-0 bg-gray-900/95 backdrop-blur-md p-6 border-b border-white/10">
+            <div className="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl" onClick={(e) => e.stopPropagation()}>
+              <div className="sticky top-0 bg-white border-b border-gray-100 p-6">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h2 className="text-2xl font-bold text-orange-400">{selectedJob.title}</h2>
-                    <p className="text-gray-300">{selectedJob.company}</p>
+                    <h2 className="text-2xl font-bold text-gray-800">{selectedJob.title}</h2>
+                    <p className="text-gray-500">{selectedJob.company}</p>
                   </div>
-                  <button onClick={() => setSelectedJob(null)} className="text-gray-400 hover:text-white text-2xl">&times;</button>
+                  <button onClick={() => setSelectedJob(null)} className="text-gray-400 hover:text-gray-600 text-3xl">&times;</button>
                 </div>
               </div>
               
               <div className="p-6 space-y-6">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  <div className="bg-white/5 rounded-xl p-3 text-center">
-                    <p className="text-gray-400 text-xs">Location</p>
-                    <p className="text-white text-sm font-semibold">{selectedJob.location}</p>
+                  <div className="bg-gray-50 rounded-xl p-3 text-center">
+                    <p className="text-gray-500 text-xs">Location</p>
+                    <p className="text-gray-800 text-sm font-semibold">{selectedJob.location}</p>
                   </div>
-                  <div className="bg-white/5 rounded-xl p-3 text-center">
-                    <p className="text-gray-400 text-xs">Experience</p>
-                    <p className="text-white text-sm font-semibold">{selectedJob.experience}</p>
+                  <div className="bg-gray-50 rounded-xl p-3 text-center">
+                    <p className="text-gray-500 text-xs">Experience/Duration</p>
+                    <p className="text-gray-800 text-sm font-semibold">{selectedJob.experience || selectedJob.duration}</p>
                   </div>
-                  <div className="bg-white/5 rounded-xl p-3 text-center">
-                    <p className="text-gray-400 text-xs">Salary</p>
-                    <p className="text-white text-sm font-semibold">{selectedJob.salary}</p>
+                  <div className="bg-gray-50 rounded-xl p-3 text-center">
+                    <p className="text-gray-500 text-xs">Salary/Stipend</p>
+                    <p className="text-gray-800 text-sm font-semibold">{selectedJob.salary || selectedJob.stipend}</p>
                   </div>
-                  <div className="bg-white/5 rounded-xl p-3 text-center">
-                    <p className="text-gray-400 text-xs">Type</p>
-                    <p className="text-white text-sm font-semibold capitalize">{selectedJob.type}</p>
+                  <div className="bg-gray-50 rounded-xl p-3 text-center">
+                    <p className="text-gray-500 text-xs">Type</p>
+                    <p className="text-gray-800 text-sm font-semibold capitalize">{selectedJob.type}</p>
                   </div>
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold text-orange-400 mb-3">Job Description</h3>
-                  <p className="text-gray-300 leading-relaxed">{selectedJob.description}</p>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Job Description</h3>
+                  <p className="text-gray-600 leading-relaxed">{selectedJob.description}</p>
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold text-orange-400 mb-3">Requirements</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Requirements</h3>
                   <ul className="space-y-2">
                     {selectedJob.requirements.map((req: string, i: number) => (
-                      <li key={i} className="flex items-center gap-3 text-gray-300">
-                        <span className="text-orange-400">✓</span>
+                      <li key={i} className="flex items-center gap-3 text-gray-600">
+                        <span className="text-blue-500">✓</span>
                         <span>{req}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-lg font-semibold text-orange-400 mb-3">Benefits</h3>
-                  <ul className="space-y-2">
-                    {selectedJob.benefits.map((benefit: string, i: number) => (
-                      <li key={i} className="flex items-center gap-3 text-gray-300">
-                        <span className="text-green-400">🎁</span>
-                        <span>{benefit}</span>
                       </li>
                     ))}
                   </ul>
@@ -321,7 +368,7 @@ export default function JobVacancyPage() {
 
                 <button 
                   onClick={() => alert(`Application submitted for ${selectedJob.title} position!`)}
-                  className="w-full bg-gradient-to-r from-orange-500 to-amber-500 text-white px-6 py-3 rounded-xl font-bold hover:from-orange-600 hover:to-amber-600 transition-all duration-300"
+                  className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6 py-3 rounded-xl font-bold hover:shadow-lg transition-all"
                 >
                   Apply Now
                 </button>
@@ -330,15 +377,17 @@ export default function JobVacancyPage() {
           </div>
         )}
 
-        {/* Bottom CTA */}
-        <div className="text-center mt-12">
+        {/* CTA Button */}
+        <div className="text-center pt-6">
           <button 
-            onClick={() => alert("Job alerts will be sent to your email!")}
-            className="bg-gradient-to-r from-orange-500 to-amber-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-orange-600 hover:to-amber-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
+            onClick={() => alert("Start your application process now!")} 
+            className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-10 py-4 rounded-xl font-bold text-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5"
           >
-            Get Job Alerts
+            Apply Now
           </button>
-          <p className="text-gray-400 text-sm mt-4">New jobs added daily • Free placement assistance</p>
+          <p className="text-gray-500 text-sm mt-4">
+            New jobs added daily • Free placement assistance
+          </p>
         </div>
       </div>
     </section>

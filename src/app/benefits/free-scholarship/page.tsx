@@ -6,117 +6,139 @@ import { useRouter } from 'next/navigation';
 export default function FreeScholarshipPage() {
   const router = useRouter();
 
+  const handleApplyNow = () => {
+    alert("Application form will open soon!");
+  };
+
   return (
-    <section className="relative w-full min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
-
-      {/* Premium Green Glow Effects */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 left-1/4 w-96 h-96 bg-green-500/30 rounded-full blur-[150px]"></div>
-        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-emerald-500/30 rounded-full blur-[150px]"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-green-400/20 rounded-full blur-[120px]"></div>
-      </div>
-
-      <div className="relative z-10 max-w-5xl mx-auto">
+    <section className="min-h-screen w-full py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-gray-100">
+      <div className="max-w-6xl mx-auto">
         
-        {/* Back Button - Goes back to benefits listing */}
-        <div className="mb-8">
+        {/* Back Button */}
+        <div className="mb-10">
           <button 
             onClick={() => router.back()}
-            className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors group"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors group"
           >
-            <span className="text-2xl group-hover:-translate-x-1 transition-transform">←</span>
-            <span>Back to Benefits</span>
+            <span className="text-xl group-hover:-translate-x-1 transition-transform">←</span>
+            <span className="font-medium">Back to Benefits</span>
           </button>
         </div>
 
-        {/* Benefit Header */}
+        {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-28 h-28 bg-gradient-to-br from-green-500/30 to-emerald-500/30 rounded-3xl mb-6 mx-auto border border-green-400/50 shadow-xl">
-            <span className="text-7xl">🎓</span>
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-blue-50 rounded-2xl mb-6">
+            <span className="text-4xl">🎁</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-green-400 via-emerald-400 to-green-300 bg-clip-text text-transparent">
-              Free Scholarship
-            </span>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+            Free Scholarship
           </h1>
           
-          <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-6 rounded-full"></div>
+          <div className="w-20 h-0.5 bg-blue-400 mx-auto mb-5"></div>
           
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Get access to exclusive scholarships for meritorious and deserving students.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Unlock educational opportunities with our free scholarship program
           </p>
         </div>
 
-        {/* Content Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+        {/* Three Main Sections */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           
-          {/* Details Section */}
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-green-400 mb-4">✨ Scholarship Details</h2>
-            <ul className="space-y-3">
-              {[
-                "Up to 100% tuition fee waiver",
-                "Monthly stipend for top performers",
-                "Book and study material allowance",
-                "Access to premium online courses",
-                "Mentorship from industry experts"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3 text-gray-300">
-                  <span className="text-green-400 mt-1">✓</span>
-                  <span>{item}</span>
-                </li>
-              ))}
+          {/* Card 1: Free financial support */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-3xl mb-4">💰</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Free financial support
+            </h2>
+            <p className="text-gray-600 text-sm leading-relaxed">
+              Complete tuition fee waiver, monthly stipend, book allowance, and access to premium learning resources for deserving students.
+            </p>
+          </div>
+
+          {/* Card 2: Eligibility */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-3xl mb-4">✅</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Eligibility
+            </h2>
+            <ul className="space-y-2 text-gray-600 text-sm">
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Minimum 60% marks in last examination</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Family income less than ₹3 LPA</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Indian citizens only</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 mt-0.5">•</span>
+                <span>Class 8 to Post Graduation students</span>
+              </li>
             </ul>
           </div>
 
-          {/* Eligibility Section */}
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-green-400 mb-4">✅ Eligibility Criteria</h2>
-            <ul className="space-y-3">
-              {[
-                "Minimum 60% marks in last examination",
-                "Family income less than ₹3 LPA",
-                "Indian citizens only",
-                "Students from class 8 to Post Graduation"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3 text-gray-300">
-                  <span className="text-green-400 mt-1">•</span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
+          {/* Card 3: Apply process */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-3xl mb-4">📝</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Apply process
+            </h2>
+            <ol className="space-y-2 text-gray-600 text-sm">
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 font-medium">1.</span>
+                <span>Fill online application form</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 font-medium">2.</span>
+                <span>Upload required documents</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 font-medium">3.</span>
+                <span>Appear for scholarship test</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 font-medium">4.</span>
+                <span>Personal interview (if shortlisted)</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-500 font-medium">5.</span>
+                <span>Final selection by committee</span>
+              </li>
+            </ol>
           </div>
+        </div>
 
-          {/* How to Apply Section */}
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-all duration-300 md:col-span-2">
-            <h2 className="text-2xl font-bold text-green-400 mb-4">📝 How to Apply</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[
-                "Fill online application form",
-                "Upload required documents",
-                "Appear for scholarship test",
-                "Personal interview (if shortlisted)",
-                "Final selection by committee"
-              ].map((item, i) => (
-                <div key={i} className="flex items-center gap-3 text-gray-300">
-                  <span className="flex items-center justify-center w-6 h-6 bg-green-500/20 rounded-full text-green-400 text-sm font-bold">{i + 1}</span>
-                  <span>{item}</span>
-                </div>
-              ))}
+        {/* Additional Info Section */}
+        <div className="bg-white rounded-xl p-6 border border-gray-200 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+            <div className="text-gray-700 text-sm">
+              <span className="font-semibold text-blue-600">✓</span> Limited seats available
+            </div>
+            <div className="text-gray-700 text-sm">
+              <span className="font-semibold text-blue-600">✓</span> Merit & need-based
+            </div>
+            <div className="text-gray-700 text-sm">
+              <span className="font-semibold text-blue-600">✓</span> Apply before deadline
             </div>
           </div>
         </div>
 
         {/* CTA Button */}
-        <div className="text-center mt-12">
+        <div className="text-center">
           <button 
-            onClick={() => alert("Application form will open soon!")}
-            className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+            onClick={handleApplyNow}
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors shadow-sm"
           >
-            Apply Now
+            Apply Free
           </button>
-          <p className="text-gray-400 text-sm mt-4">Limited seats available • Apply before deadline</p>
+          <p className="text-gray-500 text-sm mt-4">
+            Transform your future • Open to meritorious students
+          </p>
         </div>
       </div>
     </section>

@@ -87,3 +87,8 @@
 [04:02:39.779] Browser LOG     Login clicked
 [04:02:43.559] Browser LOG     Video play failed: {}
 [04:02:47.645] Browser LOG     Video play failed: {}
+[04:05:50.548] Server  LOG     ✓ Compiled in 17ms
+[04:06:10.856] Server  LOG     ✓ Compiled in 13ms
+[04:07:10.306] Server  LOG     ✓ Compiled in 17ms
+[04:07:31.655] Browser LOG     Video play failed: {}
+[04:07:37.102] Browser LOG     Video play failed: {}

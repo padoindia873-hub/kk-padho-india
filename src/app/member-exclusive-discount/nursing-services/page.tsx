@@ -6,88 +6,123 @@ import { useRouter } from 'next/navigation';
 export default function NursingServicesPage() {
   const router = useRouter();
 
+  const handleBookService = (serviceName: string) => {
+    alert(`Booking request received for: ${serviceName}\n\nOur care team will reach you shortly to confirm details.`);
+  };
+
   return (
-    <section className="relative w-full min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
-
-      <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 left-1/4 w-96 h-96 bg-pink-500/30 rounded-full blur-[150px]"></div>
-        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-rose-500/30 rounded-full blur-[150px]"></div>
-      </div>
-
-      <div className="relative z-10 max-w-5xl mx-auto">
+    <section className="min-h-screen w-full py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-gray-100">
+      <div className="max-w-6xl mx-auto">
         
-        {/* Back Button - Using router.back() */}
-        <div className="mb-8">
+        {/* Back Button */}
+        <div className="mb-10">
           <button 
             onClick={() => router.back()}
-            className="inline-flex items-center gap-2 text-pink-400 hover:text-pink-300 transition-colors group"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-teal-600 transition-colors group"
           >
-            <span className="text-2xl group-hover:-translate-x-1 transition-transform">←</span>
-            <span>Back to Member Discounts</span>
+            <span className="text-xl group-hover:-translate-x-1 transition-transform">←</span>
+            <span className="font-medium">Back</span>
           </button>
         </div>
 
+        {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-28 h-28 bg-gradient-to-br from-pink-500/30 to-rose-500/30 rounded-3xl mb-6 mx-auto border border-pink-400/50 shadow-xl">
-            <span className="text-7xl">👩‍⚕️</span>
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-teal-50 rounded-2xl mb-6">
+            <span className="text-4xl">🏥</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-pink-400 to-rose-400 bg-clip-text text-transparent">
-              Nursing Services
-            </span>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+            Nursing Services
           </h1>
           
-          <div className="w-24 h-1 bg-gradient-to-r from-pink-400 to-rose-400 mx-auto mb-6 rounded-full"></div>
+          <div className="w-20 h-0.5 bg-teal-400 mx-auto mb-5"></div>
           
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Professional nursing care at home with exclusive membership discounts.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Professional, compassionate care delivered at your doorstep
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+        {/* Services Grid - 3 cards exactly */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-pink-400/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-pink-400 mb-4">👩‍⚕️ Nursing Services</h2>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">✓</span><span>50% discount on nursing care</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">✓</span><span>24/7 professional nurses</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">✓</span><span>Elderly care at home</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">✓</span><span>Post-surgery care</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">✓</span><span>Baby care services</span></li>
-            </ul>
+          {/* Card 1: Home nursing care */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-4xl mb-4">🏡</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Home nursing care
+            </h2>
+            <p className="text-gray-600 text-sm mb-5 leading-relaxed">
+              Skilled nursing care including wound care, medication management, vital monitoring, and post-illness support at home.
+            </p>
+            <button 
+              onClick={() => handleBookService("Home nursing care")}
+              className="w-full bg-teal-600 hover:bg-teal-700 text-white font-medium py-2.5 px-4 rounded-lg transition-colors"
+            >
+              Book Service
+            </button>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-pink-400/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-pink-400 mb-4">✅ Eligibility</h2>
-            <ul className="space-y-3">
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">•</span><span>Active membership required</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">•</span><span>Valid doctor prescription (if needed)</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">•</span><span>Available in all major cities</span></li>
-              <li className="flex items-start gap-3 text-gray-300"><span className="text-pink-400 mt-1">•</span><span>Minimum 4 hours booking</span></li>
-            </ul>
+          {/* Card 2: Patient & elderly support */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-4xl mb-4">👴🧓</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Patient & elderly support
+            </h2>
+            <p className="text-gray-600 text-sm mb-5 leading-relaxed">
+              Compassionate assistance for seniors and patients with daily activities, companionship, mobility support, and personal care.
+            </p>
+            <button 
+              onClick={() => handleBookService("Patient & elderly support")}
+              className="w-full bg-teal-600 hover:bg-teal-700 text-white font-medium py-2.5 px-4 rounded-lg transition-colors"
+            >
+              Book Service
+            </button>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-pink-400/30 transition-all duration-300 md:col-span-2">
-            <h2 className="text-2xl font-bold text-pink-400 mb-4">📝 How to Book</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="flex items-center gap-3 text-gray-300"><span className="flex items-center justify-center w-6 h-6 bg-pink-500/20 rounded-full text-pink-400 text-sm font-bold">1</span><span>Call or book online</span></div>
-              <div className="flex items-center gap-3 text-gray-300"><span className="flex items-center justify-center w-6 h-6 bg-pink-500/20 rounded-full text-pink-400 text-sm font-bold">2</span><span>Share patient details</span></div>
-              <div className="flex items-center gap-3 text-gray-300"><span className="flex items-center justify-center w-6 h-6 bg-pink-500/20 rounded-full text-pink-400 text-sm font-bold">3</span><span>Select service type</span></div>
-              <div className="flex items-center gap-3 text-gray-300"><span className="flex items-center justify-center w-6 h-6 bg-pink-500/20 rounded-full text-pink-400 text-sm font-bold">4</span><span>Apply membership discount</span></div>
-              <div className="flex items-center gap-3 text-gray-300"><span className="flex items-center justify-center w-6 h-6 bg-pink-500/20 rounded-full text-pink-400 text-sm font-bold">5</span><span>Nurse assigned instantly</span></div>
+          {/* Card 3: Post-treatment care */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-4xl mb-4">🩺</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Post-treatment care
+            </h2>
+            <p className="text-gray-600 text-sm mb-5 leading-relaxed">
+              Recovery support after surgery, hospitalization, or medical procedures with professional follow-up care and guidance.
+            </p>
+            <button 
+              onClick={() => handleBookService("Post-treatment care")}
+              className="w-full bg-teal-600 hover:bg-teal-700 text-white font-medium py-2.5 px-4 rounded-lg transition-colors"
+            >
+              Book Service
+            </button>
+          </div>
+        </div>
+
+        {/* Additional Info Section */}
+        <div className="bg-white rounded-xl p-6 border border-gray-200 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+            <div className="text-gray-700">
+              <span className="font-semibold text-teal-600">✓</span> Licensed professionals
+            </div>
+            <div className="text-gray-700">
+              <span className="font-semibold text-teal-600">✓</span> Flexible scheduling
+            </div>
+            <div className="text-gray-700">
+              <span className="font-semibold text-teal-600">✓</span> 24/7 availability
             </div>
           </div>
         </div>
 
-        <div className="text-center mt-12">
+        {/* Main CTA Section */}
+        <div className="text-center">
           <button 
-            onClick={() => alert("Nursing service booking will open soon!")}
-            className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+            onClick={() => handleBookService("Nursing Services")}
+            className="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors shadow-sm"
           >
-            Book Nursing Service
+            Book Service
           </button>
-          <p className="text-gray-400 text-sm mt-4">50% off for members • Professional nurses • 24/7 availability</p>
+          <p className="text-gray-500 text-sm mt-4">
+            Professional care • Compassionate support • Trusted by families
+          </p>
         </div>
       </div>
     </section>

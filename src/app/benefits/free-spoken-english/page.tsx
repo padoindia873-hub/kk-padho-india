@@ -6,110 +6,162 @@ import { useRouter } from 'next/navigation';
 export default function FreeSpokenEnglishPage() {
   const router = useRouter();
 
+  const handleStartLearning = () => {
+    alert("Registration form will open soon! Start your English learning journey.");
+  };
+
   return (
-    <section className="relative w-full min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
-
-      <div className="absolute inset-0 z-0">
-        <div className="absolute top-20 left-1/4 w-96 h-96 bg-green-500/30 rounded-full blur-[150px]"></div>
-        <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-emerald-500/30 rounded-full blur-[150px]"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-green-400/20 rounded-full blur-[120px]"></div>
-      </div>
-
-      <div className="relative z-10 max-w-5xl mx-auto">
+    <section className="min-h-screen w-full py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-gray-100">
+      <div className="max-w-6xl mx-auto">
         
-        {/* Back Button - Using router.back() */}
-        <div className="mb-8">
+        {/* Back Button */}
+        <div className="mb-10">
           <button 
             onClick={() => router.back()}
-            className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors group"
+            className="inline-flex items-center gap-2 text-gray-600 hover:text-purple-600 transition-colors group"
           >
-            <span className="text-2xl group-hover:-translate-x-1 transition-transform">←</span>
-            <span>Back to Benefits</span>
+            <span className="text-xl group-hover:-translate-x-1 transition-transform">←</span>
+            <span className="font-medium">Back to Benefits</span>
           </button>
         </div>
 
+        {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-28 h-28 bg-gradient-to-br from-green-500/30 to-emerald-500/30 rounded-3xl mb-6 mx-auto border border-green-400/50 shadow-xl">
-            <span className="text-7xl">🗣️</span>
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-purple-50 rounded-2xl mb-6">
+            <span className="text-4xl">🗣️</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-green-400 via-emerald-400 to-green-300 bg-clip-text text-transparent">
-              Free Spoken English
-            </span>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+            Free Spoken English
           </h1>
           
-          <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-emerald-400 mx-auto mb-6 rounded-full"></div>
+          <div className="w-20 h-0.5 bg-purple-400 mx-auto mb-5"></div>
           
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Improve your English speaking skills with our expert-led courses.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Master English communication skills with our free expert-led program
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+        {/* Three Main Sections */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-green-400 mb-4">🗣️ Course Features</h2>
-            <ul className="space-y-3">
-              {[
-                "Basic to Advanced levels",
-                "Grammar and vocabulary",
-                "Public speaking training",
-                "Interview preparation",
-                "Group discussions"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3 text-gray-300">
-                  <span className="text-green-400 mt-1">✓</span>
-                  <span>{item}</span>
-                </li>
-              ))}
+          {/* Card 1: Communication training */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-3xl mb-4">🎯</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Communication training
+            </h2>
+            <ul className="space-y-2 text-gray-600 text-sm">
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Grammar & vocabulary building</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Pronunciation & accent training</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Listening comprehension skills</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Business English essentials</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Daily conversation phrases</span>
+              </li>
             </ul>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-all duration-300">
-            <h2 className="text-2xl font-bold text-green-400 mb-4">✅ Eligibility</h2>
-            <ul className="space-y-3">
-              {[
-                "Age 12+ years",
-                "Basic reading/writing ability",
-                "Open for all members",
-                "No prior experience needed"
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-3 text-gray-300">
-                  <span className="text-green-400 mt-1">•</span>
-                  <span>{item}</span>
-                </li>
-              ))}
+          {/* Card 2: Speaking practice */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-3xl mb-4">💬</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Speaking practice
+            </h2>
+            <ul className="space-y-2 text-gray-600 text-sm">
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Live conversation sessions</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Role-play exercises</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Group discussions</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Peer learning activities</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Interactive speaking drills</span>
+              </li>
             </ul>
           </div>
 
-          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-green-400/30 transition-all duration-300 md:col-span-2">
-            <h2 className="text-2xl font-bold text-green-400 mb-4">📝 How to Join</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[
-                "Register for English course",
-                "Take level assessment test",
-                "Get assigned to batch",
-                "Attend live classes",
-                "Practice with speaking sessions"
-              ].map((item, i) => (
-                <div key={i} className="flex items-center gap-3 text-gray-300">
-                  <span className="flex items-center justify-center w-6 h-6 bg-green-500/20 rounded-full text-green-400 text-sm font-bold">{i + 1}</span>
-                  <span>{item}</span>
-                </div>
-              ))}
+          {/* Card 3: Confidence building */}
+          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <div className="text-3xl mb-4">⭐</div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-3">
+              Confidence building
+            </h2>
+            <ul className="space-y-2 text-gray-600 text-sm">
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Public speaking workshops</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Interview preparation</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Presentation skills</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Overcoming stage fear</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-500 mt-0.5">✓</span>
+                <span>Personalized feedback sessions</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Additional Info Section */}
+        <div className="bg-white rounded-xl p-6 border border-gray-200 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+            <div className="text-gray-700 text-sm">
+              <span className="font-semibold text-purple-600">✓</span> Flexible class timings
+            </div>
+            <div className="text-gray-700 text-sm">
+              <span className="font-semibold text-purple-600">✓</span> Expert certified trainers
+            </div>
+            <div className="text-gray-700 text-sm">
+              <span className="font-semibold text-purple-600">✓</span> Certificate on completion
             </div>
           </div>
         </div>
 
-        <div className="text-center mt-12">
+        {/* CTA Button */}
+        <div className="text-center">
           <button 
-            onClick={() => alert("Enrollment form will open soon!")}
-            className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+            onClick={handleStartLearning}
+            className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors shadow-sm"
           >
-            Enroll Now
+            Start Learning
           </button>
-          <p className="text-gray-400 text-sm mt-4">Certificate on completion</p>
+          <p className="text-gray-500 text-sm mt-4">
+            Begin your English journey today • Open for all age groups
+          </p>
         </div>
       </div>
     </section>

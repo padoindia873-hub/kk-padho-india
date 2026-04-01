@@ -120,3 +120,6 @@
 [04:44:44.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [04:45:31.703] Browser LOG     Video play failed: {}
 [04:46:32.339] Browser LOG     Video play failed: {}
+[04:51:43.854] Server  LOG     ✓ Compiled in 12ms
+[04:51:55.362] Browser LOG     Video play failed: {}
+[04:54:24.886] Server  LOG     ✓ Compiled in 13ms
